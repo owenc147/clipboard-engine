@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>2B8E7AD5-1600-4329-8E31-412DAD57D187</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2B8E7AD5-1600-4329-8E31-412DAD57D187.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>14</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Binocular project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Binocular</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Binocular with scheme Binocular</string>
+			<key>timeStartedRecording</key>
+			<real>811804073.27007306</real>
+			<key>timeStoppedRecording</key>
+			<real>811804077.32488704</real>
+			<key>title</key>
+			<string>Building project Binocular with scheme Binocular</string>
+			<key>uniqueIdentifier</key>
+			<string>2B8E7AD5-1600-4329-8E31-412DAD57D187</string>
+		</dict>
+		<key>521B8F38-2A3A-4352-ADF5-771CA9F40F75</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>521B8F38-2A3A-4352-ADF5-771CA9F40F75.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>6</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Binocular project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Binocular</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Binocular with scheme Binocular and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>811349936.95013595</real>
+			<key>timeStoppedRecording</key>
+			<real>811349941.70583403</real>
+			<key>title</key>
+			<string>Building project Binocular with scheme Binocular and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>521B8F38-2A3A-4352-ADF5-771CA9F40F75</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

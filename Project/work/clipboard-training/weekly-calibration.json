@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "created_at": "2026-10-01T04:23:20Z",
+  "method": "2023 fit; 2024 validation selection; untouched 2025 evaluation. Weekly full-PPR predictions for players with >=3 projected points and a recorded appearance; excludes inactive/bye games. Future weeks/results are never features. Historical API projections may include retrospective corrections; no as-of archive supplied.",
+  "limits": [
+    "This is weekly point-error evaluation, not championship-odds calibration.",
+    "Historical identifiers use current player-position metadata.",
+    "Four-point passing TD PPR data. Custom scoring beyond passing-TD adjustments requires a separate evaluation.",
+    "Personal trade acceptance is not calibrated: zero resolved journal offers.",
+    "Previously seeded accepted trades alone cannot estimate rejection likelihood."
+  ],
+  "positions": {
+    "QB": {
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "scale": 0.9241279152766804,
+      "cv": 0.4686,
+      "selected": "trained"
+    },
+    "RB": {
+      "weights": [
+        0.85,
+        0.1,
+        0.05
+      ],
+      "scale": 1.0581263701767003,
+      "cv": 0.7385,
+      "selected": "trained"
+    },
+    "WR": {
+      "weights": [
+        0.9,
+        0.05,
+        0.05
+      ],
+      "scale": 1.0169371264441722,
+      "cv": 0.7191,
+      "selected": "trained"
+    },
+    "TE": {
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "scale": 1.0698788246990583,
+      "cv": 0.7346,
+      "selected": "trained"
+    }
+  }
+}

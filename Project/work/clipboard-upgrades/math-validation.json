@@ -1,0 +1,118 @@
+{
+  "residuals": {
+    "Jacked Pine": {
+      "K": {
+        "enabled": true,
+        "2024": {
+          "n": 514,
+          "baseline_pinball": 1.277301777948005,
+          "empirical_pinball": 1.1795342240035505
+        },
+        "2025": {
+          "n": 512,
+          "baseline_pinball": 1.2191889991269877,
+          "empirical_pinball": 1.131995884623113
+        }
+      },
+      "DEF": {
+        "enabled": true,
+        "2024": {
+          "n": 512,
+          "baseline_pinball": 1.3940634463840185,
+          "empirical_pinball": 1.321519674246652
+        },
+        "2025": {
+          "n": 512,
+          "baseline_pinball": 1.4715071141429539,
+          "empirical_pinball": 1.3645489885602677
+        }
+      }
+    },
+    "Netanyahu Ball": {
+      "K": {
+        "enabled": true,
+        "2024": {
+          "n": 514,
+          "baseline_pinball": 1.277301777948005,
+          "empirical_pinball": 1.1795342240035505
+        },
+        "2025": {
+          "n": 512,
+          "baseline_pinball": 1.2191889991269877,
+          "empirical_pinball": 1.131995884623113
+        }
+      },
+      "DEF": {
+        "enabled": true,
+        "2024": {
+          "n": 512,
+          "baseline_pinball": 1.3215113759179913,
+          "empirical_pinball": 1.2714156529017857
+        },
+        "2025": {
+          "n": 512,
+          "baseline_pinball": 1.3811753123210193,
+          "empirical_pinball": 1.2999354936872212
+        }
+      }
+    },
+    "MSU Munches v2": {
+      "K": {
+        "enabled": true,
+        "2024": {
+          "n": 514,
+          "baseline_pinball": 1.277301777948005,
+          "empirical_pinball": 1.1795342240035505
+        },
+        "2025": {
+          "n": 512,
+          "baseline_pinball": 1.2191889991269877,
+          "empirical_pinball": 1.131995884623113
+        }
+      },
+      "DEF": {
+        "enabled": true,
+        "2024": {
+          "n": 512,
+          "baseline_pinball": 1.3529484335033288,
+          "empirical_pinball": 1.2842219185965402
+        },
+        "2025": {
+          "n": 512,
+          "baseline_pinball": 1.4216357625054958,
+          "empirical_pinball": 1.3180541067940847
+        }
+      }
+    }
+  },
+  "correlations": {
+    "bringback": {
+      "rho": 0.04714944649050335,
+      "enabled": true,
+      "2024": {
+        "n": 2316,
+        "independent_nll": 1.007123464623576,
+        "correlated_nll": 1.004473305818365
+      },
+      "2025": {
+        "n": 2348,
+        "independent_nll": 0.9962179264898782,
+        "correlated_nll": 0.9923297399361425
+      }
+    },
+    "qb_dst": {
+      "rho": -0.45222780880729785,
+      "enabled": true,
+      "2024": {
+        "n": 512,
+        "independent_nll": 0.9974695660340246,
+        "correlated_nll": 0.947152496210639
+      },
+      "2025": {
+        "n": 512,
+        "independent_nll": 0.9974682703115654,
+        "correlated_nll": 0.8812008748263969
+      }
+    }
+  }
+}

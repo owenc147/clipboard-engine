@@ -1,0 +1,1274 @@
+{
+  "name": "Binocular",
+  "user": "coffero",
+  "season": "2026",
+  "week": 2,
+  "reviewed_at": "2026-09-17",
+  "expires_after": "2026-09-22",
+  "scope": "Daily scouting edition. Recommendations are analyst judgments checked against saved ownership; confirm injuries and game locks in Sleeper before acting.",
+  "sources": {
+    "sleeper": {
+      "title": "Sleeper API documentation",
+      "url": "https://docs.sleeper.com/",
+      "date": "Checked Sep 15, 2026",
+      "kind": "Platform documentation",
+      "finding": "Read-only league data. Trending counts measure adds; player metadata is cached daily. Display week can differ from NFL week."
+    },
+    "qb": {
+      "title": "ClutchPoints \u00b7 Week 2 QB rankings",
+      "url": "https://clutchpoints.com/fantasy-sports/fantasy-football-quarterback-rankings-week-2-2026",
+      "date": "Sep 15, 2026",
+      "kind": "Analyst rankings",
+      "finding": "Ranks Caleb Williams 7th, Bo Nix 10th, Patrick Mahomes 17th and Baker Mayfield 20th. These are ordinal opinions, not projections for your custom scoring."
+    },
+    "flex": {
+      "title": "Pat Fitzmaurice \u00b7 Week 2 PPR flex",
+      "url": "https://www.fantasypros.com/nfl/rankings/pat-fitzmaurice.php?scoring=PPR&week=2",
+      "date": "Sep 16, 2026 \u00b7 rechecked Sep 17",
+      "kind": "Analyst rankings",
+      "finding": "The checked PPR list places Etienne ahead of Godwin and Reed. Weekly rankings remain opinions, not custom-scoring projections."
+    },
+    "wr": {
+      "title": "Pat Fitzmaurice \u00b7 Week 2 PPR receivers",
+      "url": "https://www.fantasypros.com/nfl/rankings/pat-fitzmaurice.php?position=WR&scoring=PPR&week=2",
+      "date": "Sep 15, 2026",
+      "kind": "Analyst rankings",
+      "finding": "Adams is WR23, Golden WR35 and Reed WR45 in this ranking. This supports Adams over Reed without treating a single list as certainty."
+    },
+    "ladd": {
+      "title": "Chargers \u00b7 McConkey injury update",
+      "url": "https://www.chargers.com/news/ladd-mcconkey-injury-fantasy-jm-harbaugh-week-1",
+      "date": "Sep 14, 2026",
+      "kind": "Official team report",
+      "finding": "Jim Harbaugh described McConkey as day-to-day with a rib injury. That is not clearance to play in Week 2."
+    },
+    "douglas": {
+      "title": "DraftKings Network \u00b7 Caleb Douglas usage",
+      "url": "https://dknetwork.draftkings.com/2026/09/14/is-caleb-douglas-a-top-week-2-waiver-pickup/",
+      "date": "Sep 14, 2026",
+      "kind": "Reported usage",
+      "finding": "Douglas played 91% of snaps and drew seven targets, catching five for 94 yards. Malik Washington drew eight targets; adding Douglas does not automatically make Washington expendable."
+    },
+    "black": {
+      "title": "49ers \u00b7 Week 1 game recap",
+      "url": "https://www.49ers.com/news/49ers-open-2026-with-27-7-win-over-rams-in-melbourne-takeaways-from-larvssf",
+      "date": "Sep 10, 2026",
+      "kind": "Official team report",
+      "finding": "Kaelon Black had 14 carries for 65 yards. Meaningful involvement makes him a bench candidate; one game does not establish a weekly starting workload."
+    },
+    "loveland": {
+      "title": "DraftKings Network \u00b7 Loveland vs. Kmet",
+      "url": "https://dknetwork.draftkings.com/2026/09/15/is-cole-kmet-not-colston-loveland-the-fantasy-te-to-own-in-chicago/",
+      "date": "Sep 15, 2026",
+      "kind": "Reported usage",
+      "finding": "Loveland had an 87% snap share and 35 routes despite no receptions. Kmet ran 19 routes. Opportunity supports holding Loveland rather than chasing the Week 1 touchdown."
+    },
+    "golden": {
+      "title": "DraftKings Network \u00b7 Matthew Golden role",
+      "url": "https://dknetwork.draftkings.com/2026/09/15/is-matthew-goldens-fantasy-breakout-finally-here/",
+      "date": "Sep 15, 2026",
+      "kind": "Reported usage",
+      "finding": "Golden recorded 12 targets and 40 routes with an 82% snap share. Keep the upside, while allowing for Week 1 game-script inflation."
+    },
+    "coker": {
+      "title": "Panthers \u00b7 Coker\u2019s Week 1 performance",
+      "url": "https://www.panthers.com/news/jalen-coker-continues-his-streak-of-career-games-with-week-1-performance",
+      "date": "Sep 13, 2026",
+      "kind": "Official team report",
+      "finding": "Coker produced 138 receiving yards and two touchdowns. His availability deserves attention even when a trending-only shortlist misses him."
+    },
+    "coker_health": {
+      "title": "Panthers \u00b7 Coker ankle update",
+      "url": "https://www.panthers.com/news/monday-brew-dave-canales-addresses-run-defense-coker-on-precautionary-boot-and-more",
+      "date": "Sep 14, 2026",
+      "kind": "Official team report",
+      "finding": "Coker wore a precautionary boot after rolling his ankle. He expected not to miss time, but the weekly practice and game-status reports remain necessary."
+    },
+    "dst": {
+      "title": "FantasyPros \u00b7 Week 2 defense streamers",
+      "url": "https://www.fantasypros.com/2026/09/lets-stream-defenses-week-2-2026-fantasy-football/",
+      "date": "Rechecked Sep 16, 2026",
+      "kind": "Analyst rankings",
+      "finding": "Ranks Tampa Bay 1st, Philadelphia 2nd, San Francisco 4th, Denver 8th and Minnesota 21st. Generic projected points are not recalculated for your leagues."
+    },
+    "value": {
+      "title": "FantasyPros \u00b7 Week 2 redraft trade values",
+      "url": "https://www.fantasypros.com/2026/09/fantasy-football-trade-value-chart-week-2-2026/",
+      "date": "Rechecked Sep 16, 2026 \u00b7 rechecked Sep 17",
+      "kind": "Analyst valuation",
+      "finding": "Use as a rough negotiation check, not an acceptance probability. The chart separates 1QB and 2QB values; package totals alone do not prove a trade is fair."
+    },
+    "pfn": {
+      "title": "PFSN \u00b7 Week 2 waiver analysis",
+      "url": "https://www.profootballnetwork.com/fantasy-football/waiver-wire-week-2-2026/",
+      "date": "Sep 13, 2026 \u00b7 rechecked Sep 17",
+      "kind": "Analyst usage review",
+      "finding": "Vele benefits from Tyson\u2019s absence. Allgeier\u2019s early role complicates Love\u2019s workload. These are role-sensitive situations, not guaranteed weekly production."
+    },
+    "apple": {
+      "title": "Apple \u00b7 Sidebar guidance",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/sidebars",
+      "date": "Checked Sep 15, 2026",
+      "kind": "Design guidance",
+      "finding": "Keep navigation shallow and let people hide the sidebar to make room for content."
+    },
+    "access": {
+      "title": "Apple \u00b7 Accessibility guidance",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+      "date": "Checked Sep 15, 2026",
+      "kind": "Design guidance",
+      "finding": "Support legible text, adequate contrast, keyboard interaction and status labels that do not depend on color alone."
+    },
+    "product": {
+      "title": "FantasyPros \u00b7 My Playbook",
+      "url": "https://www.fantasypros.com/nfl/myplaybook/intro",
+      "date": "Checked Sep 15, 2026",
+      "kind": "Product comparison",
+      "finding": "League-aware lineup, waiver and trade tools are a useful reference. Binocular should expose the evidence and roster cost behind a proposed move."
+    },
+    "katz": {
+      "title": "Jason Katz \u00b7 Week 2 quarterback rankings",
+      "url": "https://www.profootballnetwork.com/fantasy-football/qb-rankings-week-2-2026-katz/",
+      "date": "Sep 14; reviewed Sep 16, 2026 \u00b7 rechecked Sep 17",
+      "kind": "Independent analyst rankings",
+      "finding": "Favors Daniels and Hurts over Purdy, Nix over Mahomes, and Caleb Williams over Mayfield. Not a custom-scoring projection."
+    },
+    "bowers_update": {
+      "title": "Las Vegas Review-Journal \u00b7 Bowers update",
+      "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-says-brock-bowers-is-day-to-day-3886325/",
+      "date": "Updated Sep 15, 2026",
+      "kind": "Local beat reporting",
+      "finding": "Klint Kubiak described Bowers as day-to-day. This does not establish Week 2 availability; Sleeper still lists him Out in the saved roster."
+    },
+    "practice": {
+      "title": "Raiders \u00b7 Wednesday Week 2 injury report",
+      "url": "https://www.raiders.com/news/las-vegas-raiders-los-angeles-chargers-nfl-week-2-injury-report-2026-season",
+      "date": "Sep 16, 2026 \u00b7 rechecked Sep 17",
+      "kind": "Official team report",
+      "finding": "Bowers (knee) and McConkey (rib) did not practice Wednesday. Neither has a final Week 2 game designation on this report."
+    },
+    "texans": {
+      "title": "Texans \u00b7 Week 2 injury report",
+      "url": "https://www.houstontexans.com/news/week-2-injury-report-texans-vs-bengals",
+      "date": "Sep 16; checked Sep 17, 2026",
+      "kind": "Official team report",
+      "finding": "Collins was limited Wednesday with a hamstring injury. A final game status is still needed."
+    },
+    "saints": {
+      "title": "Saints \u00b7 Wednesday injury report",
+      "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-wednesday",
+      "date": "Sep 16; checked Sep 17, 2026",
+      "kind": "Official team report",
+      "finding": "Juwan Johnson missed Wednesday practice with an illness."
+    },
+    "swift": {
+      "title": "FantasyPros \u00b7 Swift practice update",
+      "url": "https://www.fantasypros.com/nfl/news/608395/dandre-swift-ankleknee-limited-practice-wednesday.php",
+      "date": "Sep 16; checked Sep 17, 2026",
+      "kind": "Reported team practice update",
+      "finding": "Swift was limited Wednesday with ankle and knee issues; this is not a final game designation."
+    },
+    "bills": {
+      "title": "Bills \u00b7 Final Thursday injury report",
+      "url": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-lions-week-2",
+      "date": "Sep 16; checked Sep 17, 2026",
+      "kind": "Official team report",
+      "finding": "The final report lists Cole Bishop, Ty Johnson and T.J. Sanders as questionable. Check the inactive list before kickoff."
+    }
+  },
+  "leagues": {
+    "1403096266736422912": {
+      "name": "Jacked Pine",
+      "headline": "Keep Etienne. Recheck the TE depth.",
+      "strategy": "Godwin is no longer rostered and Likely is on the bench. Keep Kraft starting; the old Godwin trade is retired.",
+      "calls": [
+        {
+          "kind": "Lineup",
+          "title": "Keep Etienne in FLEX",
+          "reason": "Etienne remains the lean over Reed on the checked PPR list. Godwin is no longer a roster alternative.",
+          "confidence": "Lean",
+          "sources": [
+            "flex"
+          ],
+          "recheck": "No waiver or trade needed. Revisit late-week role news."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Keep a healthy option ahead of McConkey",
+          "reason": "Wednesday\u2019s official report lists him as DNP with a rib injury.",
+          "confidence": "Monitor",
+          "sources": [
+            "practice"
+          ],
+          "recheck": "Keep him rostered; wait for later practice reports and final status."
+        },
+        {
+          "kind": "Hold",
+          "title": "Keep Purdy as Superflex cover",
+          "reason": "You have Hurts and Daniels starting, with Purdy available for injury or bye cover.",
+          "confidence": "Hold",
+          "sources": [
+            "value"
+          ],
+          "recheck": "A third quarterback has a real opportunity cost in a Superflex trade."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Monitor Johnson; keep Kraft starting",
+          "reason": "Johnson missed Wednesday practice with an illness. Likely is now on your roster.",
+          "confidence": "Monitor",
+          "sources": [
+            "saints",
+            "sleeper"
+          ],
+          "recheck": "No urgent TE trade or claim. Wait for updated practice reports."
+        }
+      ],
+      "watch": [
+        "Brock Purdy",
+        "Jalen Coker",
+        "TB",
+        "SF",
+        "Caleb Douglas"
+      ],
+      "scoring_note": "6-point passing TDs and \u22122 interceptions. A three-passing-TD game earns six more points than in a 4-point league, all else equal.",
+      "roster_ids": [
+        "10222",
+        "11566",
+        "11581",
+        "11635",
+        "1945",
+        "4866",
+        "6904",
+        "7002",
+        "7543",
+        "7547",
+        "7611",
+        "8131",
+        "8146",
+        "8183",
+        "9224",
+        "9484",
+        "9488",
+        "DEN"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "pass_int": -2.0,
+        "pts_allow_0": 14.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 0.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 2.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 10.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 6.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 6.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "SUPER_FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "RB",
+          "id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "RB",
+          "id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "TE",
+          "id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "FLEX",
+          "id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
+          "note": "Lean over Reed; Godwin is no longer rostered"
+        },
+        {
+          "slot": "FLEX",
+          "id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "SUPER_FLEX",
+          "id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "K",
+          "id": "1945",
+          "name": "Chris Boswell",
+          "position": "K",
+          "team": "PIT",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "DEF",
+          "id": "DEN",
+          "name": "DEN",
+          "position": "DEF",
+          "team": "DEN",
+          "note": "Keep current starter"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Keep Etienne in FLEX",
+          "body": "Etienne remains the lean over Reed on the checked PPR list. Godwin is no longer a roster alternative. No waiver or trade needed. Revisit late-week role news.",
+          "sources": [
+            "flex"
+          ]
+        },
+        {
+          "title": "Keep a healthy option ahead of McConkey",
+          "body": "Wednesday\u2019s official report lists him as DNP with a rib injury. Keep him rostered; wait for later practice reports and final status.",
+          "sources": [
+            "practice"
+          ]
+        },
+        {
+          "title": "Keep Purdy as Superflex cover",
+          "body": "You have Hurts and Daniels starting, with Purdy available for injury or bye cover. A third quarterback has a real opportunity cost in a Superflex trade.",
+          "sources": [
+            "value"
+          ]
+        },
+        {
+          "title": "Monitor Johnson; keep Kraft starting",
+          "body": "Johnson missed Wednesday practice with an illness. Likely is now on your roster. No urgent TE trade or claim. Wait for updated practice reports.",
+          "sources": [
+            "saints",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Thursday lineup locks",
+          "body": "Review Detroit and Buffalo starters before Thursday kickoff. Use fixed RB/WR slots for early starters when possible to preserve later FLEX choices.",
+          "sources": [
+            "bills"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Start",
+          "id": "7543",
+          "title": "Keep Etienne in FLEX",
+          "reason": "Etienne remains the lean over Reed on the checked PPR list. Godwin is no longer a roster alternative.",
+          "cost": "No waiver or trade needed. Revisit late-week role news.",
+          "sources": [
+            "flex"
+          ],
+          "drop_id": null,
+          "confidence": "Lean"
+        },
+        {
+          "action": "Monitor",
+          "id": "11635",
+          "title": "Keep a healthy option ahead of McConkey",
+          "reason": "Wednesday\u2019s official report lists him as DNP with a rib injury.",
+          "cost": "Keep him rostered; wait for later practice reports and final status.",
+          "sources": [
+            "practice"
+          ],
+          "drop_id": null,
+          "confidence": "Monitor"
+        },
+        {
+          "action": "Hold",
+          "id": "8183",
+          "title": "Keep Purdy as Superflex cover",
+          "reason": "You have Hurts and Daniels starting, with Purdy available for injury or bye cover.",
+          "cost": "A third quarterback has a real opportunity cost in a Superflex trade.",
+          "sources": [
+            "value"
+          ],
+          "drop_id": null,
+          "confidence": "Hold"
+        },
+        {
+          "action": "Monitor",
+          "id": "7002",
+          "title": "Monitor Johnson; keep Kraft starting",
+          "reason": "Johnson missed Wednesday practice with an illness. Likely is now on your roster.",
+          "cost": "No urgent TE trade or claim. Wait for updated practice reports.",
+          "sources": [
+            "saints",
+            "sleeper"
+          ],
+          "drop_id": null,
+          "confidence": "Monitor"
+        }
+      ],
+      "trades": []
+    },
+    "1385050179488460800": {
+      "name": "Netanyahu Ball",
+      "headline": "Keep Golden available while Collins is uncertain.",
+      "strategy": "Pause the Golden trade. Monitor Collins, Swift and Bowers; preserve healthy alternatives before Sunday.",
+      "calls": [
+        {
+          "kind": "Hold",
+          "title": "Keep Golden as receiver cover",
+          "reason": "Collins was limited Wednesday with a hamstring issue. Golden provides an on-roster fallback if Collins cannot play.",
+          "confidence": "Hold",
+          "sources": [
+            "texans",
+            "flex"
+          ],
+          "recheck": "Pause Golden for Dobbins until Collins is clarified; do not sell your contingency."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Recheck Swift before locking FLEX",
+          "reason": "Swift was limited Wednesday with ankle and knee issues.",
+          "confidence": "Monitor",
+          "sources": [
+            "swift",
+            "flex"
+          ],
+          "recheck": "If unavailable, compare healthy Golden and Reed for FLEX; do not assume a full workload from a Questionable tag."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Keep Goedert ready for Bowers",
+          "reason": "Wednesday\u2019s report still has Bowers missing practice.",
+          "confidence": "Monitor",
+          "sources": [
+            "practice"
+          ],
+          "recheck": "Do not start Bowers without updated availability and workload guidance."
+        },
+        {
+          "kind": "Start",
+          "title": "Keep the Nix lean over Mahomes",
+          "reason": "The checked QB rankings continue to favor Nix for Week 2.",
+          "confidence": "Lean",
+          "sources": [
+            "katz"
+          ],
+          "recheck": "Weekly opinion, not a calculated custom-scoring projection."
+        }
+      ],
+      "watch": [
+        "Kaelon Black",
+        "Jalen Coker",
+        "Caleb Douglas",
+        "Braelon Allen",
+        "Devaughn Vele"
+      ],
+      "scoring_note": "4-point passing TDs, \u22121 interceptions, plus passing/rushing/receiving yardage bonuses. The short \u201c1QB/PPR\u201d label did not capture all of this.",
+      "roster_ids": [
+        "10222",
+        "11539",
+        "11563",
+        "11604",
+        "12501",
+        "12514",
+        "13414",
+        "2133",
+        "4046",
+        "5022",
+        "6790",
+        "7569",
+        "8155",
+        "9221",
+        "PHI"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "11563",
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "note": "Lean over Mahomes \u00b7 rankings, not a custom projection"
+        },
+        {
+          "slot": "RB",
+          "id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "RB",
+          "id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "note": "Conditional: monitor hamstring; Golden is fallback if inactive"
+        },
+        {
+          "slot": "WR",
+          "id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "TE",
+          "id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "FLEX",
+          "id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "FLEX",
+          "id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "note": "Conditional: monitor ankle/knee; review healthy FLEX alternatives"
+        },
+        {
+          "slot": "K",
+          "id": "11539",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "DEF",
+          "id": "PHI",
+          "name": "PHI",
+          "position": "DEF",
+          "team": "PHI",
+          "note": "Keep current starter"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Keep Golden as receiver cover",
+          "body": "Collins was limited Wednesday with a hamstring issue. Golden provides an on-roster fallback if Collins cannot play. Pause Golden for Dobbins until Collins is clarified; do not sell your contingency.",
+          "sources": [
+            "texans",
+            "flex"
+          ]
+        },
+        {
+          "title": "Recheck Swift before locking FLEX",
+          "body": "Swift was limited Wednesday with ankle and knee issues. If unavailable, compare healthy Golden and Reed for FLEX; do not assume a full workload from a Questionable tag.",
+          "sources": [
+            "swift",
+            "flex"
+          ]
+        },
+        {
+          "title": "Keep Goedert ready for Bowers",
+          "body": "Wednesday\u2019s report still has Bowers missing practice. Do not start Bowers without updated availability and workload guidance.",
+          "sources": [
+            "practice"
+          ]
+        },
+        {
+          "title": "Keep the Nix lean over Mahomes",
+          "body": "The checked QB rankings continue to favor Nix for Week 2. Weekly opinion, not a calculated custom-scoring projection.",
+          "sources": [
+            "katz"
+          ]
+        },
+        {
+          "title": "Thursday lineup locks",
+          "body": "Review Detroit and Buffalo starters before Thursday kickoff. Use fixed RB/WR slots for early starters when possible to preserve later FLEX choices.",
+          "sources": [
+            "bills"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Hold",
+          "id": "12501",
+          "title": "Keep Golden as receiver cover",
+          "reason": "Collins was limited Wednesday with a hamstring issue. Golden provides an on-roster fallback if Collins cannot play.",
+          "cost": "Pause Golden for Dobbins until Collins is clarified; do not sell your contingency.",
+          "sources": [
+            "texans",
+            "flex"
+          ],
+          "drop_id": null,
+          "confidence": "Hold"
+        },
+        {
+          "action": "Monitor",
+          "id": "6790",
+          "title": "Recheck Swift before locking FLEX",
+          "reason": "Swift was limited Wednesday with ankle and knee issues.",
+          "cost": "If unavailable, compare healthy Golden and Reed for FLEX; do not assume a full workload from a Questionable tag.",
+          "sources": [
+            "swift",
+            "flex"
+          ],
+          "drop_id": null,
+          "confidence": "Monitor"
+        },
+        {
+          "action": "Monitor",
+          "id": "11604",
+          "title": "Keep Goedert ready for Bowers",
+          "reason": "Wednesday\u2019s report still has Bowers missing practice.",
+          "cost": "Do not start Bowers without updated availability and workload guidance.",
+          "sources": [
+            "practice"
+          ],
+          "drop_id": null,
+          "confidence": "Monitor"
+        },
+        {
+          "action": "Start",
+          "id": "11563",
+          "title": "Keep the Nix lean over Mahomes",
+          "reason": "The checked QB rankings continue to favor Nix for Week 2.",
+          "cost": "Weekly opinion, not a calculated custom-scoring projection.",
+          "sources": [
+            "katz"
+          ],
+          "drop_id": null,
+          "confidence": "Lean"
+        }
+      ],
+      "trades": []
+    },
+    "1360286127205912576": {
+      "name": "MSU Munches v2",
+      "headline": "Keep Loveland. Improve the edges of the roster.",
+      "strategy": "In a 16-team league, useful depth is scarce. One tight end can be enough when he has a strong role; the old count-based \u201cthin at TE\u201d flag was not a reason to sell a starting receiver.",
+      "calls": [
+        {
+          "kind": "Lineup",
+          "title": "Keep Caleb and Loveland; RB2 is a close call",
+          "reason": "The QB review supports Caleb. Dobbins and Croskey-Merritt are close enough that I would retain Croskey-Merritt for now and revisit late-week role news.",
+          "confidence": "Lean",
+          "sources": [
+            "katz",
+            "flex",
+            "loveland"
+          ],
+          "recheck": "Check workload updates before replacing the RB2."
+        },
+        {
+          "kind": "Roster",
+          "title": "Douglas added; keep him on the bench",
+          "reason": "Douglas is now rostered and Tucker is gone. Adding him for depth does not require starting him this week.",
+          "confidence": "Roster fact",
+          "sources": [
+            "sleeper",
+            "douglas"
+          ],
+          "recheck": "Reassess his role after the next game."
+        },
+        {
+          "kind": "Defense",
+          "title": "TB and SF are taken; keep MIN pending a new review",
+          "reason": "The refreshed roster check shows both targets on other teams. The old streaming move is retired.",
+          "confidence": "Lean",
+          "sources": [
+            "sleeper",
+            "dst"
+          ],
+          "recheck": "A replacement must be available in this league before recommending a claim."
+        },
+        {
+          "kind": "Trade",
+          "title": "No urgent TE trade",
+          "reason": "Hold Loveland. Tucker is no longer on your roster, so the old exploratory package is retired.",
+          "confidence": "Hold",
+          "sources": [
+            "loveland"
+          ],
+          "recheck": "Any new proposal must use current ownership and improve your team."
+        }
+      ],
+      "watch": [
+        "Caleb Douglas",
+        "TB",
+        "SF",
+        "Kaelon Black",
+        "Braelon Allen",
+        "Devaughn Vele",
+        "Jalen Coker"
+      ],
+      "scoring_note": "+0.1 per completion, 1 passing point per 22.5 yards, 4 per passing TD, \u22121 per interception, plus yardage bonuses. At 25 completions and 300 passing yards, that is about 3.83 extra points versus 0 completion points and 1 per 25 yards, before bonuses.",
+      "roster_ids": [
+        "10232",
+        "11560",
+        "11610",
+        "12474",
+        "12517",
+        "12533",
+        "13287",
+        "13296",
+        "4892",
+        "4983",
+        "6786",
+        "6806",
+        "7042",
+        "MIN"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td_50p": 0.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "pass_int_td": 0.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rec_40p": 0.0,
+        "pass_cmp": 0.1,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "rec_td_40p": 0.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.044444444444444446,
+        "rec_td_50p": 0.0,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "rush_40p": 0.0,
+        "fum": 0.0,
+        "pts_allow_28_34": -2.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "rush_td_40p": 0.0,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "RB",
+          "id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "RB",
+          "id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "4983",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "TE",
+          "id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "FLEX",
+          "id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "K",
+          "id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "DEF",
+          "id": "MIN",
+          "name": "MIN",
+          "position": "DEF",
+          "team": "MIN",
+          "note": "Keep pending research on an available replacement"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Keep Caleb and Loveland; RB2 is a close call",
+          "body": "The QB review supports Caleb. Dobbins and Croskey-Merritt are close enough that I would retain Croskey-Merritt for now and revisit late-week role news.",
+          "sources": [
+            "katz",
+            "flex",
+            "loveland"
+          ]
+        },
+        {
+          "title": "Previous defense targets are no longer available",
+          "body": "TB and SF now belong to other teams. Keep MIN pending research on an available alternative.",
+          "sources": [
+            "sleeper",
+            "dst"
+          ]
+        },
+        {
+          "title": "Scoring lens",
+          "body": "+0.1 per completion, 1 passing point per 22.5 yards, 4 per passing TD, \u22121 per interception, plus yardage bonuses. At 25 completions and 300 passing yards, that is about 3.83 extra points versus 0 completion points and 1 per 25 yards, before bonuses. No custom point projections are available.",
+          "sources": [
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Thursday lineup locks",
+          "body": "Review Detroit and Buffalo starters before Thursday kickoff. Use fixed RB/WR slots for early starters when possible to preserve later FLEX choices.",
+          "sources": [
+            "bills"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Hold",
+          "id": "12517",
+          "title": "Hold Loveland after the empty box score",
+          "reason": "Reported route participation supports patience rather than buying another TE after one game.",
+          "cost": "Monitor targets and routes in Week 2; keep your WR depth.",
+          "sources": [
+            "loveland"
+          ],
+          "drop_id": null,
+          "confidence": "Hold"
+        },
+        {
+          "action": "Hold",
+          "id": "13296",
+          "title": "Keep Douglas on the bench",
+          "reason": "Douglas is already rostered. Let his role develop before moving him ahead of established starters.",
+          "cost": "Do not drop Malik Washington just because Douglas had a productive debut.",
+          "sources": [
+            "douglas"
+          ],
+          "drop_id": null,
+          "confidence": "Hold"
+        },
+        {
+          "action": "Monitor",
+          "id": "MIN",
+          "title": "Retire the TB / SF pickup plan",
+          "reason": "Both recommended defenses now belong to other teams in this league.",
+          "cost": "Keep MIN for now; no researched, available replacement is established in this edition.",
+          "sources": [
+            "sleeper",
+            "dst"
+          ],
+          "drop_id": null,
+          "confidence": "Monitor"
+        },
+        {
+          "action": "Monitor",
+          "id": "4983",
+          "title": "Check DJ Moore before Thursday kickoff",
+          "reason": "Buffalo plays Thursday. Keep Moore in a WR slot if starting him, preserving FLEX for a later player.",
+          "cost": "Check final inactives before kickoff; the published team report does not replace that check.",
+          "sources": [
+            "bills"
+          ],
+          "drop_id": null,
+          "confidence": "Monitor"
+        }
+      ],
+      "trades": [
+        {
+          "title": "Explore Wilson for Pollard",
+          "give": [
+            "10232"
+          ],
+          "receive": [
+            "5967"
+          ],
+          "partner_roster_id": "4",
+          "why": "Adds a different RB2 option alongside Love, Croskey-Merritt and Dobbins.",
+          "partner_reason": "bwyck21 has Pollard benched behind Walker and Henderson; Wilson could compete with Doubs for FLEX.",
+          "risk": "This is optional: you would remove your current FLEX and need Douglas or Dobbins to replace him. Hold if that loss outweighs RB depth.",
+          "value_note": "Chart reference: Wilson 14.4 versus Pollard 16.6. Similar range does not establish equal weekly value.",
+          "confidence": "Exploratory \u00b7 no offer sent",
+          "sources": [
+            "value"
+          ],
+          "partner_roster_ids": [
+            "10859",
+            "11564",
+            "11646",
+            "12529",
+            "12535",
+            "12545",
+            "2020",
+            "4137",
+            "5967",
+            "5995",
+            "7569",
+            "8121",
+            "8151",
+            "8172",
+            "SEA"
+          ]
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "name": "Brock Purdy",
+      "role": "Superflex QB cover",
+      "sources": [
+        "value"
+      ]
+    },
+    {
+      "name": "Bo Nix",
+      "role": "QB alternative",
+      "sources": [
+        "qb"
+      ]
+    },
+    {
+      "name": "Tyler Shough",
+      "role": "Passing-volume watch",
+      "sources": [
+        "pfn"
+      ]
+    },
+    {
+      "name": "Jordan Love",
+      "role": "QB depth",
+      "sources": [
+        "value"
+      ]
+    },
+    {
+      "name": "Jalen Coker",
+      "role": "WR upside \u00b7 ankle watch",
+      "sources": [
+        "coker",
+        "coker_health"
+      ]
+    },
+    {
+      "name": "Caleb Douglas",
+      "role": "Long-term WR role",
+      "sources": [
+        "douglas"
+      ]
+    },
+    {
+      "name": "Devaughn Vele",
+      "role": "Short-term WR opportunity",
+      "sources": [
+        "pfn"
+      ]
+    },
+    {
+      "name": "Kaelon Black",
+      "role": "RB depth / contingent upside",
+      "sources": [
+        "black"
+      ]
+    },
+    {
+      "name": "Braelon Allen",
+      "role": "Breece Hall insurance",
+      "sources": [
+        "pfn"
+      ]
+    },
+    {
+      "name": "Tyler Allgeier",
+      "role": "Early RB workload",
+      "sources": [
+        "pfn"
+      ]
+    },
+    {
+      "name": "Michael Mayer",
+      "role": "Temporary TE cover",
+      "sources": [
+        "pfn"
+      ]
+    },
+    {
+      "name": "TB",
+      "role": "Week 2 defense stream",
+      "sources": [
+        "dst"
+      ]
+    },
+    {
+      "name": "SF",
+      "role": "Week 2 defense stream",
+      "sources": [
+        "dst"
+      ]
+    }
+  ],
+  "updated_at": "2026-09-17T14:28:24.408787+00:00",
+  "valid_until": "2026-09-18T14:28:24.408787+00:00",
+  "changes": [
+    "Godwin is off the Jacked Pine roster; Likely is now rostered. Retired the Godwin / Kraft trade.",
+    "Keep Golden available as Collins cover; pause the Golden-for-Dobbins idea. Monitor Swift and Bowers.",
+    "Check Detroit and Buffalo starters before Thursday kickoff; keep later players in FLEX when possible."
+  ]
+}

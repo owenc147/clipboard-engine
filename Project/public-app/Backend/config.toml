@@ -1,0 +1,4 @@
+[functions.delete-account]
+# The function validates the bearer token through Auth.getUser itself, including
+# projects that use asymmetric signing keys.
+verify_jwt = false

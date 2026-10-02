@@ -1,0 +1,358 @@
+/* ============================================================
+   CLIPBOARD — house style
+   The app is a laminated call sheet clipped to a masonite board.
+   Paper, grease-pencil ink, four print colours. Square corners.
+   No glows, no gradients-for-the-sake-of-it, no neon.
+   Loaded after binocular.css / desk.css. Remove the <link> to revert.
+   ============================================================ */
+:root{
+  --board:#2b2219;--board-2:#211a13;--board-line:#3d3226;--board-text:#e9dfcd;--board-dim:#a8997f;
+  --paper:#f3eee2;--sheet:#fbf8f0;--paper-2:#ebe4d3;--rule:#d6ccb6;--rule-2:#c2b69c;
+  --ink:#1c1a16;--ink-2:#45413a;--ink-3:#77705f;
+  --red:#b0362a;--navy:#1f3b63;--gold:#b98a1f;--green:#2d6a43;--plum:#5a3d78;
+  --f-head:"DIN Condensed","Barlow Condensed","Avenir Next Condensed","Arial Narrow",sans-serif;
+  --f-body:"Avenir Next","Nunito Sans","Helvetica Neue",sans-serif;
+  --f-num:"DIN Condensed","Barlow Condensed","Avenir Next Condensed",sans-serif;
+  --f-mono:"SF Mono",ui-monospace,Menlo,monospace;
+  --bg:var(--board);--panel:var(--sheet);--line:var(--rule);--muted:var(--ink-3);--mint:var(--green);--purple:var(--gold);
+  --desk-green:var(--green);--desk-line:var(--rule)}
+html,body{background:var(--board)!important;color:var(--ink)}
+body{font:500 13.5px/1.55 var(--f-body);-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums;
+  background-image:repeating-linear-gradient(93deg,#ffffff05 0 2px,transparent 2px 7px),repeating-linear-gradient(87deg,#00000010 0 1px,transparent 1px 11px)!important}
+::selection{background:#b98a1f55}
+a{color:var(--navy)}
+::-webkit-scrollbar{width:11px;height:11px}::-webkit-scrollbar-thumb{background:#b8ac93;border:3px solid var(--paper);border-radius:6px}::-webkit-scrollbar-track{background:transparent}
+:focus-visible{outline:2px solid var(--navy)!important;outline-offset:2px}
+
+/* ---------------- the board (sidebar) ---------------- */
+aside{background:transparent!important;border-right:0!important;color:var(--board-text)}
+.brand{font:700 30px/1 var(--f-head)!important;letter-spacing:.5px!important;text-transform:uppercase;color:var(--board-text);align-items:center;gap:12px!important}
+.logo{width:42px!important;height:42px!important;border-radius:7px!important;display:grid;place-items:center;
+  background:linear-gradient(160deg,#c49461,#8d6136)!important;color:#f6f0e3!important;box-shadow:inset 0 1px 0 #ffffff40,inset 0 -2px 0 #00000030,0 2px 0 #00000055!important}
+.logo svg{width:30px!important;height:30px!important;fill:none!important}
+.brand-caption{font:600 10px var(--f-mono)!important;letter-spacing:2.4px!important;color:var(--board-dim)!important;margin:12px 4px 0!important}
+.nav-label{font:700 13px var(--f-head)!important;letter-spacing:1.6px!important;color:var(--board-dim)!important;text-transform:uppercase}
+.nav{color:var(--board-text)!important;background:transparent!important;border:1px solid transparent!important;border-radius:4px!important;box-shadow:none!important;font-family:var(--f-body)}
+.nav:hover{background:#ffffff0a!important}
+.nav.active{background:var(--paper)!important;color:var(--ink)!important;border-color:var(--paper)!important;box-shadow:0 2px 0 #0000004d!important}
+.league-icon{background:#00000033!important;color:var(--board-text)!important;border-radius:3px!important;font:700 13px var(--f-head)!important;letter-spacing:.5px}
+.nav.active .league-icon{background:var(--ink)!important;color:var(--paper)!important}
+.nav-name{font-weight:600!important}
+.sidebar-footer{border-top:1px dashed var(--board-line)!important;color:var(--board-dim)!important;font:italic 500 12px/1.5 var(--f-body)}
+.avatar{background:var(--paper)!important;color:var(--ink)!important;border:0!important;border-radius:4px!important;font:700 15px var(--f-head)!important}
+.profile b{color:var(--board-text)}.profile small{color:var(--board-dim)!important}
+
+/* ---------------- the sheet (main) ---------------- */
+main{position:relative;background:var(--paper)!important;margin-top:22px!important;margin-right:22px!important;margin-bottom:22px!important;padding:58px 40px 34px!important;border-radius:6px;
+  box-shadow:0 1px 0 #ffffff80 inset,0 18px 40px -18px #000000b3,0 2px 0 #00000040;min-height:calc(100vh - 44px);box-sizing:border-box}
+main::before{content:"";position:absolute;left:50%;top:-14px;transform:translateX(-50%);width:190px;height:44px;border-radius:9px 9px 12px 12px;
+  background:linear-gradient(180deg,#eceae4,#b9b6ad 55%,#9e9b92);box-shadow:inset 0 1px 0 #fff,inset 0 -2px 0 #0000002e,0 4px 7px #00000055;z-index:3}
+main::after{content:"";position:absolute;left:50%;top:-2px;transform:translateX(-50%);width:76px;height:12px;border-radius:7px;background:#5c5a54;box-shadow:inset 0 2px 2px #00000080;z-index:4}
+.sidebar-hidden main{margin-left:22px!important}
+
+/* header block */
+.topbar{border-bottom:3px solid var(--ink);padding-bottom:14px;margin-bottom:0!important;align-items:flex-end!important;position:relative}
+.topbar::after{content:"";position:absolute;left:0;right:0;bottom:-7px;border-bottom:1px solid var(--ink)}
+.kicker{font:700 13px/1 var(--f-head)!important;letter-spacing:2px!important;text-transform:uppercase;color:var(--red)!important}
+h1{font:700 64px/.86 var(--f-head)!important;letter-spacing:-.5px!important;text-transform:uppercase!important;color:var(--ink)!important;margin:8px 0 0!important;max-width:none!important}
+.top-actions{gap:6px!important}
+.action,.desk button,.filters button{background:transparent!important;border:1.5px solid var(--ink)!important;color:var(--ink)!important;border-radius:3px!important;
+  font:700 14px/1 var(--f-head)!important;letter-spacing:1px!important;text-transform:uppercase;padding:9px 13px!important;box-shadow:none!important;min-height:0!important}
+.action:hover,.desk button:hover,.filters button:hover{background:var(--ink)!important;color:var(--paper)!important}
+.action:active{transform:translateY(1px)}
+.primary,.action.primary,.desk button.desk-primary{background:var(--ink)!important;color:var(--paper)!important}
+.primary:hover{background:var(--red)!important;border-color:var(--red)!important}
+.cb-settings-btn{font-size:16px!important}
+
+/* settings drawer (profile/user/week) — hidden until asked for */
+.toolbar{display:none!important;margin:20px 0 0!important;padding:14px 16px!important;background:var(--paper-2)!important;border:1.5px solid var(--ink)!important;border-radius:3px!important;backdrop-filter:none!important}
+.cb-settings-open .toolbar{display:flex!important}
+.field{font:700 12px var(--f-head)!important;letter-spacing:1.2px!important;color:var(--ink-2)!important;text-transform:uppercase}
+.field input,.field select,.desk input:not([type=checkbox]),.desk select,.desk textarea,.radar-fields select,.radar-fields input{background:var(--sheet)!important;border:1.5px solid var(--ink-2)!important;color:var(--ink)!important;
+  border-radius:3px!important;font:500 13px var(--f-body)!important;text-transform:none;letter-spacing:0}
+.field select{background-image:linear-gradient(45deg,transparent 50%,var(--ink) 50%),linear-gradient(135deg,var(--ink) 50%,transparent 50%)!important;background-position:calc(100% - 14px) 50%,calc(100% - 10px) 50%!important;background-size:4px 4px!important;background-repeat:no-repeat!important}
+#status{font:italic 500 12px var(--f-body)!important;color:var(--ink-3)!important;margin:18px 0 2px!important}
+#freshness{font:500 10.5px var(--f-mono)!important;color:var(--ink-3)!important;letter-spacing:.2px;margin-bottom:18px!important}
+
+/* view tabs: the call-sheet section strip */
+.view-switch{display:flex!important;flex-wrap:wrap!important;gap:0!important;padding:0!important;margin:0 0 28px!important;background:transparent!important;
+  border:1.5px solid var(--ink)!important;border-radius:3px!important;overflow:hidden}
+.view-switch button{flex:1 1 auto;background:transparent!important;color:var(--ink-2)!important;border:0!important;border-right:1.5px solid var(--ink)!important;border-radius:0!important;
+  font:700 15px/1 var(--f-head)!important;letter-spacing:1.1px!important;text-transform:uppercase!important;padding:12px 10px 10px!important;box-shadow:none!important;white-space:nowrap}
+.view-switch button:last-child{border-right:0!important}
+.view-switch button:hover{background:var(--paper-2)!important;color:var(--ink)!important}
+.view-switch button.active{background:var(--ink)!important;color:var(--paper)!important}
+.view-switch kbd{display:none!important}
+
+/* ---------------- boxes (cards) ---------------- */
+.card,.desk-card,.radar-controls,.move-card{background:var(--sheet)!important;border:1.5px solid var(--ink)!important;border-radius:3px!important;box-shadow:none!important;color:var(--ink);transform:none!important}
+.card-header{background:var(--ink);color:var(--paper);border-bottom:0!important;margin:0 0 4px!important;padding:11px 16px 9px!important;display:flex;align-items:baseline}
+.card-header h3,.card h3,.desk-card h3,.league-head h2{font:700 22px/1 var(--f-head)!important;letter-spacing:.6px!important;text-transform:uppercase!important;color:inherit}
+.card-header h3{color:var(--paper)!important;margin:0!important}
+.card-header .small-label{color:#e9e1cf!important;opacity:.8}
+.column>.card:nth-of-type(4n+1) .card-header,.research-column>.card:nth-of-type(4n+1) .card-header{background:var(--navy)}
+.column>.card:nth-of-type(4n+2) .card-header,.research-column>.card:nth-of-type(4n+2) .card-header{background:var(--green)}
+.column>.card:nth-of-type(4n+3) .card-header,.research-column>.card:nth-of-type(4n+3) .card-header{background:var(--plum)}
+.column>.card:nth-of-type(4n+4) .card-header,.research-column>.card:nth-of-type(4n+4) .card-header{background:var(--red)}
+.small-label{font:700 11.5px var(--f-head)!important;letter-spacing:1.4px!important;text-transform:uppercase;color:var(--ink-3)!important}
+.desk-card h3{border-bottom:3px solid var(--ink);padding-bottom:8px;margin-bottom:14px!important}
+.desk-card p,.desk-hero p,.call p,.source-card p,.market-row p,.trade-note,.scoring-explanation,.desk small,.desk-foot{color:var(--ink-2)!important}
+.player-row,.table td,.market-row,.source-card,.call,.desk-entry,.desk .desk-asset,.desk-grid th,.desk-grid td,.scouted-player{border-color:var(--rule)!important}
+.player-row:nth-child(even){background:#00000006}
+.player-name,.market-row b,.scouted-player b{color:var(--ink)!important;font-weight:700!important}
+.player-meta,.flag,.adds small,.scouted-player small,.event-league,.radar-count{color:var(--ink-3)!important}
+.rank{font:700 22px var(--f-num)!important;color:var(--ink-3)!important}
+.adds{font:700 22px var(--f-num)!important;color:var(--green)!important;letter-spacing:.3px}
+.slot{border-radius:2px!important;font:700 13px/1 var(--f-head)!important;letter-spacing:.8px;color:#fbf8f0!important;padding:6px 0 5px!important}
+.slot.QB{background:var(--red)!important}.slot.RB{background:var(--green)!important}.slot.WR{background:var(--navy)!important}.slot.TE{background:var(--gold)!important}
+.slot.K,.slot.DEF,.slot.FLEX,.slot.SUPER_FLEX{background:var(--ink-3)!important}
+.pill,.confidence,.availability,.event-status,.pt-badge{background:transparent!important;border:1.2px solid var(--ink-2)!important;color:var(--ink-2)!important;border-radius:2px!important;
+  font:700 12px/1 var(--f-head)!important;letter-spacing:.9px;text-transform:uppercase;padding:4px 7px 3px!important}
+.availability{border-color:var(--green)!important;color:var(--green)!important}.availability.taken{border-color:var(--ink-3)!important;color:var(--ink-3)!important}
+.tabs{border-color:var(--ink)!important}.tab{font:700 14px var(--f-head)!important;letter-spacing:1px;text-transform:uppercase;color:var(--ink-3)!important}
+.tab.active{color:var(--ink)!important;border-bottom:3px solid var(--red)!important}
+.health{background:transparent!important;border:1.5px solid var(--green)!important;color:var(--green)!important;border-radius:3px!important;font-weight:600}
+.health.warn{border-color:var(--gold)!important;color:#8a6510!important}
+.table tr.own{background:#b98a1f26!important;color:var(--ink)!important}
+.table td:first-child,.table td:last-child{color:var(--ink-2)!important}
+.depth-item{background:var(--paper)!important;border:1.2px solid var(--rule-2)!important;border-radius:2px!important}
+.depth-item b,.team-depth b{font:700 28px var(--f-num)!important;color:var(--ink)!important}
+.footer{color:var(--ink-3)!important;border-top:1px solid var(--rule);padding-top:14px;font-size:11.5px}
+.footer a,a.source-link{color:var(--navy)!important;text-decoration-color:#1f3b6366!important}
+
+/* ---------------- matchup: the scoreboard box ---------------- */
+.league-head{border-bottom:0;margin-top:6px}
+.league-head h2{font-size:40px!important}
+.week-badge{color:var(--ink-3)!important;font:700 12px var(--f-head)!important;letter-spacing:1.4px;text-transform:uppercase}
+.week-badge b{font:700 46px/1 var(--f-num)!important;color:var(--ink)!important}
+.hero,.lineup-hero,.desk-hero,.radar-hero{position:relative;background:var(--ink)!important;color:var(--paper)!important;border:0!important;border-radius:3px!important;box-shadow:none!important;overflow:hidden}
+.hero::before,.hero::after,.desk-hero::before,.desk-hero::after,.lineup-hero::before,.lineup-hero::after,.research-intro::before,.research-intro::after{content:none!important}
+.hero{border-top:6px solid var(--red)!important}
+.hero-label,.team-label{font:700 13px var(--f-head)!important;letter-spacing:1.8px!important;color:#b9b0a0!important;text-transform:uppercase}
+.hero-label span:last-child{color:#b9b0a0!important}
+.team-name{color:var(--paper)!important;font-weight:700!important;font-size:15px!important}
+.scores{font:700 104px/.85 var(--f-num)!important;letter-spacing:0!important;text-shadow:none!important;color:var(--paper)!important}
+.scores .mine,.scores>span:first-child{color:var(--paper)!important}
+.scores .dash{color:#5d574d!important;font-size:40px!important}
+.score-track{height:6px!important;gap:3px!important}.score-track span{background:var(--paper)!important;border-radius:0!important}
+.hero-footer,.hero details p{color:#b9b0a0!important}
+.hero summary,.margin{color:var(--paper)!important}
+.hero details{border-color:#ffffff22!important}
+.scoreboard{border:0!important}
+.desk-hero h2,.lineup-hero h2,.radar-hero h2{font:700 48px/.9 var(--f-head)!important;text-transform:uppercase;letter-spacing:0!important;color:var(--paper)!important}
+.desk-hero .kicker,.lineup-hero .kicker,.radar-hero .kicker{color:#e3b754!important}
+.desk-hero p,.lineup-hero p{color:#d6cdbb!important}
+
+/* next-call strip */
+.priority-strip{background:var(--sheet)!important;border:1.5px solid var(--ink)!important;border-left:10px solid var(--gold)!important;border-radius:3px!important;padding:12px 16px!important}
+.priority-strip .number{font:700 46px/1 var(--f-num)!important;color:var(--ink)!important;min-width:44px}
+.priority-strip small{font:700 12px var(--f-head)!important;letter-spacing:1.4px!important;color:var(--ink-3)!important;text-transform:uppercase}
+.priority-strip p{font:700 15px/1.35 var(--f-body)!important;color:var(--ink)!important}
+
+/* coach's note */
+.context-note{background:transparent!important;border:0!important;border-left:3px solid var(--gold)!important;border-radius:0!important;color:var(--ink-2)!important;
+  font:italic 500 12.5px/1.6 var(--f-body)!important;padding:4px 0 4px 16px!important}
+
+/* ---------------- scouting report ---------------- */
+.research-intro{background:var(--sheet)!important;color:var(--ink)!important;border:1.5px solid var(--ink)!important;border-left:12px solid var(--red)!important;border-radius:3px!important;box-shadow:none!important;padding:26px 30px!important}
+.research-intro *{color:inherit}
+.research-intro .kicker{color:var(--red)!important}
+.research-intro h2{font:700 54px/.9 var(--f-head)!important;text-transform:uppercase!important;letter-spacing:0!important;max-width:760px!important;color:var(--ink)!important;margin:12px 0!important}
+.research-intro p{color:var(--ink-2)!important;font-size:14.5px!important}
+.research-intro .edition{font:700 12px var(--f-head)!important;letter-spacing:1.6px;color:var(--ink-3)!important}
+.research-intro .stamp{position:absolute!important;right:26px;top:22px;transform:rotate(-5deg)!important;border:2.5px solid var(--red)!important;color:var(--red)!important;background:transparent!important;
+  font:700 17px/1 var(--f-head)!important;letter-spacing:1.6px;padding:8px 12px 6px!important;border-radius:4px!important;opacity:.85;mix-blend-mode:multiply}
+.call{padding:22px 20px!important}
+.call-kind{font:700 14px var(--f-head)!important;letter-spacing:1.4px!important;color:var(--red)!important}
+.call h3{font:700 30px/.95 var(--f-head)!important;text-transform:uppercase;color:var(--ink)!important;letter-spacing:.2px!important}
+.call summary,.opponent-card summary,.desk summary{color:var(--navy)!important;font-weight:600}
+.call details{border-color:var(--rule)!important}
+.source-card small{font:600 10.5px var(--f-mono)!important;color:var(--ink-3)!important}
+.source-card h4 a{color:var(--ink)!important}
+.filters .active{background:var(--ink)!important;color:var(--paper)!important}
+
+/* ---------------- desk / radar / moves ---------------- */
+.desk{color:var(--ink)!important}
+.desk-tabs{display:flex!important;gap:0!important;padding:0!important;background:transparent!important;border:1.5px solid var(--ink)!important;border-radius:3px!important;overflow:hidden}
+.desk-tabs button{border:0!important;border-right:1.5px solid var(--ink)!important;border-radius:0!important}
+.desk-tabs button:last-child{border-right:0!important}
+.desk-tabs button.active{background:var(--ink)!important;color:var(--paper)!important}
+.desk-metrics{background:var(--paper-2)!important;border:1.2px solid var(--rule-2);border-radius:2px!important}
+.desk-metrics b{font:700 32px var(--f-num)!important;color:var(--ink)}
+.desk-value{color:var(--green)!important}.desk-value small{color:var(--ink-3)!important}
+.desk-entry .kicker{color:var(--green)!important}
+.desk a{color:var(--navy)!important}
+.desk-bye{background:#b98a1f2e!important;color:#7a5a12!important}.desk-short{background:#b0362a1f!important;color:var(--red)!important}
+.desk-rival{border-left-color:var(--gold)!important}
+.desk-grid th{font:700 13px var(--f-head);letter-spacing:1px;text-transform:uppercase;color:var(--ink-2)}
+.event-type{font:700 14px var(--f-head)!important;color:var(--navy)!important}.event-type.trade{color:var(--red)!important}.event-type.waiver{color:var(--green)!important}.event-type.observed{color:var(--plum)!important}
+.radar-event h3{color:var(--ink)!important}.radar-event ul,.manager-list,.auto-track,.radar-fields label{color:var(--ink-2)!important}
+.scouted-player.matched{background:#2d6a431a!important}
+
+/* ---------------- title model: index cards ---------------- */
+.pt-row{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 16px}
+.pt-tile{position:relative;flex:0 0 200px;height:126px;border-radius:2px;padding:12px 14px 10px 18px;overflow:hidden;color:var(--ink);border:1px solid var(--rule-2);
+  background:linear-gradient(90deg,transparent 10px,#c9473b88 10px 11.5px,transparent 11.5px),repeating-linear-gradient(180deg,transparent 0 23px,#6f93c455 23px 24px),#fffdf7;
+  background-position:0 0,0 30px,0 0;box-shadow:0 1px 0 #00000014,0 3px 8px -4px #0000004d;transform:rotate(-.4deg);transition:transform .18s ease}
+.pt-tile:nth-child(even){transform:rotate(.5deg)}
+.pt-tile:hover{transform:translateY(-3px) rotate(0)!important}
+.pt-tile b{display:block;font:700 15px/1.1 var(--f-head);letter-spacing:.6px;text-transform:uppercase;color:var(--ink);margin:0 0 8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pt-tile .pt-odds{font:700 44px/1 var(--f-num);color:var(--ink)}
+.pt-tile small{color:var(--ink-3);font-size:11px}
+.pt-tile .pt-num{position:absolute;right:10px;top:8px;left:auto;bottom:auto;font:700 16px var(--f-num);color:var(--ink-3);-webkit-text-stroke:0}
+.pt-tile.me{border-color:var(--red);box-shadow:0 0 0 2px var(--red),0 3px 8px -4px #0000004d}
+.pt-tile.me .pt-odds{color:var(--red)}
+.pt-badge{background:var(--red)!important;color:#fff!important;border-color:var(--red)!important;font-size:10px!important}
+.pt-weeks{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:0;border:1.5px solid var(--ink);border-radius:3px;overflow:hidden}
+.pt-week{background:var(--sheet);border:0;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);border-radius:0;padding:9px 11px;display:grid;gap:2px}
+.pt-week small{color:var(--ink-3);font:700 11px var(--f-head);letter-spacing:1px}
+.pt-week b{font:700 28px/1 var(--f-num);color:var(--ink)}
+.pt-week span{color:var(--ink-3);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pt-week.hi b{color:var(--green)}.pt-week.lo b{color:var(--red)}
+.pt-week.hi{box-shadow:inset 0 -4px 0 var(--green)}.pt-week.lo{box-shadow:inset 0 -4px 0 var(--red)}
+#model-progress{background:var(--paper-2)!important;border:1px solid var(--rule-2);border-radius:2px;position:relative;overflow:hidden}
+
+/* ---------------- motion: quick, physical, optional ---------------- */
+@keyframes cb-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+#content.cb-enter>*{animation:cb-in .22s cubic-bezier(.2,.8,.2,1) both}
+#content.cb-enter>*:nth-child(2){animation-delay:.03s}#content.cb-enter>*:nth-child(3){animation-delay:.06s}#content.cb-enter>*:nth-child(n+4){animation-delay:.09s}
+button,.action,.nav{transition:background .12s ease,color .12s ease,border-color .12s ease}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.pt-tile,.pt-tile:nth-child(even),.pt-tile:hover{transform:none!important}}
+@media (max-width:1000px){main{padding:52px 22px 26px!important}h1{font-size:46px!important}.scores{font-size:76px!important}.research-intro h2{font-size:40px!important}}
+
+/* ============================================================
+   Everything above is the light "day game" base: tokens, layout, type.
+   NIGHT GAME below redefines the colour tokens, so the app ships dark.
+   Delete this section to fall back to the light sheet.
+   ============================================================ */
+/* ============================================================
+   NIGHT GAME — dark laminate. Same system, inverted ink.
+   Chalk-cream ink on a charcoal sheet; print colours lifted for dark.
+   ============================================================ */
+:root{--board:#100e0b;--board-2:#0b0a08;--board-line:#2a251e;--board-text:#e6dcc8;--board-dim:#8c8170;
+  --paper:#1a1814;--sheet:#1f1c17;--paper-2:#28241d;--rule:#352f26;--rule-2:#4a4336;
+  --ink:#ede5d3;--ink-2:#c2b9a5;--ink-3:#8d846f;
+  --red:#d65a4b;--navy:#5a86c6;--gold:#d8a646;--green:#56a272;--plum:#9a7fc2}
+body{background-image:repeating-linear-gradient(93deg,#ffffff04 0 2px,transparent 2px 7px),repeating-linear-gradient(87deg,#00000030 0 1px,transparent 1px 11px)!important}
+main{box-shadow:0 1px 0 #ffffff0d inset,0 0 0 1px #ffffff0a,0 24px 50px -20px #000,0 2px 0 #000!important}
+.nav.active{box-shadow:none!important}
+.card-header{color:#f6efe0}.card-header h3{color:#f6efe0!important}.card-header .small-label{color:#f6efe0!important;opacity:.75}
+.card-header{background:#2c2820}
+.column>.card:nth-of-type(4n+1) .card-header,.research-column>.card:nth-of-type(4n+1) .card-header{background:#24406b}
+.column>.card:nth-of-type(4n+2) .card-header,.research-column>.card:nth-of-type(4n+2) .card-header{background:#2b5b3c}
+.column>.card:nth-of-type(4n+3) .card-header,.research-column>.card:nth-of-type(4n+3) .card-header{background:#4d3768}
+.column>.card:nth-of-type(4n+4) .card-header,.research-column>.card:nth-of-type(4n+4) .card-header{background:#8e3227}
+.card,.desk-card,.radar-controls,.move-card,.research-intro,.priority-strip{border-color:#3d372d!important}
+.view-switch,.view-switch button,.desk-tabs,.desk-tabs button,.pt-weeks{border-color:#3d372d!important}
+.topbar{border-bottom-color:var(--ink)}
+.slot{color:#fff!important}
+.slot.QB{background:#a8392c!important}.slot.RB{background:#2f6e47!important}.slot.WR{background:#2b4f86!important}.slot.TE{background:#a07419!important}.slot.K,.slot.DEF,.slot.FLEX,.slot.SUPER_FLEX{background:#4d473c!important}
+.hero,.lineup-hero,.desk-hero,.radar-hero{background:#0d0c0a!important;box-shadow:inset 0 0 0 1px #2b261f!important}
+.hero-label,.team-label,.hero-footer,.hero details p{color:#9a917e!important}
+.team-name,.scores .mine,.scores>span:first-child,.hero summary{color:#f3ecdc!important}
+.score-track span{background:#f3ecdc!important}
+.health.warn{color:var(--gold)!important}
+.desk-bye{color:var(--gold)!important}
+.player-row:nth-child(even){background:#ffffff05}
+.table tr.own{background:#d8a64622!important}
+.research-intro .stamp{mix-blend-mode:normal}
+.primary:hover{color:#fff!important}
+/* title odds stay as real paper index cards on the dark board */
+.pt-tile,.pt-tile b,.pt-tile .pt-odds{color:#1c1a16}
+.pt-tile small,.pt-tile .pt-num{color:#77705f}
+.pt-tile.me .pt-odds{color:#b0362a}
+.pt-tile.me{box-shadow:0 0 0 2px #d65a4b,0 3px 8px -4px #000}
+::-webkit-scrollbar-thumb{background:#3d372d;border-color:var(--paper)}
+
+/* ============================================================
+   TEAM COLOURS — set by clipboard-shell.js from the fan's pick.
+   Defaults are the house colours.
+   ============================================================ */
+:root{--accent:#d65a4b;--accent-2:#d8a646;--team-bg:#8e3227;--team-fg:#fff;--team-bar:#d65a4b}
+.kicker,.research-intro .kicker,.call-kind{color:var(--accent)!important}
+.hero{border-top-color:var(--team-bar)!important}
+.research-intro{border-left-color:var(--team-bar)!important}
+.research-intro .stamp{border-color:var(--accent)!important;color:var(--accent)!important}
+.tab.active{border-bottom-color:var(--accent)!important}
+.priority-strip{border-left-color:var(--accent-2)!important}
+.score-track span:first-child{background:var(--accent)!important}
+.column>.card:nth-of-type(4n+1) .card-header,.research-column>.card:nth-of-type(4n+1) .card-header{background:var(--team-bg)}
+.column>.card:nth-of-type(4n+1) .card-header h3,.column>.card:nth-of-type(4n+1) .card-header .small-label,.research-column>.card:nth-of-type(4n+1) .card-header h3,.research-column>.card:nth-of-type(4n+1) .card-header .small-label{color:var(--team-fg)!important}
+.avatar{background:var(--team-bg)!important;color:var(--team-fg)!important}
+.nav.active{background:#2a261f!important;color:var(--ink)!important;border-color:#3d372d!important;box-shadow:inset 3px 0 0 var(--accent)!important}
+.nav.active .league-icon{background:var(--team-bg)!important;color:var(--team-fg)!important}
+.pt-tile.me{box-shadow:0 0 0 2px var(--accent),0 3px 8px -4px #000}
+.pt-badge{background:var(--team-bg)!important;border-color:var(--team-bg)!important;color:var(--team-fg)!important}
+/* fixes from the dark pass */
+.desk-hero h2,.lineup-hero h2,.radar-hero h2{color:#f3ecdc!important}
+.desk-hero .kicker,.lineup-hero .kicker,.radar-hero .kicker{color:var(--accent-2)!important}
+.hero-footer *{color:inherit!important}
+.cb-chip{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:7px;vertical-align:0;background:linear-gradient(135deg,var(--team-bg) 50%,var(--accent-2) 50%);box-shadow:0 0 0 1px #ffffff30}
+
+/* team picker */
+.cb-pick{position:fixed;inset:0;z-index:50;background:#0b0a08f2;display:grid;place-items:center;padding:30px;overflow:auto;animation:cb-fade .25s ease both}
+@keyframes cb-fade{from{opacity:0}to{opacity:1}}
+.cb-pick-inner{max-width:1100px;width:100%}
+.cb-pick h2{font:700 64px/.9 var(--f-head);text-transform:uppercase;color:#ede5d3;margin:0 0 8px;letter-spacing:0}
+.cb-pick p{color:#a99f8a;margin:0 0 22px;font-size:14px}
+.cb-pick .cb-conf{font:700 14px var(--f-head);letter-spacing:2px;color:#8d846f;text-transform:uppercase;margin:18px 0 8px;border-bottom:1px solid #2a251e;padding-bottom:6px}
+.cb-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.cb-div{display:grid;gap:6px}
+.cb-div>small{font:700 12px var(--f-head);letter-spacing:1.5px;color:#8d846f;text-transform:uppercase}
+.cb-team{position:relative;display:flex;align-items:center;gap:10px;text-align:left;width:100%;border:0!important;border-radius:3px!important;padding:10px 12px 12px!important;cursor:pointer;
+  background:var(--c1)!important;color:var(--fg)!important;box-shadow:inset 0 -4px 0 var(--c2)!important;transition:transform .14s ease,box-shadow .14s ease!important;min-height:0!important}
+.cb-team:hover{transform:translateY(-2px)}
+.cb-team b{font:700 26px/1 var(--f-head);letter-spacing:.5px;min-width:46px}
+.cb-team span{font:600 12px/1.2 var(--f-body);opacity:.9}
+.cb-team.on{outline:3px solid #ede5d3;outline-offset:2px}
+.cb-pick .cb-house{margin-top:18px;background:transparent!important;color:#c2b9a5!important;border:1.5px solid #4a4336!important;border-radius:3px!important;font:700 14px var(--f-head)!important;letter-spacing:1px;text-transform:uppercase;padding:10px 14px!important;cursor:pointer}
+@media(max-width:900px){.cb-grid{grid-template-columns:repeat(2,1fr)}.cb-pick h2{font-size:44px}}
+@media (prefers-reduced-motion:reduce){.cb-pick{animation:none}}
+/* opponent stays neutral so it never fights the fan's colours */
+.scores>span:last-child{color:#9a917e!important}
+.score-track span+span{background:#4a4336!important}
+
+/* ============================================================
+   READABILITY PASS — bigger body, brighter secondary text,
+   condensed caps only where they're large enough to read.
+   Every text colour ≥ 7:1 on the sheet except the faint rank numbers.
+   ============================================================ */
+:root{--ink-2:#d8cfbb;--ink-3:#b3a993;--board-dim:#a99f8a}
+body{font:500 15px/1.6 var(--f-body)!important;letter-spacing:.05px}
+p,li,.call p,.desk-card p,.source-card p,.market-row p,.trade-note,.scoring-explanation{font-size:15px!important;line-height:1.65!important;max-width:78ch}
+/* small labels: sentence-ish size, less tracking */
+.small-label,.hero-label,.team-label,.priority-strip small,.week-badge,.research-intro .edition,.pt-week small,.cb-div>small,.nav-label{font-size:14px!important;letter-spacing:.9px!important}
+.kicker,.call-kind{font-size:15px!important;letter-spacing:1.1px!important}
+.pill,.confidence,.availability,.event-status,.pt-badge{font-size:14px!important;letter-spacing:.6px!important;padding:5px 8px 4px!important}
+.player-meta,.flag,.adds small,.scouted-player small,.event-league,.radar-count,.desk small,.desk-foot,.pt-tile small,.pt-week span,.source-card small{font-size:13px!important}
+.player-name,.market-row b,.scouted-player b{font-size:15.5px!important}
+.nav-name{font-size:15px!important}
+.view-switch button{font-size:17px!important;letter-spacing:.8px!important;padding:13px 10px 11px!important}
+.action,.desk button,.filters button{font-size:15px!important;letter-spacing:.7px!important}
+.tab{font-size:16px!important;letter-spacing:.7px}
+.slot{font-size:14px!important}
+/* status lines: plain text, not monospace */
+#status{font:500 13.5px var(--f-body)!important;font-style:normal!important;color:var(--ink-2)!important}
+#freshness{font:500 13px/1.5 var(--f-body)!important;color:var(--ink-3)!important;letter-spacing:0}
+.brand-caption{font:700 13px var(--f-head)!important;letter-spacing:2px!important}
+/* coach's note: upright, readable */
+.context-note{font:500 14.5px/1.65 var(--f-body)!important;font-style:normal!important;color:var(--ink-2)!important;max-width:none}
+.sidebar-footer{font-style:normal!important;font-size:13px!important}
+/* headings: a touch more air */
+.call h3{font-size:32px!important;line-height:1!important}
+.research-intro p{font-size:16px!important}
+.priority-strip p{font-size:16.5px!important}
+.hero-label,.team-label,.hero-footer,.hero details p{color:#b9af99!important}
+.team-name{font-size:17px!important}
+.rank{color:#6d6556!important}
+.pt-tile small{color:#5f594c!important}
+/* inputs */
+.field input,.field select,.desk input:not([type=checkbox]),.desk select,.desk textarea{font-size:15px!important}
+.cb-pick p{font-size:16px!important;color:#c9bfaa!important}
+.cb-pick .cb-conf{font-size:16px!important;color:#b3a993!important}
+.cb-div>small{color:#a99f8a!important}
+.cb-team span{font-size:14px!important;opacity:1!important}
+.cb-team b{font-size:28px!important}
+.cb-pick .cb-house{font-size:15px!important;color:#d8cfbb!important}
+.health,.hero-footer,summary,.call summary,.profile small,.lineup-note,.lineup-disclaimer{font-size:14.5px!important}
+.profile b{font-size:15px!important}

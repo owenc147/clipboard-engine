@@ -1,0 +1,1511 @@
+{
+  "name": "Clipboard",
+  "user": "coffero",
+  "season": "2026",
+  "week": 4,
+  "reviewed_at": "2026-10-01",
+  "updated_at": "2026-10-02T01:32:21.049220+00:00",
+  "valid_until": "2026-10-03T01:32:21.049220+00:00",
+  "expires_after": "2026-10-06",
+  "scope": "October 1 evening Week 4 research: all three live leagues, full rosters, rules, reserves, matchups and completed Week 3/4 transactions reviewed. Thursday game is locked. Current chosen lineups remain the baseline. Official practice reports are not final Sunday clearance. Historical Claude estimates are preserved separately and were not rerun or validated; no claim is made that these alternatives beat the custom-scoring model. No roster actions performed.",
+  "sources": {
+    "sleeper": {
+      "title": "Fresh Sleeper league data",
+      "url": "https://api.sleeper.app/v1/user/coffero",
+      "date": "2026-10-02T01:25:54.119998+00:00",
+      "kind": "Live league data",
+      "finding": "All 32 fantasy teams reviewed across three leagues, including reserves, starters, rules, matchups and completed transactions. Pending offers are not exposed by this API."
+    },
+    "was": {
+      "title": "Washington Thursday practice report",
+      "url": "https://www.commanders.com/news/commanders-colts-week-4-injury-report",
+      "date": "2026-10-01",
+      "kind": "Official team report",
+      "finding": "Daniels and Okonkwo remained limited; Rachaad White did not practice. Friday decisions remain pending."
+    },
+    "hou": {
+      "title": "Houston Thursday practice report",
+      "url": "https://www.houstontexans.com/news/week-4-injury-report-texans-vs-cowboys",
+      "date": "2026-10-01",
+      "kind": "Official team report",
+      "finding": "Collins remained limited. Use the October 1 Week 4 table; the older updated-date field is inconsistent."
+    },
+    "lac": {
+      "title": "Chargers Thursday practice report",
+      "url": "https://www.chargers.com/news/seahawks-injury-report-week-4",
+      "date": "2026-10-01",
+      "kind": "Official team report",
+      "finding": "McConkey went from limited Wednesday to absent Thursday with a foot injury."
+    },
+    "pit": {
+      "title": "Steelers final injury report",
+      "url": "https://www.steelers.com/news/week-4-injury-report-browns",
+      "date": "2026-10-01",
+      "kind": "Official team report",
+      "finding": "Dowdle ruled out; Warren recorded 17 rushes and three receptions last week."
+    },
+    "nyj": {
+      "title": "Jets/Bears Thursday practice report",
+      "url": "https://www.newyorkjets.com/news/jets-injury-report-week-4-vs-bears-thursday-10-01-2026",
+      "date": "2026-10-01",
+      "kind": "Official team report",
+      "finding": "Hall and Caleb Williams missed both practices; Swift newly absent Thursday with knee injury. No final game designations."
+    },
+    "waiver": {
+      "title": "FantasyPros Week 4 waiver analysis",
+      "url": "https://www.fantasypros.com/2026/09/fantasy-football-waiver-wire-rankings-pickups-week-4-2026//?amp=1",
+      "date": "2026-09-28",
+      "kind": "Analyst usage and waiver review",
+      "finding": "Allen has conditional opportunity. Gordon played 61 snaps with 17 carries and three catches after Achane’s injury; Wright’s return could change the split. National availability is not league ownership."
+    },
+    "ranks": {
+      "title": "Mayo Media Week 4 rankings",
+      "url": "https://mayomedia.substack.com/p/2026-week-4-fantasy-football-rankings",
+      "date": "2026-09-30; updated 2026-10-01",
+      "kind": "Analyst rankings",
+      "finding": "Half-PPR opinions, not league projections. Hurts over Stroud; Jones over Herbert; Mahomes over Nix. Outdated injury assumptions must yield to official reports."
+    },
+    "second": {
+      "title": "Independent Week 4 rankings",
+      "url": "https://fantasy-rankings.com/week-4",
+      "date": "QB September 30; RB October 1; TE September 29; checked October 1",
+      "kind": "Analyst rankings",
+      "finding": "Independent weekly rankings corroborate QB comparisons but disagree on Fannin. Not custom-scoring projections."
+    },
+    "value": {
+      "title": "CBS Week 4 trade values",
+      "url": "https://mauth.cbssports.com/fantasy/football/news/dave-richards-week-4-trade-chart-and-rest-of-season-fantasy-football-rankings-help-you-win-now/",
+      "date": "2026-09-29; checked 2026-10-01",
+      "kind": "Rest-of-season opinion",
+      "finding": "Separate one-QB and two-QB values; market opinion does not measure acceptance or starter impact. Injury news can supersede chart values."
+    },
+    "schedule": {
+      "title": "Week 4 schedule",
+      "url": "https://www.nfl.com/news/nfl-how-to-watch-week-4-schedule-london-game-details-and-more",
+      "date": "2026-10-01 accessed",
+      "kind": "NFL schedule",
+      "finding": "Week 4 has no byes. Sunday includes early London; Saints play Monday."
+    },
+    "roster_reconciliation": {
+      "title": "Sleeper Jacked Pine roster reconciliation",
+      "url": "https://api.sleeper.app/v1/league/1403096266736422912/transactions/4",
+      "date": "2026-10-01T03:23:13.389795+00:00",
+      "kind": "Saved live Sleeper snapshot",
+      "finding": "Completed transaction 1411218846639046656 added LAR and dropped Jacory Croskey-Merritt. Current owned roster and all selected starters checked against the latest snapshot."
+    },
+    "claude_model": {
+      "title": "Claude trade and title-odds model (Jacked Pine Scouting)",
+      "url": "https://claude.ai/artifact/FRnJSjPSjGcV72W2WB8fqP",
+      "date": "2026-10-01",
+      "kind": "Historical input — not refreshed in this edition",
+      "finding": "Preserved from the prior edition. Not fetched, rerun or independently validated during this review."
+    },
+    "fantasycalc": {
+      "title": "FantasyCalc redraft trade values (league-specific)",
+      "url": "https://api.fantasycalc.com/values/current?isDynasty=false&ppr=1",
+      "date": "2026-10-01",
+      "kind": "Historical input — not refreshed in this edition",
+      "finding": "Preserved from the prior edition. Not fetched, rerun or independently validated during this review."
+    },
+    "value_chart": {
+      "title": "Weekly trade-value chart (@fantasy.football.chip)",
+      "url": "https://www.tiktok.com/@fantasy.football.chip",
+      "date": "2026-09-30",
+      "kind": "Historical input — not refreshed in this edition",
+      "finding": "Preserved from the prior edition. Not fetched, rerun or independently validated during this review."
+    },
+    "phi": {
+      "title": "Eagles Thursday practice report",
+      "url": "https://www.philadelphiaeagles.com/news/rams-vs-eagles-injury-report-2026-nfl-week-4-devonta-smith-puka-nacua",
+      "date": "2026-10-01",
+      "kind": "Official team report",
+      "finding": "Smith (hamstring) and Goedert (knee) missed Thursday practice after Wednesday nonparticipation. Neither is cleared for Sunday."
+    },
+    "smith_news": {
+      "title": "Smith reportedly unlikely to play",
+      "url": "https://aws-prod-web9.rotowire.com/football/headlines/devonta-smith-injury-unlikely-to-play-in-week-4-640205",
+      "date": "2026-10-01",
+      "kind": "Report citing ESPN reporter Tim McManus",
+      "finding": "Smith reportedly not expected to play Sunday; this is a report, not an official Out designation."
+    },
+    "mia": {
+      "title": "Miami/Minnesota Thursday practice report",
+      "url": "https://www.miamidolphins.com/team/injury-report/",
+      "date": "2026-10-01; accessed October 1 evening",
+      "kind": "Official team report",
+      "finding": "Wright upgraded to full practice with stinger/foot listed. Jefferson missed both practices with ankle injury; final status pending."
+    },
+    "no": {
+      "title": "Saints Thursday practice report",
+      "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday",
+      "date": "2026-10-01",
+      "kind": "Official team report",
+      "finding": "Johnson and Kamara are not listed on the first practice report for Monday. This is not a final inactive list."
+    },
+    "etienne": {
+      "title": "Etienne placed on injured reserve",
+      "url": "https://d3nqdp0e3r32g8.cloudfront.net/news/saints-place-running-back-travis-etienne-on-injured-reserve",
+      "date": "2026-10-01",
+      "kind": "WBRZ report of Saints announcement",
+      "finding": "Etienne placed on injured reserve with hamstring injury. Kamara, Miller and Donaldson remain; split is not established."
+    },
+    "tnf": {
+      "title": "Thursday final inactives",
+      "url": "https://fantasy-www.nfl.com/news/week-4-thursday-night-inactives-pittsburgh-steelers-at-cleveland-browns",
+      "date": "2026-10-01",
+      "kind": "NFL inactive report",
+      "finding": "Warren and Fannin are not inactive. Dowdle and both Cleveland interior linemen Jenkins are inactive. Kickoff was 8:15 p.m. ET."
+    },
+    "london": {
+      "title": "Colts London kickoff",
+      "url": "https://www.colts.com/fans/international/london",
+      "date": "2026-10-01 accessed; October 4 game",
+      "kind": "Official team schedule",
+      "finding": "Indianapolis and Washington kick off Sunday October 4 at 9:30 a.m. Eastern."
+    },
+    "ind": {
+      "title": "Colts Thursday practice notebook",
+      "url": "https://www.colts.com/news/practice-notebook-ashton-dulin-returns-to-field",
+      "date": "2026-10-01",
+      "kind": "Official team report",
+      "finding": "Dulin returned fully. Keenan Allen limited with groin injury. Linked Wednesday report had Shrader full despite groin issue; no final clearance inferred."
+    }
+  },
+  "leagues": {
+    "1403096266736422912": {
+      "name": "Jacked Pine",
+      "headline": "Pause the Smith trade; consider Kamara for bench depth",
+      "strategy": "Preserve chosen lineup; prioritize confirmed availability and flexible bench depth.",
+      "scoring_note": "Six-point passing TDs, full PPR, three WR and Superflex; no TE premium.",
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "pass_int": -2.0,
+        "pts_allow_0": 14.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 0.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 2.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 10.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 6.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 6.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "SUPER_FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "roster_ids": [
+        "11566",
+        "11635",
+        "12185",
+        "12519",
+        "12529",
+        "13345",
+        "4866",
+        "5892",
+        "6904",
+        "7002",
+        "7547",
+        "8183",
+        "8228",
+        "9224",
+        "9484",
+        "9488",
+        "9758",
+        "LAR",
+        "PIT"
+      ],
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "8183",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "RB",
+          "id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "note": "Chosen baseline preserved; no change submitted. Thursday game locked."
+        },
+        {
+          "slot": "RB",
+          "id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "WR",
+          "id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "WR",
+          "id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "WR",
+          "id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "TE",
+          "id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "FLEX",
+          "id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "FLEX",
+          "id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "SUPER_FLEX",
+          "id": "9758",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "K",
+          "id": "12185",
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "DEF",
+          "id": "PIT",
+          "name": "PIT",
+          "position": "DEF",
+          "team": "PIT",
+          "note": "Chosen baseline preserved; no change submitted. Thursday game locked."
+        }
+      ],
+      "calls": [
+        {
+          "kind": "Monitor",
+          "id": "11635",
+          "title": "Keep Burden ahead of injured McConkey for now",
+          "reason": "McConkey missed Thursday practice.",
+          "confidence": "Conditional",
+          "sources": [
+            "lac",
+            "sleeper"
+          ],
+          "recheck": "No claim required. Decide before Burden locks; do not wait for the later Chargers game."
+        },
+        {
+          "kind": "Hold",
+          "id": "9758",
+          "title": "Keep chosen Stroud baseline",
+          "reason": "Hurts is an analyst alternative, not a verified improvement; Philadelphia also has receiving injuries.",
+          "confidence": "Conditional",
+          "sources": [
+            "ranks",
+            "phi",
+            "sleeper"
+          ],
+          "recheck": "Six-point passing TDs matter. Retain Purdy/Stroud unless the custom model is reassessed; keep Daniels as recovery cover."
+        },
+        {
+          "kind": "Add",
+          "id": "4035",
+          "title": "Consider Kamara instead of a second defense",
+          "reason": "Etienne’s IR move creates additional opportunity, although the Saints split remains uncertain.",
+          "confidence": "Moderate",
+          "sources": [
+            "etienne",
+            "no",
+            "sleeper"
+          ],
+          "recheck": "Drop bench LAR, not locked PIT. No chosen starter changes. Use a low-cost claim if needed; do not spend heavily in this shallow league. Gives up a defensive stash."
+        },
+        {
+          "kind": "Hold",
+          "id": "8228",
+          "title": "Warren is already locked",
+          "reason": "Warren was active for Thursday; the start can no longer be revised.",
+          "confidence": "Confirmed",
+          "sources": [
+            "tnf",
+            "sleeper"
+          ],
+          "recheck": "No action. Retain Sunday FLEX options."
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Historical model outputs",
+          "body": "Prior Claude model results and proposed offers are retained in historical_model_review with their original timestamp. No new title odds or acceptance probabilities were produced.",
+          "sources": [
+            "claude_model"
+          ]
+        },
+        {
+          "title": "Smith proposal on hold",
+          "body": "Do not act on Purdy + Montgomery for Lawrence + Kyren + Smith at the old valuation. Smith missed practice and is reportedly unlikely Sunday. It would also cost one roster spot. Zavier has Goff/Shough, numerous RB alternatives and multiple established WRs; no current mutual starter gain is established.",
+          "sources": [
+            "phi",
+            "smith_news",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Chris backup is not an automatic next offer",
+          "body": "St. Brown + Daniels + Barkley for Flowers + Watson + Hubbard remains historical, not endorsed now. Chris already has Murray, Love and Maye; an injured Daniels is not immediate QB cover. Preserve your established starters rather than infer a benefit from the old simulation.",
+          "sources": [
+            "sleeper",
+            "was",
+            "value"
+          ]
+        },
+        {
+          "title": "TE, kicker and weekly opponent",
+          "body": "Keep Johnson as chosen TE with Kraft cover. Saints first report lists no Johnson injury; if that changes, decide on Kraft before Sunday afternoon. Shrader remains selected, with the early London deadline. This week’s rival Christopher currently starts Swift, whose Thursday absence creates uncertainty; it is not a reason to force your own changes.",
+          "sources": [
+            "no",
+            "ind",
+            "london",
+            "nyj",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Ownership and trade scan",
+          "body": "LAR replaced Croskey-Merritt; Phil acquired Gordon and released Judkins. Zavier owns Allen; John owns Fannin. All rivals have QB/TE alternatives, so a one-for-one reserve QB/TE swap for a premium receiver is unsupported. Jones is surplus QB depth here; Judkins is already playing Thursday. Miller/Wright are alternatives to Kamara, not guaranteed lead backs.",
+          "sources": [
+            "sleeper",
+            "value",
+            "mia",
+            "etienne"
+          ]
+        },
+        {
+          "title": "Timing and uncertainty",
+          "body": "Thursday players are locked. Sunday and Monday final inactive lists are still pending. No bye-driven move is needed this week. An injury tag or blank cached status is not medical clearance.",
+          "sources": [
+            "tnf",
+            "schedule"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Monitor",
+          "id": "11635",
+          "title": "Keep Burden ahead of injured McConkey for now",
+          "reason": "McConkey missed Thursday practice.",
+          "cost": "No claim required. Decide before Burden locks; do not wait for the later Chargers game.",
+          "sources": [
+            "lac",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "9758",
+          "title": "Keep chosen Stroud baseline",
+          "reason": "Hurts is an analyst alternative, not a verified improvement; Philadelphia also has receiving injuries.",
+          "cost": "Six-point passing TDs matter. Retain Purdy/Stroud unless the custom model is reassessed; keep Daniels as recovery cover.",
+          "sources": [
+            "ranks",
+            "phi",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        },
+        {
+          "action": "Add",
+          "id": "4035",
+          "title": "Consider Kamara instead of a second defense",
+          "reason": "Etienne’s IR move creates additional opportunity, although the Saints split remains uncertain.",
+          "cost": "Drop bench LAR, not locked PIT. No chosen starter changes. Use a low-cost claim if needed; do not spend heavily in this shallow league. Gives up a defensive stash.",
+          "sources": [
+            "etienne",
+            "no",
+            "sleeper"
+          ],
+          "confidence": "Moderate",
+          "drop_id": "LAR"
+        },
+        {
+          "action": "Hold",
+          "id": "8228",
+          "title": "Warren is already locked",
+          "reason": "Warren was active for Thursday; the start can no longer be revised.",
+          "cost": "No action. Retain Sunday FLEX options.",
+          "sources": [
+            "tnf",
+            "sleeper"
+          ],
+          "confidence": "Confirmed",
+          "drop_id": null
+        }
+      ],
+      "trades": [],
+      "watch": "Keep Daniels pending official clearance; Coleman remains reserve depth. Keep PIT against Cleveland, noting opposing line absences and Pittsburgh secondary injuries. Retain Shrader pending final reports. LAR is now bench defense depth; Croskey-Merritt is no longer owned in this league. Do not treat either as a new lineup recommendation.",
+      "ownership_reviewed_at": "2026-10-01T03:24:43.748862+00:00",
+      "ownership_snapshot_at": "2026-10-01T03:23:13.389795+00:00",
+      "ownership_review": {
+        "added": [
+          "LAR"
+        ],
+        "removed": [
+          "12533"
+        ],
+        "starter_changes": false,
+        "note": "Roster reconciliation: Rams D/ST added; Jacory Croskey-Merritt dropped in Jacked Pine. PIT remains the selected starter and LAR is bench depth. The four existing player calls still concern owned players; no trade is proposed. Losing an RB for a second defense reduces RB depth. This ownership review does not establish LAR as a better Week 4 start or extend the injury/news review."
+      }
+    },
+    "1385050179488460800": {
+      "name": "Netanyahu Ball",
+      "headline": "Allen remains conditional; consider Kamara for redundant TE depth",
+      "strategy": "Preserve chosen lineup; prioritize confirmed availability and flexible bench depth.",
+      "scoring_note": "Full PPR, four-point passing TDs, minus-one interceptions and yardage bonuses; two FLEX slots, no TE premium.",
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "roster_ids": [
+        "10236",
+        "11539",
+        "11563",
+        "11576",
+        "11620",
+        "12514",
+        "13345",
+        "2133",
+        "4046",
+        "5022",
+        "5892",
+        "7569",
+        "8130",
+        "8150",
+        "9221",
+        "PIT"
+      ],
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "4046",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "team": "KC",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "RB",
+          "id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "RB",
+          "id": "8150",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "team": "LAR",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "WR",
+          "id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "WR",
+          "id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "TE",
+          "id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "FLEX",
+          "id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "FLEX",
+          "id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "K",
+          "id": "11539",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "DEF",
+          "id": "PIT",
+          "name": "PIT",
+          "position": "DEF",
+          "team": "PIT",
+          "note": "Chosen baseline preserved; no change submitted. Thursday game locked."
+        }
+      ],
+      "calls": [
+        {
+          "kind": "Hold",
+          "id": "11576",
+          "title": "Keep Allen provisionally in FLEX",
+          "reason": "Hall missed both practices; Allen’s opportunity still depends on Hall’s final availability.",
+          "confidence": "Conditional",
+          "sources": [
+            "nyj",
+            "waiver",
+            "sleeper"
+          ],
+          "recheck": "Already owned. If Hall returns, compare Kincaid or receiver alternatives before the Jets game."
+        },
+        {
+          "kind": "Monitor",
+          "id": "7569",
+          "title": "Keep an owned replacement ready for Collins",
+          "reason": "Collins stayed limited Thursday; he is not yet cleared.",
+          "confidence": "Conditional",
+          "sources": [
+            "hou",
+            "second",
+            "sleeper"
+          ],
+          "recheck": "Egbuka is the first alternative to review, with Odunze another option. Check final availability before their Sunday afternoon games. No claim needed."
+        },
+        {
+          "kind": "Add",
+          "id": "4035",
+          "title": "Consider Kamara for Goedert’s bench spot",
+          "reason": "Additional Saints opportunity is more useful than a third TE behind McBride/Kincaid; Goedert missed practice.",
+          "confidence": "Moderate",
+          "sources": [
+            "etienne",
+            "phi",
+            "sleeper"
+          ],
+          "recheck": "Drop Goedert only if acquiring Kamara. A modest claim, not an all-in bid; shared workload and recent knee history limit certainty. Keep current starters."
+        },
+        {
+          "kind": "Hold",
+          "id": "8130",
+          "title": "Preserve McBride and Kincaid cover",
+          "reason": "The completed Bowers/Irving trade is already reflected; no redundant TE claim needed.",
+          "confidence": "Strong",
+          "sources": [
+            "sleeper",
+            "second"
+          ],
+          "recheck": "McBride remains TE; Kincaid covers injury/bye and conditional FLEX needs."
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Historical model outputs",
+          "body": "Prior Claude model results and proposed offers are retained in historical_model_review with their original timestamp. No new title odds or acceptance probabilities were produced.",
+          "sources": [
+            "claude_model"
+          ]
+        },
+        {
+          "title": "QB and waiver review",
+          "body": "Keep chosen Mahomes over Nix. Daniels was dropped by Kyle’s Clash Team and is unrostered, but remains limited and would be a third QB in a one-QB league. Do not drop useful injury cover just to chase a name. BabyMamaPayment added White, who is still absent from practice.",
+          "sources": [
+            "sleeper",
+            "was",
+            "second"
+          ]
+        },
+        {
+          "title": "Previously reported pending offer",
+          "body": "Mahomes/Kyren/Kincaid for Lawrence/Jeanty/McMillan was reported sent in the prior edition; pending status is not visible through Sleeper. Do not resend or assume acceptance. Kyle has Ferguson and has since dropped Daniels. The roster-neutral package trades TE insurance for WR depth but requires a fresh custom-scoring comparison; no current odds asserted.",
+          "sources": [
+            "sleeper",
+            "value",
+            "claude_model"
+          ]
+        },
+        {
+          "title": "Opponent and locked defense",
+          "body": "PIT is locked. Keep Gibbs/Kyren, Montgomery, Adams and Bates as chosen. Opponent JP’s Baby Momma starts Jefferson, who missed Thursday practice; do not assume he is out. Hall’s manager MagicMax5 already has several TEs, reducing the case for a simple Kincaid swap.",
+          "sources": [
+            "sleeper",
+            "mia",
+            "tnf"
+          ]
+        },
+        {
+          "title": "Timing and uncertainty",
+          "body": "Thursday players are locked. Sunday and Monday final inactive lists are still pending. No bye-driven move is needed this week. An injury tag or blank cached status is not medical clearance.",
+          "sources": [
+            "tnf",
+            "schedule"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Hold",
+          "id": "11576",
+          "title": "Keep Allen provisionally in FLEX",
+          "reason": "Hall missed both practices; Allen’s opportunity still depends on Hall’s final availability.",
+          "cost": "Already owned. If Hall returns, compare Kincaid or receiver alternatives before the Jets game.",
+          "sources": [
+            "nyj",
+            "waiver",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        },
+        {
+          "action": "Monitor",
+          "id": "7569",
+          "title": "Keep an owned replacement ready for Collins",
+          "reason": "Collins stayed limited Thursday; he is not yet cleared.",
+          "cost": "Egbuka is the first alternative to review, with Odunze another option. Check final availability before their Sunday afternoon games. No claim needed.",
+          "sources": [
+            "hou",
+            "second",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        },
+        {
+          "action": "Add",
+          "id": "4035",
+          "title": "Consider Kamara for Goedert’s bench spot",
+          "reason": "Additional Saints opportunity is more useful than a third TE behind McBride/Kincaid; Goedert missed practice.",
+          "cost": "Drop Goedert only if acquiring Kamara. A modest claim, not an all-in bid; shared workload and recent knee history limit certainty. Keep current starters.",
+          "sources": [
+            "etienne",
+            "phi",
+            "sleeper"
+          ],
+          "confidence": "Moderate",
+          "drop_id": "5022"
+        },
+        {
+          "action": "Hold",
+          "id": "8130",
+          "title": "Preserve McBride and Kincaid cover",
+          "reason": "The completed Bowers/Irving trade is already reflected; no redundant TE claim needed.",
+          "cost": "McBride remains TE; Kincaid covers injury/bye and conditional FLEX needs.",
+          "sources": [
+            "sleeper",
+            "second"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        }
+      ],
+      "trades": [],
+      "watch": "Use Gibbs/Kyren at RB and Montgomery in FLEX. Keep PIT for Thursday with secondary-injury risk; keep Bates. Coleman is in reserve; Goedert’s cached Doubtful tag is not a fresh medical clearance."
+    },
+    "1360286127205912576": {
+      "name": "MSU Munches v2",
+      "headline": "Keep Gordon as depth with Wright back at full practice",
+      "strategy": "Preserve chosen lineup; prioritize confirmed availability and flexible bench depth.",
+      "scoring_note": "Full PPR, four-point passing TDs, 0.1 per completion and one point per 22.5 passing yards plus yardage bonuses; one FLEX.",
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td_50p": 0.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "pass_int_td": 0.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rec_40p": 0.0,
+        "pass_cmp": 0.1,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "rec_td_40p": 0.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.044444444444444446,
+        "rec_td_50p": 0.0,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "rush_40p": 0.0,
+        "fum": 0.0,
+        "pts_allow_28_34": -2.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "rush_td_40p": 0.0,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "roster_ids": [
+        "10232",
+        "11560",
+        "11610",
+        "12185",
+        "12495",
+        "12506",
+        "12533",
+        "13287",
+        "5870",
+        "5927",
+        "6786",
+        "6797",
+        "8210",
+        "MIN"
+      ],
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "5870",
+          "name": "Daniel Jones",
+          "position": "QB",
+          "team": "IND",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "RB",
+          "id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "RB",
+          "id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "WR",
+          "id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "WR",
+          "id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "TE",
+          "id": "12506",
+          "name": "Harold Fannin",
+          "position": "TE",
+          "team": "CLE",
+          "note": "Chosen baseline preserved; no change submitted. Thursday game locked."
+        },
+        {
+          "slot": "FLEX",
+          "id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "K",
+          "id": "12185",
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        },
+        {
+          "slot": "DEF",
+          "id": "MIN",
+          "name": "MIN",
+          "position": "DEF",
+          "team": "MIN",
+          "note": "Chosen baseline preserved; no change submitted. Subject to final availability; alternatives are not validated model improvements."
+        }
+      ],
+      "calls": [
+        {
+          "kind": "Hold",
+          "id": "12495",
+          "title": "Do not promote Gordon automatically",
+          "reason": "Wright returned to full practice; last week’s lead workload does not establish Gordon’s future share.",
+          "confidence": "Conditional",
+          "sources": [
+            "mia",
+            "waiver",
+            "sleeper"
+          ],
+          "recheck": "Keep Love/Croskey-Merritt as chosen. Preserve Gordon as depth, not a guaranteed starter or permanent bye solution."
+        },
+        {
+          "kind": "Hold",
+          "id": "5870",
+          "title": "Keep chosen Jones pending final reports",
+          "reason": "Independent QB rankings lean Jones over Herbert; neither reflects the exact completion and yardage bonuses here.",
+          "confidence": "Conditional",
+          "sources": [
+            "second",
+            "nyj",
+            "london",
+            "sleeper"
+          ],
+          "recheck": "Check before London’s early kickoff. Preserve Herbert as cover; Caleb missed both practices."
+        },
+        {
+          "kind": "Hold",
+          "id": "12506",
+          "title": "Fannin’s Thursday start is locked",
+          "reason": "Fannin was not on Cleveland’s inactive list.",
+          "confidence": "Confirmed",
+          "sources": [
+            "tnf",
+            "was",
+            "sleeper"
+          ],
+          "recheck": "No TE substitution now. Okonkwo remains injury-dependent future cover."
+        },
+        {
+          "kind": "Hold",
+          "id": "5927",
+          "title": "Keep McLaurin with Washington availability on watch",
+          "reason": "Daniels remains limited; the quarterback situation is not settled.",
+          "confidence": "Conditional",
+          "sources": [
+            "was",
+            "london",
+            "sleeper"
+          ],
+          "recheck": "No forced move. Malik Washington is owned cover. Finalize Washington players before London kickoff."
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Historical model outputs",
+          "body": "Prior Claude model results and proposed offers are retained in historical_model_review with their original timestamp. No new title odds or acceptance probabilities were produced.",
+          "sources": [
+            "claude_model"
+          ]
+        },
+        {
+          "title": "Transactions and available players",
+          "body": "JDMOONZ added Dobbins and dropped Ekeler, reducing his immediate need for Croskey-Merritt. Bateman and Vele were claimed by rivals. Bo Dix owns Wright/Miller, and JDMOONZ owns Kamara: none is a waiver target here. No supported drop from the current thin RB/WR depth for another QB or speculative receiver.",
+          "sources": [
+            "sleeper",
+            "value"
+          ]
+        },
+        {
+          "title": "Previously reported CMC offer",
+          "body": "Caleb plus Croskey-Merritt for McCaffrey remains historical, with current pending status unknown. The counterparty has Brissett, Kamara and now Dobbins, and Caleb is not cleared. A blank QB slot is not proof he needs to surrender McCaffrey. No acceptance probability or new offer recommended; Herbert-for-RB swaps also need a genuine mutual starter benefit.",
+          "sources": [
+            "sleeper",
+            "nyj",
+            "value"
+          ]
+        },
+        {
+          "title": "Opponent and remaining lineup",
+          "body": "Diddy’s Basement currently has an empty kicker slot and Achane still selected; that can change. Preserve Lamb/Wilson, Love/Croskey-Merritt, MIN and Shrader rather than chase a live projected margin. This league rewards completions and passing yardage differently; the chosen lineup is not being replaced by generic rankings.",
+          "sources": [
+            "sleeper",
+            "ind",
+            "mia"
+          ]
+        },
+        {
+          "title": "Timing and uncertainty",
+          "body": "Thursday players are locked. Sunday and Monday final inactive lists are still pending. No bye-driven move is needed this week. An injury tag or blank cached status is not medical clearance.",
+          "sources": [
+            "tnf",
+            "schedule"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Hold",
+          "id": "12495",
+          "title": "Do not promote Gordon automatically",
+          "reason": "Wright returned to full practice; last week’s lead workload does not establish Gordon’s future share.",
+          "cost": "Keep Love/Croskey-Merritt as chosen. Preserve Gordon as depth, not a guaranteed starter or permanent bye solution.",
+          "sources": [
+            "mia",
+            "waiver",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "5870",
+          "title": "Keep chosen Jones pending final reports",
+          "reason": "Independent QB rankings lean Jones over Herbert; neither reflects the exact completion and yardage bonuses here.",
+          "cost": "Check before London’s early kickoff. Preserve Herbert as cover; Caleb missed both practices.",
+          "sources": [
+            "second",
+            "nyj",
+            "london",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "12506",
+          "title": "Fannin’s Thursday start is locked",
+          "reason": "Fannin was not on Cleveland’s inactive list.",
+          "cost": "No TE substitution now. Okonkwo remains injury-dependent future cover.",
+          "sources": [
+            "tnf",
+            "was",
+            "sleeper"
+          ],
+          "confidence": "Confirmed",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "5927",
+          "title": "Keep McLaurin with Washington availability on watch",
+          "reason": "Daniels remains limited; the quarterback situation is not settled.",
+          "cost": "No forced move. Malik Washington is owned cover. Finalize Washington players before London kickoff.",
+          "sources": [
+            "was",
+            "london",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        }
+      ],
+      "trades": [],
+      "watch": "Keep Love/Croskey-Merritt at RB and Lamb/Wilson at WR provisionally. Retain MIN versus Miami and Shrader. Williams remains a recovery stash, not a cleared QB; confirm his next official report before considering activation."
+    }
+  },
+  "candidates": [
+    {
+      "name": "Daniel Jones",
+      "role": "Ownership and role watch",
+      "sources": [
+        "sleeper",
+        "waiver"
+      ]
+    },
+    {
+      "name": "Braelon Allen",
+      "role": "Ownership and role watch",
+      "sources": [
+        "sleeper",
+        "waiver"
+      ]
+    },
+    {
+      "name": "Ollie Gordon",
+      "role": "Ownership and role watch",
+      "sources": [
+        "sleeper",
+        "waiver"
+      ]
+    },
+    {
+      "name": "Jaylen Wright",
+      "role": "Ownership and role watch",
+      "sources": [
+        "sleeper",
+        "waiver"
+      ]
+    },
+    {
+      "name": "Kendre Miller",
+      "role": "Ownership and role watch",
+      "sources": [
+        "sleeper",
+        "waiver"
+      ]
+    },
+    {
+      "name": "Harold Fannin",
+      "role": "Ownership and role watch",
+      "sources": [
+        "sleeper",
+        "waiver"
+      ]
+    },
+    {
+      "name": "Juwan Johnson",
+      "role": "Ownership and role watch",
+      "sources": [
+        "sleeper",
+        "waiver"
+      ]
+    },
+    {
+      "name": "Quinshon Judkins",
+      "role": "Ownership and role watch",
+      "sources": [
+        "sleeper",
+        "waiver"
+      ]
+    },
+    {
+      "name": "Alvin Kamara",
+      "role": "Ownership and opportunity review",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Jayden Daniels",
+      "role": "Ownership and opportunity review",
+      "sources": [
+        "sleeper"
+      ]
+    }
+  ],
+  "changes": [
+    "Verified Smith hamstring practice absence: old Zavier trade recommendation is on hold; historical model estimates are not refreshed.",
+    "Kamara is available in Jacked Pine and Netanyahu Ball; consider LAR or redundant Goedert as the respective drop after Etienne’s IR move.",
+    "Wright full practice lowers confidence in Gordon’s workload; preserve the chosen MSU RB starters.",
+    "Thursday Warren/PIT/Fannin locked; McConkey, Collins, Hall, Daniels and Caleb reviewed against official Thursday reports.",
+    "All three chosen lineups preserved; completed rival transactions and ownership reconciled. No actions submitted."
+  ],
+  "roster_reconciled_at": "2026-10-02T01:25:54.119998+00:00",
+  "historical_model_review": {
+    "as_of": "2026-10-01T03:33:32.025988+00:00",
+    "status": "Historical only; not rerun or validated on October 1 evening",
+    "leagues": {
+      "1403096266736422912": {
+        "trades": [
+          {
+            "title": "Send Zavier: Purdy + Montgomery for Lawrence + Kyren + D. Smith",
+            "give": [
+              "8183",
+              "5892"
+            ],
+            "receive": [
+              "7523",
+              "8150",
+              "7525"
+            ],
+            "partner_roster_id": "2",
+            "why": "Best move available to any Jacked Pine team: title odds about 18.8% to 24.3%, #1 seed 28% to 37.5%. Adds a QB plus RB and WR depth for byes.",
+            "partner_reason": "Zavier gets the best QB in the deal (Purdy) and consolidates his RB surplus; the market sees it as close to even for him.",
+            "risk": "You need one roster spot (3 for 2). johnlucamigaldi's best trade targets the same Lawrence and D. Smith, so send this first. Walk away if he asks for Jaxon Smith-Njigba or St. Brown.",
+            "value_note": "Claude model: acceptance about 78% (rough tier). Zavier's title odds drop from about 22% to 16%.",
+            "confidence": "Recommended · send tonight",
+            "sources": [
+              "claude_model",
+              "fantasycalc",
+              "sleeper"
+            ],
+            "partner_roster_ids": [
+              "11576",
+              "11586",
+              "11632",
+              "12501",
+              "12545",
+              "13287",
+              "1466",
+              "2747",
+              "3163",
+              "4983",
+              "5859",
+              "6794",
+              "6813",
+              "7523",
+              "7525",
+              "8146",
+              "8150",
+              "9221",
+              "BAL"
+            ]
+          },
+          {
+            "title": "Backup if Zavier declines: St. Brown + Daniels + Barkley for Flowers + Watson + Hubbard",
+            "give": [
+              "7547",
+              "11566",
+              "4866"
+            ],
+            "receive": [
+              "9997",
+              "8167",
+              "7594"
+            ],
+            "partner_roster_id": "6",
+            "why": "Title odds about 18.8% to 20.5% and lowers Chris, the favorite, from about 24% to 22%.",
+            "partner_reason": "Chris gets St. Brown, the best player in the deal, and a QB while Caleb Williams is out.",
+            "risk": "Costs St. Brown. Flowers is Questionable (hamstring). Only send if the Zavier deal fails.",
+            "value_note": "Claude model: acceptance very high (rough tier).",
+            "confidence": "Backup · do not send with Zavier offer open",
+            "sources": [
+              "claude_model",
+              "fantasycalc",
+              "sleeper"
+            ],
+            "partner_roster_ids": [
+              "11539",
+              "11560",
+              "11564",
+              "12481",
+              "12517",
+              "4217",
+              "5849",
+              "5927",
+              "6790",
+              "6804",
+              "7594",
+              "8112",
+              "8137",
+              "8144",
+              "8167",
+              "9509",
+              "9997",
+              "KC"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "title": "Claude title odds and rival scan",
+            "body": "100k simulations: Chris 24.0%, Zavier 22.1%, Nic 21.0%, you 18.8%, John 8.1%, Rob 6.0% (your playoffs 84%, #1 seed 28%). Each rival's best trade: Nic and Rob both target Chris (each lowers Chris about 3 points); John targets Zavier for Lawrence + J. Love + D. Smith; Chris and Zavier target John for Bowers/Walker. None of their moves changes your odds beyond noise except John beating you to Zavier.",
+            "sources": [
+              "claude_model",
+              "fantasycalc",
+              "sleeper"
+            ]
+          }
+        ]
+      },
+      "1385050179488460800": {
+        "trades": [
+          {
+            "title": "Offer sent: Mahomes + Kyren + Kincaid for Lawrence + Jeanty + McMillan",
+            "give": [
+              "4046",
+              "8150",
+              "10236"
+            ],
+            "receive": [
+              "7523",
+              "12527",
+              "12526"
+            ],
+            "partner_roster_id": "10",
+            "why": "Title odds about 26.4% to 32.9%. Jeanty fills RB2; Lawrence projects about even with Mahomes rest of season.",
+            "partner_reason": "Jacoblandess (0-3) gets Mahomes, the best player in the deal.",
+            "risk": "Lose about 3 points at QB this week. Keep Nix for Lawrence's Week 7 bye. If declined, ask for a fresh scan; the Gianni backup is now unlikely.",
+            "value_note": "Claude model: acceptance about 66%. Pending as of Sep 30 evening.",
+            "confidence": "Sent · pending",
+            "sources": [
+              "claude_model",
+              "fantasycalc",
+              "sleeper"
+            ],
+            "partner_roster_ids": [
+              "11566",
+              "12495",
+              "12526",
+              "12527",
+              "13346",
+              "4227",
+              "5927",
+              "5947",
+              "7523",
+              "7611",
+              "8110",
+              "8167",
+              "8228",
+              "9486",
+              "9500",
+              "MIN"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "title": "Claude title odds",
+            "body": "100k simulations: you are the title favorite at about 26% (Eric about 24%). The Jacoblandess offer is the best available move; Eric declined Kyren + Kincaid for Henry, as the model expected.",
+            "sources": [
+              "claude_model",
+              "fantasycalc",
+              "sleeper"
+            ]
+          }
+        ]
+      },
+      "1360286127205912576": {
+        "trades": [
+          {
+            "title": "Offer sent: Caleb Williams + Croskey-Merritt for McCaffrey",
+            "give": [
+              "11560",
+              "12533"
+            ],
+            "receive": [
+              "4034"
+            ],
+            "partner_roster_id": "6",
+            "why": "Playoff odds about 27% to 35%, title 3.5% to 6%.",
+            "partner_reason": "JDMOONZ would add a starting QB when healthy and RB depth.",
+            "risk": "Very unlikely: McCaffrey's market value far exceeds the package. Do not sweeten; every acceptable version lowers your odds.",
+            "value_note": "Claude model: acceptance about 0-2%. Leave it open; a decline costs nothing.",
+            "confidence": "Sent · long shot",
+            "sources": [
+              "claude_model",
+              "fantasycalc",
+              "sleeper"
+            ],
+            "partner_roster_ids": [
+              "11635",
+              "12487",
+              "13286",
+              "3257",
+              "3321",
+              "4034",
+              "4035",
+              "4663",
+              "5189",
+              "5859",
+              "5872",
+              "6819",
+              "8126",
+              "9480",
+              "BAL"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "title": "Claude title odds",
+            "body": "100k simulations: playoffs about 27%, title about 3.5%. No acceptable trade improves the odds besides the CMC long shot; waivers and streaming (DEF Week 6, K Week 13, RB depth before Week 7) matter more.",
+            "sources": [
+              "claude_model",
+              "fantasycalc",
+              "sleeper"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

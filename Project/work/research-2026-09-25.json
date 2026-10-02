@@ -1,0 +1,1101 @@
+{
+  "name": "Binocular",
+  "user": "coffero",
+  "season": "2026",
+  "week": 3,
+  "reviewed_at": "2026-09-25",
+  "updated_at": "2026-09-26T00:25:33.691892+00:00",
+  "valid_until": "2026-09-27T00:25:33.691892+00:00",
+  "expires_after": "2026-09-29",
+  "scope": "September 25 live ownership and current injury research across all leagues. Remaining lineups provisional; no roster actions submitted.",
+  "sources": {
+    "sleeper": {
+      "title": "Sleeper current rosters and transactions",
+      "url": "https://docs.sleeper.com/",
+      "date": "2026-09-25",
+      "kind": "Live league data",
+      "finding": "All leagues refreshed; ownership and starting slots checked across every team. Status flags are not medical clearance."
+    },
+    "denver": {
+      "title": "Broncos final injury report",
+      "url": "https://www.denverbroncos.com/news/injury-report-rbs-rj-harvey-and-j-k-dobbins-not-assigned-game-statuses-rb-jonah-coleman-ruled-out-for-week-3-game-vs-rams",
+      "date": "2026-09-25",
+      "kind": "Official team report",
+      "finding": "Coleman is out with an ankle injury. Dobbins and Harvey have no game designation; both practiced fully Friday."
+    },
+    "bowers": {
+      "title": "NFL: Bowers questionable",
+      "url": "https://fantasy-www.nfl.com/news/raiders-tight-end-brock-bowers-is-questionable-to-play-vs-saints",
+      "date": "2026-09-25",
+      "kind": "NFL injury report",
+      "finding": "Bowers remains questionable with a knee injury after missing the opening two games."
+    },
+    "grades": {
+      "title": "FantasyPros Week 3 grades",
+      "url": "https://www.fantasypros.com/2026/09/fantasy-football-week-3-player-grades-start-sit-advice-2026/",
+      "date": "2026-09-25",
+      "kind": "Research",
+      "finding": "Etienne is ahead of Pollard on the running-back board. Badie and Helm rank low at their positions. These are analyst opinions, not custom-scoring projections."
+    },
+    "te": {
+      "title": "NBC Week 3 tight-end rankings",
+      "url": "https://www.nbcsports.com/fantasy/football/news/week-3-fantasy-football-rankings-te-k-def",
+      "date": "2026-09-24",
+      "kind": "Research",
+      "finding": "McBride TE1; Bowers TE3; Helm TE30."
+    },
+    "moore": {
+      "title": "DJ Moore returns to practice",
+      "url": "https://www.fantasypros.com/nfl/news/610554/dj-moore-shoulder-back-practice-friday.php",
+      "date": "2026-09-25",
+      "kind": "Research",
+      "finding": "Moore returned Friday following a shoulder issue. Practice participation does not establish final game availability."
+    },
+    "price": {
+      "title": "Jadarian Price practice update",
+      "url": "https://ca.sports.yahoo.com/news/limited-practice-jadarian-price-012545607.html",
+      "date": "2026-09-25",
+      "kind": "Research",
+      "finding": "Price was limited Thursday. Wilson remains a contingent option; Friday status and Sunday inactives must be checked."
+    },
+    "trade": {
+      "title": "FantasyPros Week 3 trade values",
+      "url": "https://www.fantasypros.com/2026/09/fantasy-football-trade-value-chart-week-3-2026/",
+      "date": "2026-09-22; checked 2026-09-25",
+      "kind": "Research",
+      "finding": "Rest-of-season values are a negotiation baseline, not acceptance probabilities or exact values for custom scoring."
+    },
+    "schedule": {
+      "title": "NFL Week 3 schedule and injuries",
+      "url": "https://amp.nfl.com/news/nfl-week-3-injury-report-player-statuses-for-all-16-games",
+      "date": "2026-09-23; checked 2026-09-25",
+      "kind": "Research",
+      "finding": "Atlanta at Green Bay was Thursday September 24. Those players are already locked; Sunday and Monday final inactives are pending."
+    }
+  },
+  "leagues": {
+    "1403096266736422912": {
+      "name": "Jacked Pine",
+      "roster_ids": [
+        "11566",
+        "11635",
+        "12185",
+        "12533",
+        "13345",
+        "4866",
+        "5967",
+        "6904",
+        "7002",
+        "7543",
+        "7547",
+        "7611",
+        "8146",
+        "8183",
+        "9224",
+        "9484",
+        "9488",
+        "CAR"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "pass_int": -2.0,
+        "pts_allow_0": 14.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 0.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 2.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 10.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 6.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 6.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "SUPER_FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "trades": [],
+      "headline": "Etienne gets the FLEX lean; your QB correction is complete.",
+      "strategy": "Bigsby is no longer on your roster. Keep Coleman benched and preserve both active quarterbacks. Christopher now holds Kittle and Hubbard after the Parker Washington trade; previous partner fits have changed.",
+      "calls": [
+        {
+          "kind": "Start",
+          "title": "Lean Etienne over Pollard in FLEX",
+          "reason": "Current positional grades put Etienne ahead; this is a modest PPR lineup lean, not a certainty.",
+          "confidence": "Lean",
+          "sources": [
+            "grades"
+          ],
+          "recheck": "No transaction; retain Pollard as RB cover."
+        },
+        {
+          "kind": "Hold",
+          "title": "Keep Purdy and Hurts starting",
+          "reason": "Your quarterback correction is complete; Daniels remains Out in the fresh snapshot.",
+          "confidence": "Strong",
+          "sources": [
+            "sleeper"
+          ],
+          "recheck": "Six-point passing TDs make active QB depth valuable in Superflex. Do not trade Purdy away to fill a minor hole."
+        },
+        {
+          "kind": "Sit",
+          "title": "Keep Coleman on the bench",
+          "reason": "Denver has ruled him out, while Dobbins and Harvey return.",
+          "confidence": "Strong",
+          "sources": [
+            "denver"
+          ],
+          "recheck": "No immediate claim required with your existing RB depth. Do not follow the earlier Coleman start contingency."
+        },
+        {
+          "kind": "Hold",
+          "title": "Keep Kraft in his locked slot",
+          "reason": "Green Bay played Thursday and Kraft is already your starting TE.",
+          "confidence": "Strong",
+          "sources": [
+            "schedule",
+            "sleeper"
+          ],
+          "recheck": "No retroactive swap to Johnson; use remaining unlocked slots only."
+        }
+      ],
+      "watch": [
+        "Jonah Coleman",
+        "Saquon Barkley"
+      ],
+      "scoring_note": "PPR and six-point passing TDs. Etienne over Pollard is a modest analyst lean; Kraft is locked after Thursday.",
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "8183",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "RB",
+          "id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "RB",
+          "id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "WR",
+          "id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "WR",
+          "id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "WR",
+          "id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "TE",
+          "id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "note": "Locked after Thursday"
+        },
+        {
+          "slot": "FLEX",
+          "id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "FLEX",
+          "id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "SUPER_FLEX",
+          "id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "K",
+          "id": "12185",
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "DEF",
+          "id": "CAR",
+          "name": "CAR",
+          "position": "DEF",
+          "team": "CAR",
+          "note": "Provisional; verify final availability and kickoff order"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Lean Etienne over Pollard in FLEX",
+          "body": "Current positional grades put Etienne ahead; this is a modest PPR lineup lean, not a certainty. No transaction; retain Pollard as RB cover.",
+          "sources": [
+            "grades"
+          ]
+        },
+        {
+          "title": "Keep Purdy and Hurts starting",
+          "body": "Your quarterback correction is complete; Daniels remains Out in the fresh snapshot. Six-point passing TDs make active QB depth valuable in Superflex. Do not trade Purdy away to fill a minor hole.",
+          "sources": [
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Keep Coleman on the bench",
+          "body": "Denver has ruled him out, while Dobbins and Harvey return. No immediate claim required with your existing RB depth. Do not follow the earlier Coleman start contingency.",
+          "sources": [
+            "denver"
+          ]
+        },
+        {
+          "title": "Keep Kraft in his locked slot",
+          "body": "Green Bay played Thursday and Kraft is already your starting TE. No retroactive swap to Johnson; use remaining unlocked slots only.",
+          "sources": [
+            "schedule",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Trade review",
+          "body": "No offer recommended. Christopher has multiple quarterbacks; nicbarbz40 also added Nix. Your active Superflex quarterbacks are needed, and depth-only offers do not clearly improve another team’s starters. Keep RB and bye cover.",
+          "sources": [
+            "sleeper",
+            "trade"
+          ]
+        },
+        {
+          "title": "Game locks",
+          "body": "Atlanta and Green Bay have already played. Do not move locked players. Remaining lineups require final inactive checks; no transactions were submitted.",
+          "sources": [
+            "schedule"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Start",
+          "id": "7543",
+          "title": "Lean Etienne over Pollard in FLEX",
+          "reason": "Current positional grades put Etienne ahead; this is a modest PPR lineup lean, not a certainty.",
+          "cost": "No transaction; retain Pollard as RB cover.",
+          "sources": [
+            "grades"
+          ],
+          "confidence": "Lean",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "8183",
+          "title": "Keep Purdy and Hurts starting",
+          "reason": "Your quarterback correction is complete; Daniels remains Out in the fresh snapshot.",
+          "cost": "Six-point passing TDs make active QB depth valuable in Superflex. Do not trade Purdy away to fill a minor hole.",
+          "sources": [
+            "sleeper"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        },
+        {
+          "action": "Sit",
+          "id": "13345",
+          "title": "Keep Coleman on the bench",
+          "reason": "Denver has ruled him out, while Dobbins and Harvey return.",
+          "cost": "No immediate claim required with your existing RB depth. Do not follow the earlier Coleman start contingency.",
+          "sources": [
+            "denver"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "9484",
+          "title": "Keep Kraft in his locked slot",
+          "reason": "Green Bay played Thursday and Kraft is already your starting TE.",
+          "cost": "No retroactive swap to Johnson; use remaining unlocked slots only.",
+          "sources": [
+            "schedule",
+            "sleeper"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        }
+      ]
+    },
+    "1385050179488460800": {
+      "name": "Netanyahu Ball",
+      "roster_ids": [
+        "11539",
+        "11584",
+        "11604",
+        "11620",
+        "11631",
+        "12514",
+        "13345",
+        "2133",
+        "4035",
+        "4046",
+        "5022",
+        "7569",
+        "8130",
+        "8208",
+        "9221",
+        "PHI"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "trades": [],
+      "headline": "Bowers needs a Sunday check; Coleman must stay benched.",
+      "strategy": "Collins is now in reserve and Brian Thomas is starting. The prior two-Out-FLEX warning is obsolete. Keep an unlocked replacement ready for Bowers; preserve RB depth after the completed trade.",
+      "calls": [
+        {
+          "kind": "Monitor",
+          "title": "Bowers can stay in FLEX only if cleared",
+          "reason": "His status improved from Out to Questionable, but he is not confirmed active.",
+          "confidence": "Conditional",
+          "sources": [
+            "bowers",
+            "sleeper"
+          ],
+          "recheck": "If inactive or limited, use an unlocked alternative such as Odunze; decide before the earlier kickoff."
+        },
+        {
+          "kind": "Sit",
+          "title": "Retire the Coleman FLEX recommendation",
+          "reason": "Coleman is officially out. Your current FLEX now uses Brian Thomas instead.",
+          "confidence": "Strong",
+          "sources": [
+            "denver",
+            "sleeper"
+          ],
+          "recheck": "Keep Coleman benched; Badie is not an automatic substitute with both Denver veterans cleared."
+        },
+        {
+          "kind": "Hold",
+          "title": "Keep McBride at TE",
+          "reason": "He remains the top option on the checked TE board.",
+          "confidence": "Strong",
+          "sources": [
+            "te",
+            "sleeper"
+          ],
+          "recheck": "No need to trade for another TE; hold Goedert on the bench while Doubtful."
+        },
+        {
+          "kind": "Hold",
+          "title": "Treat Badie as depth, not a starter",
+          "reason": "Dobbins and Harvey are cleared, limiting the injury-replacement case for Badie.",
+          "confidence": "Hold",
+          "sources": [
+            "denver",
+            "grades"
+          ],
+          "recheck": "Avoid additional waiver spending on this backfield; keep current starters and reassess his bench value after role evidence."
+        }
+      ],
+      "watch": [
+        "Brock Bowers",
+        "Dallas Goedert",
+        "Jonah Coleman"
+      ],
+      "scoring_note": "PPR, four-point passing TDs and yardage bonuses; no TE premium. Bowers FLEX is conditional on availability and workload.",
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "4046",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "team": "KC",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "RB",
+          "id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "RB",
+          "id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "WR",
+          "id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "WR",
+          "id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "TE",
+          "id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "FLEX",
+          "id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "FLEX",
+          "id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "K",
+          "id": "11539",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "DEF",
+          "id": "PHI",
+          "name": "PHI",
+          "position": "DEF",
+          "team": "PHI",
+          "note": "Provisional; verify final availability and kickoff order"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Bowers can stay in FLEX only if cleared",
+          "body": "His status improved from Out to Questionable, but he is not confirmed active. If inactive or limited, use an unlocked alternative such as Odunze; decide before the earlier kickoff.",
+          "sources": [
+            "bowers",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Retire the Coleman FLEX recommendation",
+          "body": "Coleman is officially out. Your current FLEX now uses Brian Thomas instead. Keep Coleman benched; Badie is not an automatic substitute with both Denver veterans cleared.",
+          "sources": [
+            "denver",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Keep McBride at TE",
+          "body": "He remains the top option on the checked TE board. No need to trade for another TE; hold Goedert on the bench while Doubtful.",
+          "sources": [
+            "te",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Treat Badie as depth, not a starter",
+          "body": "Dobbins and Harvey are cleared, limiting the injury-replacement case for Badie. Avoid additional waiver spending on this backfield; keep current starters and reassess his bench value after role evidence.",
+          "sources": [
+            "denver",
+            "grades"
+          ]
+        },
+        {
+          "title": "Trade review",
+          "body": "No trade offer recommended. MagicMax5 has Warren, Kittle and Waller already; another tight end is a weak fit. Kyle’s Clash Team just added Terrance Ferguson. Do not sell an injured Bowers merely to clear a slot while his return is unsettled.",
+          "sources": [
+            "sleeper",
+            "trade"
+          ]
+        },
+        {
+          "title": "Game locks",
+          "body": "Atlanta and Green Bay have already played. Do not move locked players. Remaining lineups require final inactive checks; no transactions were submitted.",
+          "sources": [
+            "schedule"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Monitor",
+          "id": "11604",
+          "title": "Bowers can stay in FLEX only if cleared",
+          "reason": "His status improved from Out to Questionable, but he is not confirmed active.",
+          "cost": "If inactive or limited, use an unlocked alternative such as Odunze; decide before the earlier kickoff.",
+          "sources": [
+            "bowers",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        },
+        {
+          "action": "Sit",
+          "id": "13345",
+          "title": "Retire the Coleman FLEX recommendation",
+          "reason": "Coleman is officially out. Your current FLEX now uses Brian Thomas instead.",
+          "cost": "Keep Coleman benched; Badie is not an automatic substitute with both Denver veterans cleared.",
+          "sources": [
+            "denver",
+            "sleeper"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "8130",
+          "title": "Keep McBride at TE",
+          "reason": "He remains the top option on the checked TE board.",
+          "cost": "No need to trade for another TE; hold Goedert on the bench while Doubtful.",
+          "sources": [
+            "te",
+            "sleeper"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "8208",
+          "title": "Treat Badie as depth, not a starter",
+          "reason": "Dobbins and Harvey are cleared, limiting the injury-replacement case for Badie.",
+          "cost": "Avoid additional waiver spending on this backfield; keep current starters and reassess his bench value after role evidence.",
+          "sources": [
+            "denver",
+            "grades"
+          ],
+          "confidence": "Hold",
+          "drop_id": null
+        }
+      ]
+    },
+    "1360286127205912576": {
+      "name": "MSU Munches v2",
+      "roster_ids": [
+        "10232",
+        "11435",
+        "11560",
+        "11610",
+        "12474",
+        "12502",
+        "12533",
+        "13287",
+        "4892",
+        "4983",
+        "6786",
+        "6806",
+        "7042",
+        "MIN"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td_50p": 0.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "pass_int_td": 0.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rec_40p": 0.0,
+        "pass_cmp": 0.1,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "rec_td_40p": 0.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.044444444444444446,
+        "rec_td_50p": 0.0,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "rush_40p": 0.0,
+        "fum": 0.0,
+        "pts_allow_28_34": -2.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "rush_td_40p": 0.0,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "trades": [],
+      "headline": "Loveland was claimed elsewhere; monitor Moore and your RB cover.",
+      "strategy": "Keep Helm provisionally after the completed Ertz swap. Dobbins is cleared; Wilson still depends on Seattle’s backfield health. Your starting QB is already Mayfield.",
+      "calls": [
+        {
+          "kind": "Hold",
+          "title": "Use Helm provisionally; Loveland is no longer available",
+          "reason": "Your Loveland claim failed and giannispetrizzo acquired him. Ertz is already gone and Helm is your current TE.",
+          "confidence": "Hold",
+          "sources": [
+            "sleeper",
+            "bowers"
+          ],
+          "recheck": "Do not repeat the stale Loveland add/drop. Mayer is free but is not a clear upgrade with Bowers possibly returning."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Keep a replacement ready for Moore",
+          "reason": "He returned to practice Friday, but your live roster still marks him Questionable.",
+          "confidence": "Conditional",
+          "sources": [
+            "moore",
+            "sleeper"
+          ],
+          "recheck": "If unavailable, move Michael Wilson from FLEX to WR and use a cleared RB in FLEX, or use Malik Washington. Check kickoff order first."
+        },
+        {
+          "kind": "Hold",
+          "title": "Dobbins is available again, but the backfield is shared",
+          "reason": "Denver removed his designation; Harvey is also returning.",
+          "confidence": "Hold",
+          "sources": [
+            "denver"
+          ],
+          "recheck": "Retain Dobbins as RB/FLEX cover. Availability alone does not guarantee a workload upgrade over your current starters."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Wilson remains dependent on Price’s status",
+          "reason": "Thursday limitations keep the contingency alive, but do not establish that Price will miss Sunday.",
+          "confidence": "Conditional",
+          "sources": [
+            "price",
+            "sleeper"
+          ],
+          "recheck": "Bench Wilson provisionally; reassess final reports before using him over Michael Wilson. Keep Mayfield starting while Williams is Doubtful."
+        }
+      ],
+      "watch": [
+        "DJ Moore",
+        "J.K. Dobbins",
+        "Emanuel Wilson",
+        "Gunnar Helm"
+      ],
+      "scoring_note": "PPR plus 0.1 per completion and one passing-yard point per 22.5 yards. Keep Mayfield; preserve an eligible WR replacement for Moore.",
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "4892",
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "RB",
+          "id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "RB",
+          "id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "WR",
+          "id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "WR",
+          "id": "4983",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "TE",
+          "id": "12502",
+          "name": "Gunnar Helm",
+          "position": "TE",
+          "team": "TEN",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "FLEX",
+          "id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "K",
+          "id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "note": "Provisional; verify final availability and kickoff order"
+        },
+        {
+          "slot": "DEF",
+          "id": "MIN",
+          "name": "MIN",
+          "position": "DEF",
+          "team": "MIN",
+          "note": "Provisional; verify final availability and kickoff order"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Use Helm provisionally; Loveland is no longer available",
+          "body": "Your Loveland claim failed and giannispetrizzo acquired him. Ertz is already gone and Helm is your current TE. Do not repeat the stale Loveland add/drop. Mayer is free but is not a clear upgrade with Bowers possibly returning.",
+          "sources": [
+            "sleeper",
+            "bowers"
+          ]
+        },
+        {
+          "title": "Keep a replacement ready for Moore",
+          "body": "He returned to practice Friday, but your live roster still marks him Questionable. If unavailable, move Michael Wilson from FLEX to WR and use a cleared RB in FLEX, or use Malik Washington. Check kickoff order first.",
+          "sources": [
+            "moore",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Dobbins is available again, but the backfield is shared",
+          "body": "Denver removed his designation; Harvey is also returning. Retain Dobbins as RB/FLEX cover. Availability alone does not guarantee a workload upgrade over your current starters.",
+          "sources": [
+            "denver"
+          ]
+        },
+        {
+          "title": "Wilson remains dependent on Price’s status",
+          "body": "Thursday limitations keep the contingency alive, but do not establish that Price will miss Sunday. Bench Wilson provisionally; reassess final reports before using him over Michael Wilson. Keep Mayfield starting while Williams is Doubtful.",
+          "sources": [
+            "price",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Trade review",
+          "body": "No offer recommended. Teams with extra tight ends were reviewed, but your roster needs its WR injury cover and RB depth. giannispetrizzo just spent a claim on Loveland and has Goedert Doubtful, reducing incentive to move Loveland cheaply. Revisit a TE trade after Sunday roles settle; no bye-driven urgency was established.",
+          "sources": [
+            "sleeper",
+            "trade"
+          ]
+        },
+        {
+          "title": "Game locks",
+          "body": "Atlanta and Green Bay have already played. Do not move locked players. Remaining lineups require final inactive checks; no transactions were submitted.",
+          "sources": [
+            "schedule"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Hold",
+          "id": "12502",
+          "title": "Use Helm provisionally; Loveland is no longer available",
+          "reason": "Your Loveland claim failed and giannispetrizzo acquired him. Ertz is already gone and Helm is your current TE.",
+          "cost": "Do not repeat the stale Loveland add/drop. Mayer is free but is not a clear upgrade with Bowers possibly returning.",
+          "sources": [
+            "sleeper",
+            "bowers"
+          ],
+          "confidence": "Hold",
+          "drop_id": null
+        },
+        {
+          "action": "Monitor",
+          "id": "4983",
+          "title": "Keep a replacement ready for Moore",
+          "reason": "He returned to practice Friday, but your live roster still marks him Questionable.",
+          "cost": "If unavailable, move Michael Wilson from FLEX to WR and use a cleared RB in FLEX, or use Malik Washington. Check kickoff order first.",
+          "sources": [
+            "moore",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "6806",
+          "title": "Dobbins is available again, but the backfield is shared",
+          "reason": "Denver removed his designation; Harvey is also returning.",
+          "cost": "Retain Dobbins as RB/FLEX cover. Availability alone does not guarantee a workload upgrade over your current starters.",
+          "sources": [
+            "denver"
+          ],
+          "confidence": "Hold",
+          "drop_id": null
+        },
+        {
+          "action": "Monitor",
+          "id": "11435",
+          "title": "Wilson remains dependent on Price’s status",
+          "reason": "Thursday limitations keep the contingency alive, but do not establish that Price will miss Sunday.",
+          "cost": "Bench Wilson provisionally; reassess final reports before using him over Michael Wilson. Keep Mayfield starting while Williams is Doubtful.",
+          "sources": [
+            "price",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "name": "Michael Mayer",
+      "role": "Monitor availability and role; not an automatic claim",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Colston Loveland",
+      "role": "Monitor availability and role; not an automatic claim",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Jonah Coleman",
+      "role": "Monitor availability and role; not an automatic claim",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Emanuel Wilson",
+      "role": "Monitor availability and role; not an automatic claim",
+      "sources": [
+        "sleeper"
+      ]
+    }
+  ],
+  "changes": [
+    "Jacked Pine: Etienne FLEX lean; Purdy/Hurts already starting; Kraft locked.",
+    "Netanyahu Ball: Coleman out, Bowers questionable, Badie loses injury-replacement appeal.",
+    "MSU: Loveland acquired by another manager; Helm replaces Ertz; Moore needs final status check.",
+    "Dobbins cleared; no supported new trade or waiver claim after roster review."
+  ]
+}

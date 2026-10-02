@@ -1,0 +1,366 @@
+{
+  "created_at": "2026-10-01T04:23:20Z",
+  "method": "2023 fit; 2024 validation selection; untouched 2025 evaluation. Weekly full-PPR predictions for players with >=3 projected points and a recorded appearance; excludes inactive/bye games. Future weeks/results are never features. Historical API projections may include retrospective corrections; no as-of archive supplied.",
+  "positions": {
+    "QB": {
+      "candidate": {
+        "weights": [
+          0.8,
+          0.1,
+          0.1
+        ],
+        "scale": 0.9241279152766804
+      },
+      "active": {
+        "weights": [
+          0.8,
+          0.1,
+          0.1
+        ],
+        "scale": 0.9241279152766804,
+        "cv": 0.4686,
+        "selected": "trained"
+      },
+      "metrics": {
+        "2023": {
+          "candidate": {
+            "n": 513,
+            "mae": 5.80378003973258,
+            "rmse": 7.236396317201157,
+            "bias": -0.08723362725575713
+          },
+          "projection": {
+            "n": 513,
+            "mae": 6.123021442495126,
+            "rmse": 7.520141129798414,
+            "bias": 2.1749512670565303
+          },
+          "previous_weekly_blend": {
+            "n": 513,
+            "mae": 5.887863104820876,
+            "rmse": 7.3531710591443495,
+            "bias": -0.7562276349711009
+          }
+        },
+        "2024": {
+          "candidate": {
+            "n": 512,
+            "mae": 5.8499792400700175,
+            "rmse": 7.368923905902351,
+            "bias": -0.45118049839002233
+          },
+          "projection": {
+            "n": 512,
+            "mae": 6.14880859375,
+            "rmse": 7.5948319316698845,
+            "bias": 1.79978515625
+          },
+          "previous_weekly_blend": {
+            "n": 512,
+            "mae": 5.906756417663398,
+            "rmse": 7.441844542066899,
+            "bias": -1.0597187067527294
+          }
+        },
+        "2025": {
+          "candidate": {
+            "n": 512,
+            "mae": 6.143212468129309,
+            "rmse": 7.654766369053645,
+            "bias": 0.39911072391710617
+          },
+          "projection": {
+            "n": 512,
+            "mae": 6.54666015625,
+            "rmse": 8.088734268741463,
+            "bias": 2.71783203125
+          },
+          "previous_weekly_blend": {
+            "n": 512,
+            "mae": 6.170051124265466,
+            "rmse": 7.69265573304941,
+            "bias": -0.21916666830307632
+          }
+        }
+      },
+      "test_active": {
+        "n": 512,
+        "mae": 6.143212468129309,
+        "rmse": 7.654766369053645,
+        "bias": 0.39911072391710617
+      }
+    },
+    "RB": {
+      "candidate": {
+        "weights": [
+          0.85,
+          0.1,
+          0.05
+        ],
+        "scale": 1.0581263701767003
+      },
+      "active": {
+        "weights": [
+          0.85,
+          0.1,
+          0.05
+        ],
+        "scale": 1.0581263701767003,
+        "cv": 0.7385,
+        "selected": "trained"
+      },
+      "metrics": {
+        "2023": {
+          "candidate": {
+            "n": 1006,
+            "mae": 4.987555672923018,
+            "rmse": 6.62058162077157,
+            "bias": -0.05372864406663531
+          },
+          "projection": {
+            "n": 1006,
+            "mae": 4.937594433399602,
+            "rmse": 6.60620125562498,
+            "bias": -0.46904572564612323
+          },
+          "previous_weekly_blend": {
+            "n": 1006,
+            "mae": 4.939303606790629,
+            "rmse": 6.626948725203603,
+            "bias": -0.5425447676684992
+          }
+        },
+        "2024": {
+          "candidate": {
+            "n": 1002,
+            "mae": 5.031527341301167,
+            "rmse": 6.484379284168702,
+            "bias": -0.12096469504348856
+          },
+          "projection": {
+            "n": 1002,
+            "mae": 4.997115768463074,
+            "rmse": 6.517795791220212,
+            "bias": -0.5488522954091816
+          },
+          "previous_weekly_blend": {
+            "n": 1002,
+            "mae": 4.9931666470979605,
+            "rmse": 6.522850309041092,
+            "bias": -0.6267662713788114
+          }
+        },
+        "2025": {
+          "candidate": {
+            "n": 1042,
+            "mae": 5.244759396846834,
+            "rmse": 6.759960079182701,
+            "bias": 0.7366060866013222
+          },
+          "projection": {
+            "n": 1042,
+            "mae": 5.1482725527831095,
+            "rmse": 6.720395161925943,
+            "bias": 0.3506717850287908
+          },
+          "previous_weekly_blend": {
+            "n": 1042,
+            "mae": 5.130247732490309,
+            "rmse": 6.713987874720638,
+            "bias": 0.2656929923600915
+          }
+        }
+      },
+      "test_active": {
+        "n": 1042,
+        "mae": 5.244759396846834,
+        "rmse": 6.759960079182701,
+        "bias": 0.7366060866013222
+      }
+    },
+    "WR": {
+      "candidate": {
+        "weights": [
+          0.9,
+          0.05,
+          0.05
+        ],
+        "scale": 1.0169371264441722
+      },
+      "active": {
+        "weights": [
+          0.9,
+          0.05,
+          0.05
+        ],
+        "scale": 1.0169371264441722,
+        "cv": 0.7191,
+        "selected": "trained"
+      },
+      "metrics": {
+        "2023": {
+          "candidate": {
+            "n": 1676,
+            "mae": 5.1846341806759595,
+            "rmse": 6.7885509133832995,
+            "bias": 0.14107446271458005
+          },
+          "projection": {
+            "n": 1676,
+            "mae": 5.178645584725537,
+            "rmse": 6.802084384140919,
+            "bias": 0.025387828162291147
+          },
+          "previous_weekly_blend": {
+            "n": 1676,
+            "mae": 5.1661732550657495,
+            "rmse": 6.7945195821383395,
+            "bias": -0.022039975548692383
+          }
+        },
+        "2024": {
+          "candidate": {
+            "n": 1663,
+            "mae": 5.31967310991119,
+            "rmse": 6.988793040264242,
+            "bias": -0.06276650824228173
+          },
+          "projection": {
+            "n": 1663,
+            "mae": 5.314804570054119,
+            "rmse": 6.994403999776292,
+            "bias": -0.15339747444377633
+          },
+          "previous_weekly_blend": {
+            "n": 1663,
+            "mae": 5.309973058375485,
+            "rmse": 6.993407801582981,
+            "bias": -0.20359695801351246
+          }
+        },
+        "2025": {
+          "candidate": {
+            "n": 1633,
+            "mae": 5.137249306523292,
+            "rmse": 6.584127630643979,
+            "bias": 0.6236209473650015
+          },
+          "projection": {
+            "n": 1633,
+            "mae": 5.126644213104715,
+            "rmse": 6.575116767186975,
+            "bias": 0.5567483159828536
+          },
+          "previous_weekly_blend": {
+            "n": 1633,
+            "mae": 5.109371757741676,
+            "rmse": 6.566726435760545,
+            "bias": 0.4920917017878794
+          }
+        }
+      },
+      "test_active": {
+        "n": 1633,
+        "mae": 5.137249306523292,
+        "rmse": 6.584127630643979,
+        "bias": 0.6236209473650015
+      }
+    },
+    "TE": {
+      "candidate": {
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ],
+        "scale": 1.0698788246990583
+      },
+      "active": {
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ],
+        "scale": 1.0698788246990583,
+        "cv": 0.7346,
+        "selected": "trained"
+      },
+      "metrics": {
+        "2023": {
+          "candidate": {
+            "n": 635,
+            "mae": 4.321761350470711,
+            "rmse": 5.613894216221698,
+            "bias": -0.0633600984741311
+          },
+          "projection": {
+            "n": 635,
+            "mae": 4.258566929133858,
+            "rmse": 5.60906138371646,
+            "bias": -0.38426771653543307
+          },
+          "previous_weekly_blend": {
+            "n": 635,
+            "mae": 4.255015516442797,
+            "rmse": 5.609967197629186,
+            "bias": -0.42497580670063334
+          }
+        },
+        "2024": {
+          "candidate": {
+            "n": 653,
+            "mae": 4.5818095006040895,
+            "rmse": 5.931424590837349,
+            "bias": -0.09451274899821366
+          },
+          "projection": {
+            "n": 653,
+            "mae": 4.583981623277182,
+            "rmse": 5.9643105474378775,
+            "bias": -0.3481776416539051
+          },
+          "previous_weekly_blend": {
+            "n": 653,
+            "mae": 4.571967870762394,
+            "rmse": 5.958329327503944,
+            "bias": -0.3961449719244516
+          }
+        },
+        "2025": {
+          "candidate": {
+            "n": 715,
+            "mae": 4.562930205634974,
+            "rmse": 5.972669976858896,
+            "bias": 0.2989659118051285
+          },
+          "projection": {
+            "n": 715,
+            "mae": 4.516951048951049,
+            "rmse": 5.964577160143097,
+            "bias": 0.04072727272727275
+          },
+          "previous_weekly_blend": {
+            "n": 715,
+            "mae": 4.503642273412861,
+            "rmse": 5.9623748013301405,
+            "bias": -0.015636953242835823
+          }
+        }
+      },
+      "test_active": {
+        "n": 715,
+        "mae": 4.562930205634974,
+        "rmse": 5.972669976858896,
+        "bias": 0.2989659118051285
+      }
+    }
+  },
+  "rows": 11562,
+  "limits": [
+    "This is weekly point-error evaluation, not championship-odds calibration.",
+    "Historical identifiers use current player-position metadata.",
+    "Four-point passing TD PPR data. Custom scoring beyond passing-TD adjustments requires a separate evaluation.",
+    "Personal trade acceptance is not calibrated: zero resolved journal offers.",
+    "Previously seeded accepted trades alone cannot estimate rejection likelihood."
+  ]
+}

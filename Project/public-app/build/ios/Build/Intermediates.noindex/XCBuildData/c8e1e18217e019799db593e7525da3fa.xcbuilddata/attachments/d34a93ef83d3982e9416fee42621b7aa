@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Binocular-primary.dia",
+    "emit-module-dependencies" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Binocular-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Binocular-primary-emit-module.dia",
+    "pch" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Binocular-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Binocular-primary.swiftdeps"
+  },
+  "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift" : {
+    "const-values" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/BinocularApp.swiftconstvalues",
+    "dependencies" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/BinocularApp.d",
+    "diagnostics" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/BinocularApp.dia",
+    "index-unit-output-path" : "/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/BinocularApp.o",
+    "llvm-bc" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/BinocularApp.bc",
+    "object" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/BinocularApp.o",
+    "swift-dependencies" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/BinocularApp.swiftdeps",
+    "swiftmodule" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/BinocularApp~partial.swiftmodule"
+  },
+  "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/Service.swift" : {
+    "const-values" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Service.swiftconstvalues",
+    "dependencies" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Service.d",
+    "diagnostics" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Service.dia",
+    "index-unit-output-path" : "/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Service.o",
+    "llvm-bc" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Service.bc",
+    "object" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Service.o",
+    "swift-dependencies" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Service.swiftdeps",
+    "swiftmodule" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/Service~partial.swiftmodule"
+  },
+  "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/ios/Build/Intermediates.noindex/Binocular.build/Debug-iphonesimulator/Binocular.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

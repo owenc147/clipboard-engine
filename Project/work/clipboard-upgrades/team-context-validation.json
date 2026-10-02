@@ -1,0 +1,28 @@
+{
+  "plays": {
+    "2024": {
+      "n": 480,
+      "baseline_rmse": 8.172305612103125,
+      "context_rmse": 8.182594118422905
+    },
+    "2025": {
+      "n": 480,
+      "baseline_rmse": 8.752308525505928,
+      "context_rmse": 8.849720421309803
+    }
+  },
+  "dropback_rate": {
+    "2024": {
+      "n": 480,
+      "baseline_rmse": 0.10568605120454591,
+      "context_rmse": 0.10294731544000817
+    },
+    "2025": {
+      "n": 480,
+      "baseline_rmse": 0.10366131477830019,
+      "context_rmse": 0.10205535270814603
+    }
+  },
+  "scope": "Team-game experiment using only prior games. Pace is a neutral-game-clock proxy, not tracking-derived snap-to-snap time. Team tendencies are not attributed causally to individual coaches. No production projection scalar enabled.",
+  "implementation": "Predict team plays P, expected dropback share q; D=P*q, designed rushes=P*(1-q). Subtract sacks/scrambles from D for pass attempts, add scrambles to player rushing opportunities, allocate by forecast target/carry shares. Preserve team totals. Context coefficients must be learned and validated; no automatic rest/body-clock penalty."
+}

@@ -1,0 +1,196 @@
+/* Clipboard theme — ink black, masonite brass, X-and-O play diagrams. Original design; no third-party marks.
+   Loaded last. Remove its <link> in index.html to restore the original look. */
+:root{--bg:#070a0c;--panel:#141417;--line:#26262c;--text:#f4f4f2;--muted:#9c9ca4;--mint:#d6a85c;--purple:#f2b134;
+ --pt-red:#d6a85c;--pt-red-2:#ead1a0;--pt-red-deep:#8a6a33;--pt-gold:#f2b134;--pt-green:#5fd497;
+ --pt-surface:#131316;--pt-raise:#1b1b20;--pt-line:#26262c;--pt-hi:#ffffff0d;
+ --pt-display:-apple-system,"SF Pro Display","Helvetica Neue",sans-serif;--pt-num:"Avenir Next Condensed","SF Pro Display","Helvetica Neue",sans-serif;
+ --pt-r:14px}
+html body{background:radial-gradient(900px 420px at 85% -120px,#241c1099 0%,transparent 70%),radial-gradient(700px 400px at 10% 110%,#0a1726 0%,transparent 60%),var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;font-feature-settings:"tnum" 1}
+::selection{background:#d6a85c55}
+::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-thumb{background:#2a2a31;border-radius:10px;border:2px solid var(--bg)}::-webkit-scrollbar-track{background:transparent}
+/* ---------- sidebar ---------- */
+html body aside{background:linear-gradient(180deg,#0f0f12,#080b0d);border-right:1px solid #1c1c21}
+html body .brand{font:800 19px var(--pt-display);letter-spacing:-.3px;text-transform:none}
+html body .logo{background:linear-gradient(145deg,var(--pt-red-2),var(--pt-red-deep));color:#1a1206;border-radius:10px;box-shadow:0 6px 22px #d6a85c55,inset 0 1px 0 #ffffff40}
+html body .brand-caption{color:#6f6f78;letter-spacing:2.6px}
+html body .nav-label{color:#5f5f68;letter-spacing:2px}
+html body .nav{color:#a7a7af;border-radius:10px;border:1px solid transparent;transition:background .15s,color .15s}
+html body .nav:hover{background:#17171b;color:#fff}
+html body .nav.active{background:linear-gradient(90deg,#d6a85c2b,#d6a85c05 80%);border:1px solid #d6a85c33;color:#fff;box-shadow:none}
+html body .league-icon{background:#1f1f25;color:#d0d0d6;border-radius:8px}
+html body .active .league-icon{background:var(--pt-red);color:#1a1206}
+html body .avatar{background:linear-gradient(145deg,var(--pt-red),var(--pt-red-deep));border:0;color:#1a1206;font-weight:800}
+html body .sidebar-footer{border-top-color:#1e1e23;color:#6f6f78}
+/* ---------- top bar ---------- */
+html body .kicker{color:var(--pt-red);letter-spacing:2.2px;font-weight:700;font-size:10px}
+html body h1{font:800 30px/1.1 var(--pt-display);letter-spacing:-.8px}
+html body .action{background:#17171b;border:1px solid #2a2a31;color:#e2e2e6;border-radius:10px;box-shadow:inset 0 1px 0 var(--pt-hi);font-weight:600}
+html body .action:hover{background:#202026;border-color:#3a3a42}
+html body .primary,html body .action.primary{background:linear-gradient(180deg,var(--pt-red-2),var(--pt-red));border:1px solid #f0dcb4;color:#1a1206;font-weight:750;box-shadow:0 8px 24px #d6a85c40,inset 0 1px 0 #ffffff40}
+html body .primary:hover{filter:brightness(1.08)}
+html body .toolbar{background:#111114cc;border:1px solid #222228;border-radius:var(--pt-r);padding:10px 14px;margin-top:6px;backdrop-filter:blur(8px)}
+html body .field{color:#7d7d86;font-size:10px;letter-spacing:1px;text-transform:uppercase}
+html body .field input,html body .field select{background:#0c0c0f;border:1px solid #2a2a31;color:#f1f1f3;border-radius:8px;text-transform:none;letter-spacing:0;font-size:12px}
+html body #status{color:#8a8a93}
+/* ---------- view switch: segmented control ---------- */
+html body .view-switch{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:2px;padding:4px;margin:4px 0 26px;background:#111114;border:1px solid #222228;border-radius:12px;scrollbar-width:none}
+html body .view-switch::-webkit-scrollbar{display:none}
+html body .view-switch button{flex:0 0 auto;font:600 13px var(--pt-display);letter-spacing:0;text-transform:none;padding:9px 15px;border:0;border-radius:9px;color:#a2a2aa;background:transparent;white-space:nowrap}
+html body .view-switch button:hover{background:#1b1b20;color:#fff}
+html body .view-switch button.active{background:#f4f4f2;color:#080b0d;box-shadow:0 4px 14px #00000066}
+html body .view-switch kbd{display:none}
+/* ---------- headings & numbers ---------- */
+html body .league-head h2,html body .card h3,html body .desk-card h3,html body .desk-hero h2,html body .hero h2{font-family:var(--pt-display);font-weight:750;letter-spacing:-.5px;text-transform:none}
+html body .desk-hero h2{font-size:34px}
+html body .scores,html body .week-badge b,html body .pt-odds{font-family:var(--pt-num);font-variant-numeric:tabular-nums}
+/* ---------- heroes ---------- */
+html body .hero,html body .desk-hero,html body .lineup-hero{position:relative;background:linear-gradient(100deg,#080b0d 0%,#080b0de6 40%,#080b0d99 70%,#1d170dcc 100%),url(stadium.svg) right -60px center/auto 150% no-repeat,#080b0d;border:1px solid #24242a;border-radius:18px;box-shadow:0 30px 80px -30px #000,inset 0 1px 0 var(--pt-hi);overflow:hidden}
+html body .hero::before,html body .desk-hero::before,html body .lineup-hero::before{content:"";position:absolute;inset:0 0 auto 0;height:2px;background:linear-gradient(90deg,var(--pt-red),#f2b13466 50%,transparent)}
+html body .research-intro{background:linear-gradient(100deg,#0f0f12 0%,#141418 60%,#1d170d 100%);color:#f4f4f2;border:1px solid #24242a;border-radius:18px;box-shadow:0 30px 80px -30px #000}
+html body .research-intro *{color:inherit}
+html body .research-intro h2,html body .research-intro h1{color:#fff}
+html body .hero-label{color:#9c9ca4}
+html body .scores .mine{color:#fff}
+html body .score-track{height:5px}html body .score-track span{background:linear-gradient(90deg,var(--pt-red),var(--pt-red-2))}html body .score-track span+span{background:#3a3a42}
+html body .margin{color:var(--pt-gold)}
+/* ---------- cards ---------- */
+html body .card,html body .desk-card{background:linear-gradient(180deg,#16161a,#121215);border:1px solid var(--pt-line);border-radius:var(--pt-r);box-shadow:0 1px 0 var(--pt-hi) inset,0 18px 40px -24px #000;transition:transform .2s ease,box-shadow .2s ease,border-color .2s}
+html body .card:hover,html body .desk-card:hover{border-color:#34343c;box-shadow:0 1px 0 var(--pt-hi) inset,0 26px 50px -24px #000}
+html body .card-header{border-bottom:1px solid #1f1f24}
+html body .small-label{color:#77777f;letter-spacing:1.2px}
+html body .player-row{border-bottom-color:#1e1e23}
+html body .player-name{color:#ececf0}
+html body .slot{border-radius:6px;font-weight:800}
+html body .table td{border-top-color:#1f1f24}
+html body .table tr.own{background:linear-gradient(90deg,#d6a85c26,transparent 80%);color:#fff}
+html body .pill,html body .confidence,html body .availability{background:#1b1b20;border:1px solid #2c2c33;color:#c6c6cc;border-radius:999px;padding:4px 9px}
+html body .priority-strip{background:linear-gradient(90deg,#16130d,#131316);border:1px solid #3a2e1a;border-left:3px solid var(--pt-red);border-radius:12px}
+html body .priority-strip .number{color:var(--pt-red-2)}
+html body .context-note{background:#17130c;border:1px solid #3a2d14;border-left:3px solid var(--pt-gold);color:#e9dcc0;border-radius:10px}
+html body .health{background:#0f1f16;color:#a9e9c3;border:1px solid #1d3a29;border-radius:10px}
+html body .health.warn{background:#1f170b;color:#f4d49a;border-color:#3d2e12}
+html body .filters button{background:#17171b;border:1px solid #2a2a31;color:#cfcfd5;border-radius:999px}
+html body .filters .active{background:#f4f4f2;color:#080b0d;border-color:#f4f4f2}
+html body .tab.active{color:#fff;border-bottom-color:var(--pt-red)}
+html body a{color:#ead1a0}
+/* ---------- desk + model ---------- */
+html body .desk{--desk-green:var(--pt-red);--desk-line:var(--pt-line);color:var(--text)}
+html body .desk-tabs{gap:2px;padding:4px;background:#111114;border:1px solid #222228;border-radius:12px;display:inline-flex;flex-wrap:wrap}
+html body .desk button{background:#17171b;border:1px solid #2a2a31;color:#f2f2f4;border-radius:10px;font-weight:600}
+html body .desk-tabs button{border:0;background:transparent;color:#a2a2aa}
+html body .desk button:hover{background:#202026}
+html body .desk-tabs button.active,html body .desk button.desk-primary{background:#f4f4f2;color:#080b0d}
+html body .desk input:not([type=checkbox]),html body .desk select,html body .desk textarea{background:#0c0c0f;border:1px solid #2a2a31;color:#f2f2f4;border-radius:10px}
+html body .desk-card p,html body .desk-hero p{color:#c4c4ca}
+/* title tiles */
+.pt-row{display:flex;gap:14px;overflow-x:auto;padding:8px 2px 16px;scroll-snap-type:x mandatory}
+.pt-tile{position:relative;flex:0 0 210px;height:124px;scroll-snap-align:start;background:linear-gradient(160deg,#1e1e24,#121215);border-radius:12px;padding:16px 14px 12px 70px;transition:transform .2s,box-shadow .2s;border:1px solid #2a2a31;overflow:hidden}
+.pt-tile:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 18px 40px -16px #000;z-index:2}
+.pt-tile b{display:block;font-size:13px;color:#fff;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pt-tile .pt-odds{font-size:32px;font-weight:800;color:#fff;letter-spacing:-.5px}
+.pt-tile small{color:#94949c;font-size:11px}
+.pt-tile .pt-num{position:absolute;left:4px;bottom:-18px;font:900 104px/1 var(--pt-num);color:transparent;-webkit-text-stroke:2px #44444c}
+.pt-tile.me{border-color:#d6a85c88;background:linear-gradient(160deg,#221b10,#131316)}.pt-tile.me .pt-num{-webkit-text-stroke-color:var(--pt-red)}
+.pt-badge{display:inline-block;background:var(--pt-red);color:#1a1206;font-size:9px;font-weight:800;letter-spacing:1px;padding:3px 6px;border-radius:4px;vertical-align:2px}
+.pt-weeks{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:8px}
+.pt-week{background:#17171b;border:1px solid #26262c;border-radius:10px;padding:9px 11px;display:grid;gap:2px}
+.pt-week small{color:#7d7d86;font-size:10px;letter-spacing:1px}.pt-week b{font:800 21px var(--pt-num);color:#fff}
+.pt-week span{color:#9c9ca4;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pt-week.hi{border-color:#1f4d34;background:linear-gradient(180deg,#10241a,#141417)}.pt-week.hi b{color:var(--pt-green)}
+.pt-week.lo{border-color:#4d1f26;background:linear-gradient(180deg,#26111a,#141417)}.pt-week.lo b{color:#ff7c86}
+#model-progress{position:relative;padding:18px;border-radius:12px;background:#141417;border:1px solid #26262c;overflow:hidden;color:#c4c4ca}
+#model-progress::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,#ffffff0f,transparent);animation:pt-shimmer 1.4s infinite}
+@keyframes pt-shimmer{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
+@media(prefers-reduced-motion:reduce){.card,.desk-card,.pt-tile{transition:none}.pt-tile:hover{transform:none}#model-progress::after{animation:none}}
+
+/* scope reticle: Binocular's signature on every hero */
+html body .hero::after,html body .desk-hero::after,html body .lineup-hero::after,html body .research-intro::after{content:"";position:absolute;right:6%;top:50%;width:min(320px,34%);aspect-ratio:1;transform:translateY(-50%);pointer-events:none;border-radius:50%;
+ background:radial-gradient(circle,transparent 46%,#d6a85c24 46.5%,transparent 47.5%),radial-gradient(circle,transparent 66%,#d6a85c14 66.5%,transparent 67.5%),linear-gradient(#d6a85c1f,#d6a85c1f) center/1px 100% no-repeat,linear-gradient(90deg,#d6a85c1f,#d6a85c1f) center/100% 1px no-repeat;
+ box-shadow:0 0 0 1px #d6a85c1a,0 0 80px 10px #d6a85c0d inset}
+html body .hero,html body .desk-hero,html body .lineup-hero{background:radial-gradient(600px 300px at 82% 50%,#0f2a20cc,transparent 70%),linear-gradient(100deg,#080b0d 0%,#080b0de6 55%,#0a1712 100%),#080b0d}
+html body .research-intro{position:relative;overflow:hidden}
+html body .scores .mine{color:var(--pt-red-2)}
+
+/* ===================== v3 design system (research pass, Sep 30) =====================
+   Type: SF Pro for UI, SF Pro Rounded for scores/odds (tabular), SF Mono for instrument labels.
+   Colour: one brand accent (optic mint) + semantic tokens; no stray reds outside "loss/risk".
+   Motion: 180–320ms, critically-damped ease, transform/opacity only, off under Reduce Motion. */
+:root{--ok:#d6a85c;--bad:#ff6b6b;--warn:#f2b134;--info:#6cb4ff;
+ --pt-round:ui-rounded,"SF Pro Rounded",-apple-system,sans-serif;--pt-mono:ui-monospace,"SF Mono",Menlo,monospace;
+ --ease:cubic-bezier(.2,.8,.2,1);--ease-out:cubic-bezier(.16,1,.3,1);--t-fast:160ms;--t-med:240ms;--t-slow:420ms}
+/* type scale */
+html body{font-family:-apple-system,"SF Pro Text","Helvetica Neue",sans-serif;font-size:13px;line-height:1.5}
+html body h1{font:800 34px/1.05 var(--pt-display);letter-spacing:-1.1px}
+html body .kicker,html body .small-label,html body .call-kind,html body .hero-label,html body .research-intro .edition,html body .priority-strip small,html body .nav-label,html body .brand-caption,html body .field{font-family:var(--pt-mono);font-weight:600;text-transform:uppercase}
+html body .kicker,html body .call-kind{font-size:10.5px;letter-spacing:1.6px}
+html body .small-label{font-size:9.5px;letter-spacing:1.4px}
+html body .scores,html body .week-badge b,html body .pt-odds,html body .adds,html body .rank,html body .depth-item b,html body .priority-strip .number,html body .desk-metrics b,html body .team-depth b{font-family:var(--pt-round);font-variant-numeric:tabular-nums;letter-spacing:-.5px}
+html body .scores{font-weight:700;font-size:64px}
+html body td,html body .desk-value,html body .pt-tile{font-variant-numeric:tabular-nums}
+html body .research-intro h2{font:800 34px/1.06 var(--pt-display);letter-spacing:-1px;text-transform:none;max-width:640px}
+html body .call h3{font:700 21px/1.25 var(--pt-display);letter-spacing:-.4px}
+html body .card h3{font-size:19px}
+/* stray reds -> brand / semantic */
+html body .research-intro .kicker,html body .call-kind,html body .event-type.waiver{color:var(--ok)}
+html body .research-intro .stamp{border:1px solid #d6a85c55;color:var(--ok);font-family:var(--pt-mono);border-radius:6px;transform:none;background:#d6a85c0f}
+html body .event-type.trade{color:var(--warn)}
+html body .event-type{color:var(--info)}
+html body .tab.active{border-bottom-color:var(--ok)}
+html body .hero,html body .research-intro{border-top-color:#24242a}
+html body .confidence{color:#d9d9de}
+html body .desk-short{background:#2a1416;color:#ffa1a1}
+html body .desk-bye{background:#251d0c;color:#f6d28a}
+html body .desk-rival{border-left-color:var(--warn)}
+/* focus (keyboard) */
+html body :focus-visible{outline:2px solid var(--ok);outline-offset:2px;border-radius:8px}
+/* ---------- motion ---------- */
+@keyframes bnc-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes bnc-fade{from{opacity:0}to{opacity:1}}
+@keyframes bnc-sweep{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+html body #content.bnc-enter>*{animation:bnc-in var(--t-med) var(--ease-out) both}
+html body #content.bnc-enter>*:nth-child(2){animation-delay:40ms}
+html body #content.bnc-enter>*:nth-child(3){animation-delay:80ms}
+html body #content.bnc-enter>*:nth-child(4){animation-delay:120ms}
+html body #content.bnc-enter>*:nth-child(n+5){animation-delay:160ms}
+html body .card,html body .desk-card,html body .call,html body .player-row,html body .pt-tile{transition:transform var(--t-med) var(--ease),box-shadow var(--t-med) var(--ease),border-color var(--t-fast),background var(--t-fast)}
+html body .card:hover,html body .desk-card:hover{transform:translateY(-2px)}
+html body button,html body .action,html body .nav{transition:background var(--t-fast) var(--ease),color var(--t-fast),transform 120ms var(--ease),box-shadow var(--t-fast)}
+html body button:active,html body .action:active{transform:scale(.97)}
+html body .view-switch button.active{transition:background var(--t-med) var(--ease),color var(--t-med)}
+html body .score-track span{transition:flex-basis var(--t-slow) var(--ease-out),width var(--t-slow) var(--ease-out)}
+/* slow scope sweep on heroes: the brand "lens" */
+html body .hero::after,html body .research-intro::after,html body .desk-hero::after,html body .lineup-hero::after{animation:bnc-fade 600ms var(--ease) both}
+html body .bnc-sweep{position:absolute;right:-90px;top:-90px;width:360px;height:360px;border-radius:50%;pointer-events:none;background:conic-gradient(from 0deg,#d6a85c24,transparent 22%);animation:bnc-sweep 9s linear infinite;mask:radial-gradient(circle,#000 0 70%,transparent 71%);-webkit-mask:radial-gradient(circle,#000 0 70%,transparent 71%)}
+@media (prefers-reduced-motion:reduce){
+ html body *,html body *::before,html body *::after{animation-duration:1ms!important;animation-iteration-count:1!important;transition-duration:1ms!important}
+ html body .bnc-sweep{display:none}
+ html body .card:hover,html body .desk-card:hover,html body .pt-tile:hover{transform:none}}
+html body .field input,html body .field select{font-family:-apple-system,"SF Pro Text",sans-serif;text-transform:none;font-weight:500}
+
+/* ===================== Clipboard brand layer ===================== */
+html body h1{text-transform:none;font-size:36px;letter-spacing:-1.3px}
+html body .brand{font:800 21px var(--pt-round);letter-spacing:-.6px}
+html body .logo{width:40px;height:40px;display:grid;place-items:center;background:linear-gradient(145deg,#e2c38c,#a87a3e);color:#1a1206;border-radius:11px;box-shadow:0 6px 22px #d6a85c40,inset 0 1px 0 #ffffff60}
+html body .logo svg{width:30px;height:30px;fill:none}
+html body .hero::after,html body .research-intro::after,html body .desk-hero::after,html body .lineup-hero::after{content:none!important}
+html body .bnc-sweep{display:none!important}
+.cb-play{position:absolute;right:3%;top:50%;transform:translateY(-50%);width:min(340px,36%);height:auto;pointer-events:none;opacity:.55;z-index:0}
+.cb-play *{fill:none;stroke:#d6a85c;stroke-linecap:round;stroke-linejoin:round}
+.cb-play .o{stroke:#f4f4f2;stroke-width:3}.cb-play .x{stroke:#f4f4f2;stroke-width:3.2}
+.cb-play .rt{stroke-width:2.6;stroke-dasharray:240;stroke-dashoffset:240;animation:cb-draw 1.1s var(--ease-out) .25s forwards}
+.cb-play .rt.d2{animation-delay:.45s}.cb-play .rt.d3{animation-delay:.65s;stroke-dasharray:2 7;stroke-dashoffset:0;opacity:0;animation:bnc-fade .6s var(--ease) .9s forwards}
+.cb-play .ah{stroke-width:2.6;opacity:0;animation:bnc-fade .3s var(--ease) 1.2s forwards}
+.cb-play .los{stroke:#ffffff26;stroke-width:1.2;stroke-dasharray:4 6}
+@keyframes cb-draw{to{stroke-dashoffset:0}}
+html body .hero>*:not(.cb-play),html body .research-intro>*:not(.cb-play),html body .desk-hero>*:not(.cb-play){position:relative;z-index:1}
+html body .research-intro .stamp{z-index:2}
+@media (prefers-reduced-motion:reduce){.cb-play .rt{stroke-dashoffset:0;animation:none}.cb-play .ah,.cb-play .rt.d3{opacity:1;animation:none}}
+
+/* no-neon pass: quieter glows, chalk-white primary */
+html body .primary,html body .action.primary{background:#f2ede3;border:1px solid #f2ede3;color:#16130d;box-shadow:0 6px 18px #00000055}
+html body .logo{box-shadow:0 4px 14px #00000066,inset 0 1px 0 #ffffff40}
+html body .cb-play{opacity:.4}html body .cb-play *{stroke:#d6a85c}html body .cb-play .o,html body .cb-play .x{stroke:#e9e4da}
+html body .scores .mine,html body .scores>span:first-child{color:#f2ede3;text-shadow:none}
+html body .adds{color:#e2c38c}
+html body .logo{background:linear-gradient(145deg,#cf9f66,#8a5f33);color:#f4efe4}
+html body .active .league-icon,html body .avatar{color:#1a1206}

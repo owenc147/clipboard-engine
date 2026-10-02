@@ -1,0 +1,1124 @@
+{
+  "name": "Binocular",
+  "user": "coffero",
+  "season": "2026",
+  "week": 3,
+  "reviewed_at": "2026-09-28",
+  "updated_at": "2026-09-28T20:48:01.885731+00:00",
+  "valid_until": "2026-09-29T20:48:01.885731+00:00",
+  "expires_after": "2026-09-29",
+  "scope": "Monday Week 3 decisions and early Week 4 waiver preparation. Locked scores preserved; final Monday inactives pending. No roster changes submitted.",
+  "sources": {
+    "sleeper": {
+      "title": "Sleeper live league snapshot",
+      "url": "https://docs.sleeper.com/",
+      "date": "2026-09-28",
+      "kind": "Live league data",
+      "finding": "All-team ownership, roster slots, scoring and completed/failed transactions checked at the snapshot timestamp."
+    },
+    "monday": {
+      "title": "Eagles–Bears official injury report",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-at-bears-injury-report-2026-nfl-week-3-monday-night-football-caleb-williams-saquon-barkley",
+      "date": "2026-09-27; checked 2026-09-28",
+      "kind": "Official team report",
+      "finding": "Barkley available; Goedert and Caleb Williams ruled out. Bagent cleared protocol. Final inactive lists still pending."
+    },
+    "ertz": {
+      "title": "Eagles elevate Zach Ertz",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-elevate-chance-campbell-zach-ertz-for-monday-night-football-chicago-bears-2026-nfl-regular-season-week-3",
+      "date": "2026-09-28",
+      "kind": "Official team report",
+      "finding": "Ertz elevated for Monday. This creates a possible emergency TE option but does not guarantee snaps."
+    },
+    "waiver": {
+      "title": "NFL Week 4 waiver targets",
+      "url": "https://amp.nfl.com/news/2026-nfl-fantasy-football-waiver-wire-week-4-te-juwan-johnson-rb-braelon-allen-headline-targets",
+      "date": "2026-09-28",
+      "kind": "Research",
+      "finding": "Johnson and Braelon Allen headline the list. Daniel Jones is an early Week 4 streaming option against Washington despite a weak start; this is an analyst opinion."
+    },
+    "allen": {
+      "title": "Week 4 waiver outlook",
+      "url": "https://www.si.com/fantasy/week-4-waiver-wire-targets",
+      "date": "2026-09-28",
+      "kind": "Research",
+      "finding": "Braelon Allen benefits if Hall misses time with his thigh injury. Monitor updates rather than assume an absence."
+    },
+    "baker": {
+      "title": "NFL: Mayfield expected to miss at least three weeks",
+      "url": "https://amp.nfl.com/news/buccaneers-qb-baker-mayfield-thumb-out-at-least-three-weeks-jalon-daniels",
+      "date": "2026-09-28",
+      "kind": "NFL injury report",
+      "finding": "Thumb injury creates a multiweek quarterback need; rookie Jalon Daniels is expected to start for Tampa Bay."
+    },
+    "etienne": {
+      "title": "Etienne injury impact",
+      "url": "https://sports.yahoo.com/articles/fantasy-football-injury-impact-travis-185102776.html",
+      "date": "2026-09-28",
+      "kind": "Research",
+      "finding": "Etienne’s injury creates a potential opportunity for Kamara. Do not assume a fixed recovery timeline or guaranteed workload."
+    },
+    "trade": {
+      "title": "Trade baseline before Week 3 injuries",
+      "url": "https://www.fantasypros.com/2026/09/fantasy-football-trade-value-chart-week-3-2026/",
+      "date": "2026-09-22; reassessed 2026-09-28",
+      "kind": "Research",
+      "finding": "September 22 valuations predate the latest injuries and should not price offers today. Current ownership and role uncertainty take precedence."
+    }
+  },
+  "leagues": {
+    "1403096266736422912": {
+      "name": "Jacked Pine",
+      "roster_ids": [
+        "11566",
+        "11635",
+        "12185",
+        "12533",
+        "13345",
+        "4866",
+        "4892",
+        "5967",
+        "6904",
+        "7002",
+        "7543",
+        "7547",
+        "8146",
+        "8183",
+        "8228",
+        "9224",
+        "9484",
+        "9488",
+        "CAR"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "pass_int": -2.0,
+        "pts_allow_0": 14.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 0.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 2.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 10.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 6.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 6.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "SUPER_FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "trades": [],
+      "headline": "Keep your Monday starters; reset injury and TE plans for Week 4.",
+      "strategy": "Warren replaced Stevenson, Mayfield was added, and Coleman is in reserve. Sunday decisions are finished; the older Etienne FLEX lean is retired.",
+      "calls": [
+        {
+          "kind": "Hold",
+          "title": "Keep Barkley and Hurts ready for tonight",
+          "reason": "Barkley is available on the official report; both players already occupy your Monday slots.",
+          "confidence": "Strong",
+          "sources": [
+            "monday",
+            "sleeper"
+          ],
+          "recheck": "Recheck final inactives before 8:15 p.m. ET. Sunday players are locked."
+        },
+        {
+          "kind": "Hold",
+          "title": "Keep Johnson; reassess next week’s TE starter",
+          "reason": "Johnson is already yours and appears among the early Week 4 waiver priorities.",
+          "confidence": "Hold",
+          "sources": [
+            "waiver",
+            "sleeper"
+          ],
+          "recheck": "No claim required. Kraft’s Week 3 points cannot be replaced retrospectively."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Remove the old Etienne start recommendation",
+          "reason": "His new injury makes the September 25 FLEX advice obsolete; Pollard remained in your actual lineup.",
+          "confidence": "Strong",
+          "sources": [
+            "etienne",
+            "sleeper"
+          ],
+          "recheck": "Preserve Warren, who replaced Stevenson, as depth. Await recovery news before a drop or injury discount trade."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Mayfield is injured depth, not a Week 4 replacement",
+          "reason": "The new thumb injury joins Daniels’ absence; Hurts and Purdy remain your starting QB pair.",
+          "confidence": "Strong",
+          "sources": [
+            "baker",
+            "sleeper"
+          ],
+          "recheck": "Do not pay for a third QB urgently in this six-team league. Review reserve eligibility and upcoming byes before dropping injured depth."
+        }
+      ],
+      "watch": [
+        "Saquon Barkley",
+        "Baker Mayfield",
+        "Travis Etienne"
+      ],
+      "scoring_note": "PPR and six-point passing TDs reward keeping Hurts/Purdy intact. Current lineup is a record of Week 3, not permission to move locked players.",
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "8183",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "RB",
+          "id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "note": "Monday: check final active list"
+        },
+        {
+          "slot": "RB",
+          "id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "WR",
+          "id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "WR",
+          "id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "WR",
+          "id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "TE",
+          "id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "FLEX",
+          "id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "FLEX",
+          "id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "SUPER_FLEX",
+          "id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "note": "Monday: check final active list"
+        },
+        {
+          "slot": "K",
+          "id": "12185",
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "DEF",
+          "id": "CAR",
+          "name": "CAR",
+          "position": "DEF",
+          "team": "CAR",
+          "note": "Already played — locked; not a new start recommendation"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Keep Barkley and Hurts ready for tonight",
+          "body": "Barkley is available on the official report; both players already occupy your Monday slots. Recheck final inactives before 8:15 p.m. ET. Sunday players are locked.",
+          "sources": [
+            "monday",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Keep Johnson; reassess next week’s TE starter",
+          "body": "Johnson is already yours and appears among the early Week 4 waiver priorities. No claim required. Kraft’s Week 3 points cannot be replaced retrospectively.",
+          "sources": [
+            "waiver",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Remove the old Etienne start recommendation",
+          "body": "His new injury makes the September 25 FLEX advice obsolete; Pollard remained in your actual lineup. Preserve Warren, who replaced Stevenson, as depth. Await recovery news before a drop or injury discount trade.",
+          "sources": [
+            "etienne",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Mayfield is injured depth, not a Week 4 replacement",
+          "body": "The new thumb injury joins Daniels’ absence; Hurts and Purdy remain your starting QB pair. Do not pay for a third QB urgently in this six-team league. Review reserve eligibility and upcoming byes before dropping injured depth.",
+          "sources": [
+            "baker",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Trade review",
+          "body": "No trade offer today. Rival rosters already contain multiple QBs and useful TEs; selling Johnson into a deep six-team market or injured Etienne lacks a clear return. Free-agent Allen is worth watching after Hall news, but do not cut valuable cover on an unconfirmed role.",
+          "sources": [
+            "trade",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Monday and Week 4 boundary",
+          "body": "Only Monday players remain before 8:15 p.m. ET. Final inactives are not yet published at this review. Week 4 claims are provisional; this edition retains Sleeper’s current Week 3 and expires at the week boundary.",
+          "sources": [
+            "monday",
+            "sleeper"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Hold",
+          "id": "4866",
+          "title": "Keep Barkley and Hurts ready for tonight",
+          "reason": "Barkley is available on the official report; both players already occupy your Monday slots.",
+          "cost": "Recheck final inactives before 8:15 p.m. ET. Sunday players are locked.",
+          "sources": [
+            "monday",
+            "sleeper"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "7002",
+          "title": "Keep Johnson; reassess next week’s TE starter",
+          "reason": "Johnson is already yours and appears among the early Week 4 waiver priorities.",
+          "cost": "No claim required. Kraft’s Week 3 points cannot be replaced retrospectively.",
+          "sources": [
+            "waiver",
+            "sleeper"
+          ],
+          "confidence": "Hold",
+          "drop_id": null
+        },
+        {
+          "action": "Monitor",
+          "id": "7543",
+          "title": "Remove the old Etienne start recommendation",
+          "reason": "His new injury makes the September 25 FLEX advice obsolete; Pollard remained in your actual lineup.",
+          "cost": "Preserve Warren, who replaced Stevenson, as depth. Await recovery news before a drop or injury discount trade.",
+          "sources": [
+            "etienne",
+            "sleeper"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        },
+        {
+          "action": "Monitor",
+          "id": "4892",
+          "title": "Mayfield is injured depth, not a Week 4 replacement",
+          "reason": "The new thumb injury joins Daniels’ absence; Hurts and Purdy remain your starting QB pair.",
+          "cost": "Do not pay for a third QB urgently in this six-team league. Review reserve eligibility and upcoming byes before dropping injured depth.",
+          "sources": [
+            "baker",
+            "sleeper"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        }
+      ]
+    },
+    "1385050179488460800": {
+      "name": "Netanyahu Ball",
+      "roster_ids": [
+        "11539",
+        "11584",
+        "11604",
+        "11620",
+        "11631",
+        "12514",
+        "13345",
+        "2133",
+        "4035",
+        "4046",
+        "5022",
+        "7569",
+        "8130",
+        "8208",
+        "9221",
+        "PHI"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "trades": [],
+      "headline": "Philadelphia plays tonight; hold Kamara and watch Allen on waivers.",
+      "strategy": "MagicMax5 now has Coker and Johnson after trading Tucker and Warren to Maye Cook. Retire old partner assumptions. Collins remains in reserve; Coleman is now IR on the provider feed.",
+      "calls": [
+        {
+          "kind": "Hold",
+          "title": "Keep Philadelphia defense for Monday",
+          "reason": "Williams is ruled out and Chicago’s quarterback situation changed during the week.",
+          "confidence": "Hold",
+          "sources": [
+            "monday",
+            "sleeper"
+          ],
+          "recheck": "Already rostered and starting; no acquisition needed. No guaranteed defensive score."
+        },
+        {
+          "kind": "Hold",
+          "title": "Hold Kamara as the Saints backfield changes",
+          "reason": "Etienne’s injury improves the case for keeping your existing veteran depth.",
+          "confidence": "Hold",
+          "sources": [
+            "etienne",
+            "sleeper"
+          ],
+          "recheck": "Do not sell cheaply before role and practice reports establish the workload. He cannot be inserted for Sunday points now."
+        },
+        {
+          "kind": "Add",
+          "title": "Early Week 4 claim: Allen for Badie",
+          "reason": "Allen is unrostered in this league; Hall’s injury makes him a supported contingency target.",
+          "confidence": "Conditional",
+          "sources": [
+            "allen",
+            "sleeper"
+          ],
+          "recheck": "One-for-one replacement for Badie when roster locks permit. Keep bid modest pending Hall news; not a guaranteed starter."
+        },
+        {
+          "kind": "Sit",
+          "title": "Keep Goedert benched tonight",
+          "reason": "The Eagles officially ruled him out. Your McBride/Bowers slots are already settled from Sunday.",
+          "confidence": "Strong",
+          "sources": [
+            "monday",
+            "sleeper"
+          ],
+          "recheck": "No need to acquire a fourth TE. Odunze cannot replace a locked Sunday FLEX player."
+        }
+      ],
+      "watch": [
+        "Alvin Kamara",
+        "Braelon Allen",
+        "Dallas Goedert"
+      ],
+      "scoring_note": "PPR with yardage bonuses and no TE premium. Prioritize RB depth over another TE; Allen is a prospective Week 4 claim, not a Monday lineup move.",
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "4046",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "team": "KC",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "RB",
+          "id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "RB",
+          "id": "11584",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "WR",
+          "id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "WR",
+          "id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "TE",
+          "id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "FLEX",
+          "id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "FLEX",
+          "id": "11631",
+          "name": "Brian Thomas",
+          "position": "WR",
+          "team": "JAX",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "K",
+          "id": "11539",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "DEF",
+          "id": "PHI",
+          "name": "PHI",
+          "position": "DEF",
+          "team": "PHI",
+          "note": "Monday: check final active list"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Keep Philadelphia defense for Monday",
+          "body": "Williams is ruled out and Chicago’s quarterback situation changed during the week. Already rostered and starting; no acquisition needed. No guaranteed defensive score.",
+          "sources": [
+            "monday",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Hold Kamara as the Saints backfield changes",
+          "body": "Etienne’s injury improves the case for keeping your existing veteran depth. Do not sell cheaply before role and practice reports establish the workload. He cannot be inserted for Sunday points now.",
+          "sources": [
+            "etienne",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Early Week 4 claim: Allen for Badie",
+          "body": "Allen is unrostered in this league; Hall’s injury makes him a supported contingency target. One-for-one replacement for Badie when roster locks permit. Keep bid modest pending Hall news; not a guaranteed starter.",
+          "sources": [
+            "allen",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Keep Goedert benched tonight",
+          "body": "The Eagles officially ruled him out. Your McBride/Bowers slots are already settled from Sunday. No need to acquire a fourth TE. Odunze cannot replace a locked Sunday FLEX player.",
+          "sources": [
+            "monday",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Trade review",
+          "body": "No offer recommended. MagicMax5 has Kittle, Johnson and Waller, while Maye Cook added Warren; another TE is not an obvious need for either. Keep Kamara until the Saints rotation clarifies rather than pricing him using last week’s chart.",
+          "sources": [
+            "trade",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Monday and Week 4 boundary",
+          "body": "Only Monday players remain before 8:15 p.m. ET. Final inactives are not yet published at this review. Week 4 claims are provisional; this edition retains Sleeper’s current Week 3 and expires at the week boundary.",
+          "sources": [
+            "monday",
+            "sleeper"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Hold",
+          "id": "PHI",
+          "title": "Keep Philadelphia defense for Monday",
+          "reason": "Williams is ruled out and Chicago’s quarterback situation changed during the week.",
+          "cost": "Already rostered and starting; no acquisition needed. No guaranteed defensive score.",
+          "sources": [
+            "monday",
+            "sleeper"
+          ],
+          "confidence": "Hold",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "4035",
+          "title": "Hold Kamara as the Saints backfield changes",
+          "reason": "Etienne’s injury improves the case for keeping your existing veteran depth.",
+          "cost": "Do not sell cheaply before role and practice reports establish the workload. He cannot be inserted for Sunday points now.",
+          "sources": [
+            "etienne",
+            "sleeper"
+          ],
+          "confidence": "Hold",
+          "drop_id": null
+        },
+        {
+          "action": "Add",
+          "id": "11576",
+          "title": "Early Week 4 claim: Allen for Badie",
+          "reason": "Allen is unrostered in this league; Hall’s injury makes him a supported contingency target.",
+          "cost": "One-for-one replacement for Badie when roster locks permit. Keep bid modest pending Hall news; not a guaranteed starter.",
+          "sources": [
+            "allen",
+            "sleeper"
+          ],
+          "confidence": "Conditional",
+          "drop_id": "8208"
+        },
+        {
+          "action": "Sit",
+          "id": "5022",
+          "title": "Keep Goedert benched tonight",
+          "reason": "The Eagles officially ruled him out. Your McBride/Bowers slots are already settled from Sunday.",
+          "cost": "No need to acquire a fourth TE. Odunze cannot replace a locked Sunday FLEX player.",
+          "sources": [
+            "monday",
+            "sleeper"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        }
+      ]
+    },
+    "1360286127205912576": {
+      "name": "MSU Munches v2",
+      "roster_ids": [
+        "10232",
+        "11435",
+        "11560",
+        "11610",
+        "12506",
+        "12533",
+        "13287",
+        "4892",
+        "4983",
+        "6786",
+        "6806",
+        "7042",
+        "MIN"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td_50p": 0.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "pass_int_td": 0.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rec_40p": 0.0,
+        "pass_cmp": 0.1,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "rec_td_40p": 0.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.044444444444444446,
+        "rec_td_50p": 0.0,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "rush_40p": 0.0,
+        "fum": 0.0,
+        "pts_allow_28_34": -2.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "rush_td_40p": 0.0,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "trades": [],
+      "headline": "Empty TE slot tonight; quarterback cover is the next priority.",
+      "strategy": "The completed Fannin trade removed Helm and Marks. Ertz is a conditional Monday rental; Jones is an early Week 4 streamer. Neither has been added, and no lineup action has been submitted.",
+      "calls": [
+        {
+          "kind": "Add",
+          "title": "Urgent: consider Ertz for the empty Monday TE slot",
+          "reason": "The Helm/Marks-for-Fannin trade left your TE slot empty. Fannin already played; Ertz is unrostered and elevated for tonight with Goedert out.",
+          "confidence": "Conditional",
+          "sources": [
+            "sleeper",
+            "ertz",
+            "monday"
+          ],
+          "recheck": "Your 13-player roster is below its 14 active slots, so no drop appears needed. Only add if Sleeper permits immediate use, then start only after active confirmation. Kmet is also unrostered if Ertz is inactive; both are low-confidence emergency options."
+        },
+        {
+          "kind": "Add",
+          "title": "Queue Jones as Week 4 QB cover",
+          "reason": "Mayfield is expected to miss multiple weeks and Williams is out tonight; Jones is unrostered and gets Washington next week.",
+          "confidence": "Lean",
+          "sources": [
+            "baker",
+            "waiver",
+            "sleeper"
+          ],
+          "recheck": "Use the remaining vacancy if available. If Ertz occupies it, replace Ertz after Monday locks release; retain Fannin. Do not replace Mayfield’s already-earned Week 3 score."
+        },
+        {
+          "kind": "Hold",
+          "title": "Fannin is your Week 4 TE, not a retroactive Week 3 fix",
+          "reason": "The completed trade brought him in for Helm and Marks. His game has finished and your live TE slot remains empty.",
+          "confidence": "Strong",
+          "sources": [
+            "sleeper"
+          ],
+          "recheck": "Keep him rather than sacrificing the new acquisition for a one-night rental. Reassess Week 4 start rankings when available."
+        },
+        {
+          "kind": "Hold",
+          "title": "Keep Washington as receiver cover",
+          "reason": "He is already yours; avoid creating another position hole while resolving QB and TE.",
+          "confidence": "Hold",
+          "sources": [
+            "sleeper"
+          ],
+          "recheck": "Reserve bench space for injury and bye coverage. No additional trade required today."
+        }
+      ],
+      "watch": [
+        "Zach Ertz",
+        "Daniel Jones",
+        "Baker Mayfield",
+        "Caleb Williams"
+      ],
+      "scoring_note": "PPR, completion bonuses and enhanced passing-yard scoring increase the importance of an active Week 4 QB. These rules do not unlock Mayfield’s Sunday slot.",
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "4892",
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "RB",
+          "id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "RB",
+          "id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "WR",
+          "id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "WR",
+          "id": "4983",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "TE",
+          "id": "0",
+          "name": "Empty — Monday TE needed",
+          "position": "TE",
+          "team": null,
+          "note": "Empty: do not insert a player whose game is over"
+        },
+        {
+          "slot": "FLEX",
+          "id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "K",
+          "id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "note": "Already played — locked; not a new start recommendation"
+        },
+        {
+          "slot": "DEF",
+          "id": "MIN",
+          "name": "MIN",
+          "position": "DEF",
+          "team": "MIN",
+          "note": "Already played — locked; not a new start recommendation"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Urgent: consider Ertz for the empty Monday TE slot",
+          "body": "The Helm/Marks-for-Fannin trade left your TE slot empty. Fannin already played; Ertz is unrostered and elevated for tonight with Goedert out. Your 13-player roster is below its 14 active slots, so no drop appears needed. Only add if Sleeper permits immediate use, then start only after active confirmation. Kmet is also unrostered if Ertz is inactive; both are low-confidence emergency options.",
+          "sources": [
+            "sleeper",
+            "ertz",
+            "monday"
+          ]
+        },
+        {
+          "title": "Queue Jones as Week 4 QB cover",
+          "body": "Mayfield is expected to miss multiple weeks and Williams is out tonight; Jones is unrostered and gets Washington next week. Use the remaining vacancy if available. If Ertz occupies it, replace Ertz after Monday locks release; retain Fannin. Do not replace Mayfield’s already-earned Week 3 score.",
+          "sources": [
+            "baker",
+            "waiver",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Fannin is your Week 4 TE, not a retroactive Week 3 fix",
+          "body": "The completed trade brought him in for Helm and Marks. His game has finished and your live TE slot remains empty. Keep him rather than sacrificing the new acquisition for a one-night rental. Reassess Week 4 start rankings when available.",
+          "sources": [
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Keep Washington as receiver cover",
+          "body": "He is already yours; avoid creating another position hole while resolving QB and TE. Reserve bench space for injury and bye coverage. No additional trade required today.",
+          "sources": [
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Trade review",
+          "body": "No new trade recommended: available Jones can address QB cover without surrendering a starter. The Fannin trade already addressed TE long term. Braelon Allen and Juwan Johnson belong to other managers here; national waiver lists do not make them available.",
+          "sources": [
+            "trade",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Monday and Week 4 boundary",
+          "body": "Only Monday players remain before 8:15 p.m. ET. Final inactives are not yet published at this review. Week 4 claims are provisional; this edition retains Sleeper’s current Week 3 and expires at the week boundary.",
+          "sources": [
+            "monday",
+            "sleeper"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Add",
+          "id": "1339",
+          "title": "Urgent: consider Ertz for the empty Monday TE slot",
+          "reason": "The Helm/Marks-for-Fannin trade left your TE slot empty. Fannin already played; Ertz is unrostered and elevated for tonight with Goedert out.",
+          "cost": "Your 13-player roster is below its 14 active slots, so no drop appears needed. Only add if Sleeper permits immediate use, then start only after active confirmation. Kmet is also unrostered if Ertz is inactive; both are low-confidence emergency options.",
+          "sources": [
+            "sleeper",
+            "ertz",
+            "monday"
+          ],
+          "confidence": "Conditional",
+          "drop_id": null
+        },
+        {
+          "action": "Add",
+          "id": "5870",
+          "title": "Queue Jones as Week 4 QB cover",
+          "reason": "Mayfield is expected to miss multiple weeks and Williams is out tonight; Jones is unrostered and gets Washington next week.",
+          "cost": "Use the remaining vacancy if available. If Ertz occupies it, replace Ertz after Monday locks release; retain Fannin. Do not replace Mayfield’s already-earned Week 3 score.",
+          "sources": [
+            "baker",
+            "waiver",
+            "sleeper"
+          ],
+          "confidence": "Lean",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "12506",
+          "title": "Fannin is your Week 4 TE, not a retroactive Week 3 fix",
+          "reason": "The completed trade brought him in for Helm and Marks. His game has finished and your live TE slot remains empty.",
+          "cost": "Keep him rather than sacrificing the new acquisition for a one-night rental. Reassess Week 4 start rankings when available.",
+          "sources": [
+            "sleeper"
+          ],
+          "confidence": "Strong",
+          "drop_id": null
+        },
+        {
+          "action": "Hold",
+          "id": "11610",
+          "title": "Keep Washington as receiver cover",
+          "reason": "He is already yours; avoid creating another position hole while resolving QB and TE.",
+          "cost": "Reserve bench space for injury and bye coverage. No additional trade required today.",
+          "sources": [
+            "sleeper"
+          ],
+          "confidence": "Hold",
+          "drop_id": null
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "name": "Zach Ertz",
+      "role": "Monday availability or early Week 4 watch; check league-specific call",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Cole Kmet",
+      "role": "Monday availability or early Week 4 watch; check league-specific call",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Braelon Allen",
+      "role": "Monday availability or early Week 4 watch; check league-specific call",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Daniel Jones",
+      "role": "Monday availability or early Week 4 watch; check league-specific call",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Juwan Johnson",
+      "role": "Monday availability or early Week 4 watch; check league-specific call",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Harold Fannin",
+      "role": "Monday availability or early Week 4 watch; check league-specific call",
+      "sources": [
+        "sleeper"
+      ]
+    }
+  ],
+  "changes": [
+    "MSU: empty TE slot after Fannin trade; conditional Ertz rental and Jones QB cover.",
+    "Netanyahu: prospective Allen-for-Badie claim; retain Kamara after Etienne injury.",
+    "Jacked Pine: keep Monday starters; retain Johnson and retire Etienne FLEX advice.",
+    "All teams and transactions reviewed; no defensible new trade offer today."
+  ]
+}

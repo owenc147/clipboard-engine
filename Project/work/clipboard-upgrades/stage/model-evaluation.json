@@ -1,0 +1,345 @@
+{
+  "limitations": [
+    "Historical Sleeper projections are revised, not guaranteed pregame snapshots.",
+    "Historical game lines are not timestamped to the projection horizon.",
+    "Experiments are retrospective screening, not deployment-grade live validation."
+  ],
+  "kicker_defense": {
+    "K": {
+      "train_n": 506,
+      "validation_n": 502,
+      "test_n": 503,
+      "validation_baseline": 4.945727159020613,
+      "validation_candidate": 4.892311809088347,
+      "test_baseline": 4.654898123563551,
+      "test_candidate": 4.645982385476562,
+      "deployment": "shadow only: missing pregame timestamps"
+    },
+    "DEF": {
+      "train_n": 512,
+      "validation_n": 512,
+      "test_n": 512,
+      "validation_baseline": 5.691827148558053,
+      "validation_candidate": 5.621731951713573,
+      "test_baseline": 5.88666518099382,
+      "test_candidate": 5.889074585804505,
+      "deployment": "shadow only: missing pregame timestamps"
+    }
+  },
+  "xfp": {
+    "QB": {
+      "train_n": 425,
+      "validation_n": 433,
+      "test_n": 429,
+      "validation_projection_calibrated": 7.551188579512888,
+      "validation_with_xfp": 7.510958121027989,
+      "test_projection_calibrated": 7.637993636847335,
+      "test_with_xfp": 7.598978254750787,
+      "deployment": "shadow only: projection archive revised"
+    },
+    "RB": {
+      "train_n": 824,
+      "validation_n": 827,
+      "test_n": 866,
+      "validation_projection_calibrated": 6.569644061976361,
+      "validation_with_xfp": 6.5672422946284525,
+      "test_projection_calibrated": 7.014149673189949,
+      "test_with_xfp": 7.017952321559181,
+      "deployment": "shadow only: projection archive revised"
+    },
+    "WR": {
+      "train_n": 1337,
+      "validation_n": 1344,
+      "test_n": 1317,
+      "validation_projection_calibrated": 7.116706623564873,
+      "validation_with_xfp": 7.111779983980117,
+      "test_projection_calibrated": 6.634762438274558,
+      "test_with_xfp": 6.634401146386934,
+      "deployment": "shadow only: projection archive revised"
+    },
+    "TE": {
+      "train_n": 503,
+      "validation_n": 515,
+      "test_n": 569,
+      "validation_projection_calibrated": 6.051060621404777,
+      "validation_with_xfp": 6.058549818183454,
+      "test_projection_calibrated": 6.195068422693706,
+      "test_with_xfp": 6.19266735722357,
+      "deployment": "shadow only: projection archive revised"
+    }
+  },
+  "correlation": {
+    "bringback": {
+      "2023": {
+        "n": 2315,
+        "rho": 0.0470001369960453
+      },
+      "2024": {
+        "n": 2316,
+        "rho": 0.08359325537662918
+      },
+      "2025": {
+        "n": 2348,
+        "rho": 0.10581093771350776
+      }
+    },
+    "qb_dst": {
+      "2023": {
+        "n": 513,
+        "rho": -0.42665533534592837
+      },
+      "2024": {
+        "n": 512,
+        "rho": -0.33347392461861297
+      },
+      "2025": {
+        "n": 512,
+        "rho": -0.44505146394975464
+      }
+    }
+  },
+  "distribution_caps": [
+    {
+      "position": "QB",
+      "mean_target": 5.0,
+      "cv_target": 0.45,
+      "raw_mean": 5.006368885933455,
+      "raw_cv": 0.45134071431225714,
+      "cap": 22.5,
+      "capped_mean": 5.006140809095606,
+      "mean_loss_pct": 0.004555733767230841,
+      "cap_mass": 9.8e-05,
+      "raw_p99": 12.440300787264778
+    },
+    {
+      "position": "QB",
+      "mean_target": 15.0,
+      "cv_target": 0.45,
+      "raw_mean": 14.986754279317823,
+      "raw_cv": 0.4499275528944142,
+      "cap": 67.5,
+      "capped_mean": 14.986182575492654,
+      "mean_loss_pct": 0.0038147274220579064,
+      "cap_mass": 7.8e-05,
+      "raw_p99": 37.06709959965038
+    },
+    {
+      "position": "QB",
+      "mean_target": 25.0,
+      "cv_target": 0.45,
+      "raw_mean": 24.97748413484899,
+      "raw_cv": 0.44851508588266087,
+      "cap": 75,
+      "capped_mean": 24.949110291392362,
+      "mean_loss_pct": 0.1135976838317343,
+      "cap_mass": 0.002644,
+      "raw_p99": 61.821821375626044
+    },
+    {
+      "position": "RB",
+      "mean_target": 5.0,
+      "cv_target": 0.62,
+      "raw_mean": 5.002935423997966,
+      "raw_cv": 0.6195426932396431,
+      "cap": 22.5,
+      "capped_mean": 4.995213124303328,
+      "mean_loss_pct": 0.1543553741988335,
+      "cap_mass": 0.00177,
+      "raw_p99": 16.003038236671383
+    },
+    {
+      "position": "RB",
+      "mean_target": 15.0,
+      "cv_target": 0.62,
+      "raw_mean": 14.993987898856435,
+      "raw_cv": 0.6202906071794585,
+      "cap": 67.5,
+      "capped_mean": 14.971471678625099,
+      "mean_loss_pct": 0.15016832335215113,
+      "cap_mass": 0.001742,
+      "raw_p99": 48.08304318666485
+    },
+    {
+      "position": "RB",
+      "mean_target": 25.0,
+      "cv_target": 0.62,
+      "raw_mean": 25.003878146006993,
+      "raw_cv": 0.619351089901566,
+      "cap": 75,
+      "capped_mean": 24.75846432186212,
+      "mean_loss_pct": 0.9815030400956548,
+      "cap_mass": 0.013442,
+      "raw_p99": 80.05983753249788
+    },
+    {
+      "position": "WR",
+      "mean_target": 5.0,
+      "cv_target": 0.69,
+      "raw_mean": 5.009847395149607,
+      "raw_cv": 0.68958446443247,
+      "cap": 22.5,
+      "capped_mean": 4.993549683850648,
+      "mean_loss_pct": 0.32531352780801326,
+      "cap_mass": 0.003224,
+      "raw_p99": 17.66165400611171
+    },
+    {
+      "position": "WR",
+      "mean_target": 15.0,
+      "cv_target": 0.69,
+      "raw_mean": 14.985004467361861,
+      "raw_cv": 0.6886670808203676,
+      "cap": 67.5,
+      "capped_mean": 14.937810450062113,
+      "mean_loss_pct": 0.31494162983093377,
+      "cap_mass": 0.003108,
+      "raw_p99": 52.69335578163427
+    },
+    {
+      "position": "WR",
+      "mean_target": 25.0,
+      "cv_target": 0.69,
+      "raw_mean": 24.98210142151685,
+      "raw_cv": 0.6881185870951478,
+      "cap": 75,
+      "capped_mean": 24.579346660235853,
+      "mean_loss_pct": 1.6121732695157154,
+      "cap_mass": 0.018912,
+      "raw_p99": 87.71863465493749
+    },
+    {
+      "position": "TE",
+      "mean_target": 5.0,
+      "cv_target": 0.7,
+      "raw_mean": 4.999068543481052,
+      "raw_cv": 0.699622040055506,
+      "cap": 22.5,
+      "capped_mean": 4.980527795665301,
+      "mean_loss_pct": 0.3708840487880116,
+      "cap_mass": 0.003518,
+      "raw_p99": 17.783697066475025
+    },
+    {
+      "position": "TE",
+      "mean_target": 15.0,
+      "cv_target": 0.7,
+      "raw_mean": 14.9839515305586,
+      "raw_cv": 0.7014157836023447,
+      "cap": 67.5,
+      "capped_mean": 14.927417082145217,
+      "mean_loss_pct": 0.3772999952521672,
+      "cap_mass": 0.0035,
+      "raw_p99": 53.430157078354675
+    },
+    {
+      "position": "TE",
+      "mean_target": 25.0,
+      "cv_target": 0.7,
+      "raw_mean": 25.016139134809336,
+      "raw_cv": 0.7009743808566294,
+      "cap": 75,
+      "capped_mean": 24.577740300056213,
+      "mean_loss_pct": 1.75246400889697,
+      "cap_mass": 0.020004,
+      "raw_p99": 88.82564366410354
+    },
+    {
+      "position": "DEF",
+      "mean_target": 5.0,
+      "cv_target": 0.7,
+      "raw_mean": 5.00471637603064,
+      "raw_cv": 0.7015116492229488,
+      "cap": 22.5,
+      "capped_mean": 4.985363952076766,
+      "mean_loss_pct": 0.38668372990243727,
+      "cap_mass": 0.003592,
+      "raw_p99": 17.826458472584683
+    },
+    {
+      "position": "DEF",
+      "mean_target": 15.0,
+      "cv_target": 0.7,
+      "raw_mean": 15.021041673458862,
+      "raw_cv": 0.7017825384563997,
+      "cap": 67.5,
+      "capped_mean": 14.963959934230179,
+      "mean_loss_pct": 0.3800118558324961,
+      "cap_mass": 0.00358,
+      "raw_p99": 53.82037548916443
+    },
+    {
+      "position": "DEF",
+      "mean_target": 25.0,
+      "cv_target": 0.7,
+      "raw_mean": 25.006553444303655,
+      "raw_cv": 0.7013633748967124,
+      "cap": 75,
+      "capped_mean": 24.56203326713352,
+      "mean_loss_pct": 1.7776147287158262,
+      "cap_mass": 0.019916,
+      "raw_p99": 89.29944328088466
+    }
+  ],
+  "observed_tails": {
+    "DB": {
+      "n": 7,
+      "negative": 0,
+      "zero": 0,
+      "above_75": 0,
+      "above_4_5x": 0
+    },
+    "DEF": {
+      "n": 1536,
+      "negative": 91,
+      "zero": 73,
+      "above_75": 0,
+      "above_4_5x": 4
+    },
+    "FB": {
+      "n": 135,
+      "negative": 1,
+      "zero": 66,
+      "above_75": 0,
+      "above_4_5x": 10
+    },
+    "K": {
+      "n": 1511,
+      "negative": 16,
+      "zero": 45,
+      "above_75": 0,
+      "above_4_5x": 0
+    },
+    "QB": {
+      "n": 1537,
+      "negative": 8,
+      "zero": 1,
+      "above_75": 0,
+      "above_4_5x": 0
+    },
+    "RB": {
+      "n": 3050,
+      "negative": 27,
+      "zero": 76,
+      "above_75": 0,
+      "above_4_5x": 12
+    },
+    "TE": {
+      "n": 2003,
+      "negative": 3,
+      "zero": 230,
+      "above_75": 0,
+      "above_4_5x": 9
+    },
+    "WR": {
+      "n": 4972,
+      "negative": 18,
+      "zero": 528,
+      "above_75": 0,
+      "above_4_5x": 25
+    }
+  },
+  "manager_behavior": {
+    "resolved_journal_offers": 0,
+    "deployment": "Do not fit personalized probabilities until sufficient dated accepted/rejected/silent offer evidence exists. Activity is descriptive, not an acceptance label."
+  }
+}

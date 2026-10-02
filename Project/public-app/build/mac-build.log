@@ -1,0 +1,590 @@
+2026-09-17 10:58:56.475 xcodebuild[10207:323002]  DVTFilePathFSEvents: Failed to start fs event stream.
+2026-09-17 10:58:56.593 xcodebuild[10207:323000] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+2026-09-17 10:58:56.837 xcodebuild[10207:323002] CoreSimulatorService connection became invalid.  Simulator services will no longer be available.
+Command line invocation:
+    /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project public-app/Binocular.xcodeproj -scheme Binocular -sdk macosx -configuration Debug -derivedDataPath public-app/build/mac CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+    SDKROOT = macosx27.0
+
+2026-09-17 10:58:56.883 xcodebuild[10207:323002] Logging connecton invalid: <OS_xpc_error: <dictionary: 0x1f4c8f0e0> { count = 1, transaction: 0, voucher = 0x0, contents =
+	"XPCErrorDescription" => <string: 0x1f4c8f220> { string cache = 0x0, length = 18, contents = "Connection invalid" }
+}>
+2026-09-17 10:58:56.883 xcodebuild[10207:323002] Error opening log file (/Users/owen.coffer/Library/Logs/CoreSimulator/CoreSimulator.com.apple.dt.xcodebuild.log): Operation not permitted
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]:499] WARN  : Unable to discover any Simulator runtimes. Developer Directory is /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer.
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]_block_invoke:556] ERROR : Could not get list of trusted mount directories: Error Domain=com.apple.CoreSimulator.SimError Code=409 "Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded" UserInfo={NSLocalizedDescription=Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded}
+[-[SimDiskImageManager init]:175] ERROR : Could not kickstart simdiskimaged; SimDiskImageManager services will not be available: Error Domain=NSPOSIXErrorDomain Code=53 "Software caused connection abort" UserInfo={NSLocalizedDescription=Error returned in reply from CoreSimulatorService: Connection invalid}
+[-[SimDiskImageManager _onQueue_checkConnection:]:219] ERROR : simdiskimaged connection is currently unavailable because connection became invalid
+[-[SimDiskImageManager _onQueue_checkConnection:]:239] ERROR : simdiskimaged returned error (invalid), marking disconnected.
+[-[SimServiceContext sendRequest:reply:error:]:1982] ERROR : Unable to deliver request ({
+    request = "notification_subscription";
+    "set_path" = "/Users/owen.coffer/Library/Developer/CoreSimulator/Devices";
+}) because we are not connected to CoreSimulatorService.
+2026-09-17 10:58:56.884 xcodebuild[10207:323017] Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}
+[-[SimServiceContext sendRequest:reply:error:]:1982] ERROR : Unable to deliver request ({
+    request = "notification_subscription";
+    "set_path" = "/Users/owen.coffer/Library/Developer/CoreSimulator/Devices";
+}) because we are not connected to CoreSimulatorService.
+2026-09-17 10:58:56.884 xcodebuild[10207:323017]  iOSSimulator: [SimServiceContext defaultDeviceSetWithError:] returned nil (Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedFailureReason=Failed to subscribe to notifications from CoreSimulatorService., NSLocalizedDescription=Failed to initialize simulator device set., NSUnderlyingError=0x7a50168630 {Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}}}). Simulator device support disabled.
+2026-09-17 10:58:56.885 xcodebuild[10207:323001] Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}
+2026-09-17 10:58:56.885 xcodebuild[10207:323001]  IDESimulatorAvailability: startObservingSimulatorUpdates() FAILED to register SimDeviceSet observer
+2026-09-17 10:58:56.885 xcodebuild[10207:323000] [MT] DVTAssertions: Warning in DVTFrameworks/DVTFoundation/FileTypes/DVTFileDataTypeDetection.m:80
+Details:  detectedTypeIdentifier (com.apple.binary-property-list) does not conform to matchedTypeIdentifier in MagicFileDataTypeDetector extenson com.apple.property-list. When both are specified, this conformance is required unless overridden by setting allowNonInheritance. extension.identifier:Xcode.MagicFileDataTypeDetector.BinaryPlist
+Object:   <DVTFileDataTypeDetectionMagicCache: 0x7a5016a7f0>
+Method:   -initWithExtension:
+Thread:   <_NSMainThread: 0x100dbd2a0>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2026-09-17 10:58:56.886 xcodebuild[10207:323000] [MT] DVTAssertions: Warning in DVTFrameworks/DVTFoundation/FileTypes/DVTFileDataTypeDetection.m:80
+Details:  detectedTypeIdentifier (com.apple.xml-property-list) does not conform to matchedTypeIdentifier in MagicFileDataTypeDetector extenson com.apple.property-list. When both are specified, this conformance is required unless overridden by setting allowNonInheritance. extension.identifier:Xcode.MagicFileDataTypeDetector.XMLPlist
+Object:   <DVTFileDataTypeDetectionMagicCache: 0x7a5016a7f0>
+Method:   -initWithExtension:
+Thread:   <_NSMainThread: 0x100dbd2a0>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2026-09-17 10:58:56.945 xcodebuild[10207:323000] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:macOS, arch:arm64, id:00008142-001948362E2B401C, name:My Mac }
+{ platform:macOS, arch:x86_64, id:00008142-001948362E2B401C, name:My Mac }
+{ platform:macOS, name:Any Mac }
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'Binocular' in project 'Binocular' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: dcde68a219fa45a515e2ca041c9569e8
+Build description path: /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/XCBuildData/dcde68a219fa45a515e2ca041c9569e8.xcbuilddata
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/ModuleCache.noindex
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/ModuleCache.noindex
+
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/CompilationCache.noindex
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/CompilationCache.noindex
+
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products
+
+ClangStatCache /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKStatCaches.noindex/macosx27.0-26A425-1cd2a9feaeefb4d3c1ec088c89b05fd1.sdkstatcache
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -o /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKStatCaches.noindex/macosx27.0-26A425-1cd2a9feaeefb4d3c1ec088c89b05fd1.sdkstatcache
+
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/PrecompiledHeaders
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/PrecompiledHeaders
+
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+
+CreateBuildDirectory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    builtin-create-build-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular-6ecf99979625f6f5677cab6f7d75a1f3-VFS/all-product-headers.yaml
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Binocular.xcodeproj
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular-6ecf99979625f6f5677cab6f7d75a1f3-VFS/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular.hmap (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular.hmap
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/empty-Binocular.plist (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/empty-Binocular.plist
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular.DependencyStaticMetadataFileList (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular.DependencyMetadataFileList (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.LinkFileList (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.LinkFileList
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular-OutputFileMap.json (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.SwiftFileList (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.SwiftFileList
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular_const_extract_protocols.json (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.SwiftConstValuesFileList (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-project-headers.hmap (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-project-headers.hmap
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-own-target-headers.hmap (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-generated-files.hmap (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-generated-files.hmap
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-all-target-headers.hmap (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-all-non-framework-target-headers.hmap (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-DebugDylibPath-normal-arm64.txt (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-DebugDylibInstallName-normal-arm64.txt (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    write-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/MacOS (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    /bin/mkdir -p /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/MacOS
+
+MkDir /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Resources (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    /bin/mkdir -p /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Resources
+
+MkDir /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    /bin/mkdir -p /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents
+
+MkDir /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    /bin/mkdir -p /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app
+
+Ld /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/MacOS/__preview.dylib normal (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.0 -dynamiclib -isysroot /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -Os -Xlinker -no_warn_duplicate_libraries -L/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug -F/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug -install_name @rpath/Binocular.debug.dylib -Xlinker -dependency_info -Xlinker /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular_dependency_info.dat -o /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/MacOS/__preview.dylib
+
+MkDir /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_output/thinned (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    /bin/mkdir -p /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_output/thinned
+
+MkDir /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_output/unthinned (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    /bin/mkdir -p /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_output/unthinned
+
+CopyPlistFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Resources/ServiceConfig.plist /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/ServiceConfig.plist (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    builtin-copyPlist --outdir /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Resources -- /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/ServiceConfig.plist
+
+GenerateAssetSymbols /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Assets.xcassets (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/usr/bin/actool /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Assets.xcassets --compile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Resources --output-format human-readable-text --notices --warnings --export-dependency-info /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_dependencies --output-partial-info-plist /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_generated_info.plist --app-icon AppIcon --enable-on-demand-resources NO --development-region en --target-device mac --minimum-deployment-target 14.0 --platform macosx --bundle-identifier app.binocular.preview --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+2026-09-17 10:58:58.682 ibtoold[10215:323167] CoreSimulatorService connection became invalid.  Simulator services will no longer be available.
+2026-09-17 10:58:58.682 ibtoold[10215:323182] Logging connecton invalid: <OS_xpc_error: <dictionary: 0x1f4c8f0e0> { count = 1, transaction: 0, voucher = 0x0, contents =
+	"XPCErrorDescription" => <string: 0x1f4c8f220> { string cache = 0x0, length = 18, contents = "Connection invalid" }
+}>
+2026-09-17 10:58:58.683 ibtoold[10215:323183] Error opening log file (/Users/owen.coffer/Library/Logs/CoreSimulator/CoreSimulator.com.apple.ibtool.log): Operation not permitted
+[-[SimServiceContext sendRequest:]:1961] ERROR : Unable to deliver request ({
+    "developer_dir" = "/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer";
+    request = "set_developer_dir";
+}) because we are not connected to CoreSimulatorService.
+/* com.apple.actool.compilation-results */
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/GeneratedAssetSymbols.swift
+
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]:499] WARN  : Unable to discover any Simulator runtimes. Developer Directory is /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer.
+
+CompileAssetCatalogVariant thinned /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Resources /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Assets.xcassets (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/usr/bin/actool /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Assets.xcassets --compile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --enable-on-demand-resources NO --development-region en --target-device mac --minimum-deployment-target 14.0 --platform macosx
+2026-09-17 10:58:58.681 ibtoold[10217:323179] CoreSimulatorService connection became invalid.  Simulator services will no longer be available.
+2026-09-17 10:58:58.681 ibtoold[10217:323180] Logging connecton invalid: <OS_xpc_error: <dictionary: 0x1f4c8f0e0> { count = 1, transaction: 0, voucher = 0x0, contents =
+	"XPCErrorDescription" => <string: 0x1f4c8f220> { string cache = 0x0, length = 18, contents = "Connection invalid" }
+}>
+2026-09-17 10:58:58.682 ibtoold[10217:323179] Error opening log file (/Users/owen.coffer/Library/Logs/CoreSimulator/CoreSimulator.com.apple.ibtool.log): Operation not permitted
+[-[SimServiceContext sendRequest:]:1961] ERROR : Unable to deliver request ({
+    "developer_dir" = "/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer";
+    request = "set_developer_dir";
+}) because we are not connected to CoreSimulatorService.
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]:499] WARN  : Unable to discover any Simulator runtimes. Developer Directory is /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer.
+[-[SimDiskImageManager init]:175] ERROR : Could not kickstart simdiskimaged; SimDiskImageManager services will not be available: Error Domain=NSPOSIXErrorDomain Code=53 "Software caused connection abort" UserInfo={NSLocalizedDescription=Error returned in reply from CoreSimulatorService: Connection invalid}
+[-[SimDiskImageManager _onQueue_checkConnection:]:219] ERROR : simdiskimaged connection is currently unavailable because connection became invalid
+[-[SimDiskImageManager _onQueue_checkConnection:]:219] ERROR : simdiskimaged connection is currently unavailable because connection became invalid
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]_block_invoke:556] ERROR : Could not get list of trusted mount directories: Error Domain=com.apple.CoreSimulator.SimError Code=409 "Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded" UserInfo={NSLocalizedDescription=Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded}
+[-[SimServiceContext sendRequest:reply:error:]:1982] ERROR : Unable to deliver request ({
+    request = "notification_subscription";
+    "set_path" = "/Users/owen.coffer/Library/Developer/CoreSimulator/Devices";
+}) because we are not connected to CoreSimulatorService.
+2026-09-17 10:58:58.765 ibtoold[10217:323164] Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}
+/* com.apple.actool.compilation-results */
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_generated_info.plist_thinned
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_output/thinned/AppIcon.icns
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_output/thinned/Assets.car
+
+
+LinkAssetCatalog /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Assets.xcassets (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    builtin-linkAssetCatalog --thinned /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_output/thinned --thinned-dependencies /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_generated_info.plist_unthinned --output /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Resources --plist-output /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Resources/AppIcon.icns (in target 'Binocular' from project 'Binocular')
+note: Emplaced /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Resources/Assets.car (in target 'Binocular' from project 'Binocular')
+
+ProcessInfoPlistFile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Info.plist /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/empty-Binocular.plist (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    builtin-infoPlistUtility /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/empty-Binocular.plist -producttype com.apple.product-type.application -genpkginfo /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/assetcatalog_generated_info.plist -o /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/Binocular.app/Contents/Info.plist
+
+SwiftDriver Binocular normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    builtin-SwiftDriver -- /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Binocular -Onone @/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -target arm64-apple-macos14.0 -g -module-cache-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/ModuleCache.noindex -Xfrontend -serialize-debugging-options -index-store-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Index.noindex/DataStore -swift-version 5 -I /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug -F /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKStatCaches.noindex/macosx27.0-26A425-1cd2a9feaeefb4d3c1ec088c89b05fd1.sdkstatcache -output-file-map /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/ModuleCache.noindex -sdk-module-cache-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular_const_extract_protocols.json -Xcc -iquote -Xcc /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-generated-files.hmap -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-own-target-headers.hmap -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-all-target-headers.hmap -Xcc -iquote -Xcc /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-project-headers.hmap -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/include -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources-normal/arm64 -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/arm64 -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular-Swift.h -working-directory /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_float-8FQ5OMX9HU5J4KASK3B8HLYMQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_AvailabilityInternal-1AUDTTGRYNS7CNPXATSYSTAG0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/DeveloperToolsSupport-3BJJZZ1O0M8NBF0O6K8S8D1TX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_stdbool-D5O2XFL8G2JG3S1MKDHN1MNT4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-6SHMCQOO9EQS2PC50G4O22PGG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_stddef-1D4MV9YTB6X4J0ZX2WKJN9OPS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/SwiftShims-AB7P312SYM1U37CXSXYBSGIF3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_stdarg-98IR4EIOM45N1DKFPQ8KDMHW1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/ptrcheck-74WWAN888WR3GAFGCBJ8VT20V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/ptrauth-295ETA39X7ALFZ1D189YAAR36.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_DarwinFoundation1-FHQZYS0U7KWY2UXGJROSYQQC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_limits-5F0Z6XLSE78XWF103UX3RILR9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_DarwinFoundation2-8YMAYUL3BMIC6UCFN0XYTYWDM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/string_h-HZ0D6ZBKUMKR4L0K2MUEXSV7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_tgmath-3YRL2FZI59JSTI4M1WSRWZMQ4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_stdint-3AV3WUZ5FJ82TOG28GK9711XY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/sys_types-B7RDIIO9OSS0OP409VYJE7OQO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/libDER-CZA4TWMQ35L5K9HNJBWJP16JN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_stdatomic-7PK3APSZESSCQU4HUFMHE0JPZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_DarwinFoundation3-1A9PZ64EZ5L2Z6UN6WTWSQJE4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_intrinsics-57HVUVHJ665GZIPBNR5Q8FCYW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/_Builtin_inttypes-AFQ09I56EIRYW6P5E8GDR8PMH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/Darwin-57NZFUY33T9VCPTRZ09I7AML8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/simd-8J94MA3FL4PA8Q9VEHUTHE5NR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/MachO-NXAOUV0BPTTKQK0I64SEWJ0U.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CUPS-7TMMOT5FLY3WDF57W42ORSP2Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/libkern-83AJ3Q46DFO5K5WJHBL11HJKC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/launch-4CQKB5JIPFH9MIEP11Z9DERD4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/Spatial-8VMX5DO6JDWV21FLMSKA5CAVF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/ObjectiveC-CYQQLCSR3TZ2OS8O9JY9Q2CIQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/os_object-7S5PY0YCXM5CZSUY7EVS1420Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/os_workgroup-BOXJZ93YATJ2LRXNOAL1C6XGI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/Dispatch-3LMYDHD130ZGSMNSGCK9N24C3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/XPC-1WJJV6H6AV7UVHXWO4CTODPC3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreFoundation-BQMTDXLM6DLP4JDL2P604DVIF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/os-A7CC2GPCL4FC96CPX78BB9J2E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/Security-5B6RYW3ZDB2I71RIYYY6DAWKQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CFNetwork-1PNDI7I2SDF79SW6JFJ4MKEJ6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/ColorSync-OKF4O9QN52R37FL9RM2H32CP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/IOKit-CB6HWMQD4ZG6QPCYN2HVHY6G9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreAudioTypes-8RZVFTGEMBNWOOYMCKMEY91ZN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreGraphics-5EVQOSRIZW5DDMEFMQ999RSH5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/DiskArbitration-5GF9TDXA0V5DK08XC05VEQQ63.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreServices-1VF7ZT0BVARWNTAQTCYA181OK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/ImageIO-699LM918N90595QYAT0ZTMCMO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreText-AGFBQ48CBIB3OH07BU1DMKENP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/Foundation-2D8GJTAJLS6P08VCZNTK2E5SA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/Symbols-82PJHQH2SBZNVFGAE2XKGTBG2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreAudio-4WHAG95KUNJEFPSZM0VBWI8PM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/DataDetection-CFVPQMKY9PRE8YY4D9SC5ISZI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/ApplicationServices-D0PZB1XP5IJWONBCJ3ICG90P5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/OSLog-9TJVR9IDDBMCPGD4Y8UC7S2X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreData-DLXHBGIB98AOS6QFGWLL9RLRX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreTransferable-2HKJWM5L1ULF2DI8Y1S2XRVBD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-RXWEDRVABTXI7F7RZ7V5GCRQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/IOSurface-A8DRXFLKZS3NI4HPXDOWGHFGW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/Accessibility-CAPJHV5WDF18CGGI10BT0O05S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/OpenGL-8ZCDA3W5F99ZYCD0BRA12BSP3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/Metal-7MIT4UOGTUMBPAOHZ34CDV8CV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreVideo-6TUZOXD6R063VQTSN3YU53NDT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/QuartzCore-DG9IQI7N2Y58NF4DP9HYXM9HS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreImage-C18PXCH977F292XWY46QD7C4K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/CoreMedia-1A1H9T0WTZYNV4ITW8XCNZNLD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/SwiftUICore-AP5IZWOHTLD83ICBTQX6RS55T.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/AppKit-25AAAL9WXMOWI0T3NWRDT4JDR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules/SwiftUI-5LKYC2V8X2X7QB4Q85OVRUMQ8.pcm
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ Binocular (in target 'Binocular' from project 'Binocular')
+sandbox-exec: sandbox_apply: Operation not permitted
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:115:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+113 | struct LoginView: View {
+114 |     @EnvironmentObject var model: AccountModel
+115 |     @State private var email = ""
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+116 |     @State private var code = ""
+117 |     var body: some View {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:116:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+114 |     @EnvironmentObject var model: AccountModel
+115 |     @State private var email = ""
+116 |     @State private var code = ""
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+117 |     var body: some View {
+118 |         ScrollView {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:115:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+113 | struct LoginView: View {
+114 |     @EnvironmentObject var model: AccountModel
+115 |     @State private var email = ""
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+116 |     @State private var code = ""
+117 |     var body: some View {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:116:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+114 |     @EnvironmentObject var model: AccountModel
+115 |     @State private var email = ""
+116 |     @State private var code = ""
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+117 |     var body: some View {
+118 |         ScrollView {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:187:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+185 | struct AccountView: View {
+186 |     @EnvironmentObject var model: AccountModel
+187 |     @State private var deleting = false
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+188 |     var body: some View {
+189 |         Form {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:187:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+185 | struct AccountView: View {
+186 |     @EnvironmentObject var model: AccountModel
+187 |     @State private var deleting = false
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+188 |     var body: some View {
+189 |         Form {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+Failed frontend command:
+
+SwiftCompile normal arm64 (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    
+
+/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/Service.swift /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/GeneratedAssetSymbols.swift -target arm64-apple-macos14.0 -module-can-import-version DeveloperToolsSupport 24.0.24 24.0.24 -disable-cross-import-overlay-search -load-resolved-plugin /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -I /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug -F /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug -module-cache-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -no-color-diagnostics -Xcc -fno-color-diagnostics -g -debug-info-format\=dwarf -dwarf-version\=4 -swift-version 5 -Onone -serialize-debugging-options -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app -enable-anonymous-context-mangled-names -file-compilation-dir /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app -Xcc -ivfsstatcache -Xcc /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKStatCaches.noindex/macosx27.0-26A425-1cd2a9feaeefb4d3c1ec088c89b05fd1.sdkstatcache -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -iquote -Xcc /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-generated-files.hmap -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-own-target-headers.hmap -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-all-target-headers.hmap -Xcc -iquote -Xcc /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Binocular-project-headers.hmap -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Products/Debug/include -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources-normal/arm64 -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/arm64 -Xcc -I/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources -no-auto-bridging-header-chaining -module-name Binocular -const-gather-protocols-file /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular_const_extract_protocols.json -disable-clang-spi -clang-target arm64-apple-macos27.0 -target-sdk-version 27.0 -target-sdk-name macosx27.0 -in-process-plugin-server-path /Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -emit-module-doc-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.swiftdoc -emit-module-source-info-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.swiftsourceinfo -emit-objc-header-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular-Swift.h -serialize-diagnostics-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular-primary-emit-module.dia -emit-dependencies-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular-primary-emit-module.d -o /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.swiftmodule -emit-abi-descriptor-path /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/Objects-normal/arm64/Binocular.abi.json
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Binocular' from project 'Binocular')
+
+SwiftCompile normal arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/Binocular.build/Debug/Binocular.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    builtin-SwiftPerFileCompile GeneratedAssetSymbols.swift
+
+SwiftCompile normal arm64 Compiling\ BinocularApp.swift /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift (in target 'Binocular' from project 'Binocular')
+sandbox-exec: sandbox_apply: Operation not permitted
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:115:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+113 | struct LoginView: View {
+114 |     @EnvironmentObject var model: AccountModel
+115 |     @State private var email = ""
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+116 |     @State private var code = ""
+117 |     var body: some View {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:116:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+114 |     @EnvironmentObject var model: AccountModel
+115 |     @State private var email = ""
+116 |     @State private var code = ""
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+117 |     var body: some View {
+118 |         ScrollView {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:115:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+113 | struct LoginView: View {
+114 |     @EnvironmentObject var model: AccountModel
+115 |     @State private var email = ""
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+116 |     @State private var code = ""
+117 |     var body: some View {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:116:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+114 |     @EnvironmentObject var model: AccountModel
+115 |     @State private var email = ""
+116 |     @State private var code = ""
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+117 |     var body: some View {
+118 |         ScrollView {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+/Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift:187:24: error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+185 | struct AccountView: View {
+186 |     @EnvironmentObject var model: AccountModel
+187 |     @State private var deleting = false
+    |                        `- error: external macro implementation type 'SwiftUIMacros.StateMacro' could not be found for macro 'State()'; '/Users/owen.coffer/Downloads/Installers/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server' produced malformed response
+188 |     var body: some View {
+189 |         Form {
+
+SwiftUI.State:1:145: note: 'State()' declared here
+1 | @attached(accessor, names: named(init), named(get), named(set)) @attached(peer, names: prefixed(`_`), prefixed(__), prefixed(`$`)) public macro State() = #externalMacro(module: "SwiftUIMacros", type: "StateMacro")
+  |                                                                                                                                                 `- note: 'State()' declared here
+
+
+SwiftCompile normal arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/BinocularApp.swift (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    builtin-SwiftPerFileCompile BinocularApp.swift
+
+SwiftCompile normal arm64 Compiling\ Service.swift /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/Service.swift (in target 'Binocular' from project 'Binocular')
+
+SwiftCompile normal arm64 /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/Sources/Binocular/Service.swift (in target 'Binocular' from project 'Binocular')
+    cd /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app
+    builtin-SwiftPerFileCompile Service.swift
+
+PruneExplicitPrecompiledModules /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/SDKExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/owen.coffer/Documents/Codex/2026-09-15/i-x20/public-app/build/mac/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+note: Disabling hardened runtime with ad-hoc codesigning. (in target 'Binocular' from project 'Binocular')
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftCompile normal arm64 (in target 'Binocular' from project 'Binocular')
+	SwiftEmitModule normal arm64 Emitting\ module\ for\ Binocular (in target 'Binocular' from project 'Binocular')
+	Building project Binocular with scheme Binocular and configuration Debug
+(3 failures)

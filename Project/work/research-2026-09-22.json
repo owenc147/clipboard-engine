@@ -1,0 +1,942 @@
+{
+  "name": "Binocular",
+  "user": "coffero",
+  "season": "2026",
+  "week": 3,
+  "reviewed_at": "2026-09-22",
+  "updated_at": "2026-09-22T20:57:12.528500+00:00",
+  "valid_until": "2026-09-23T20:57:12.528500+00:00",
+  "expires_after": "2026-09-29",
+  "scope": "Daily Week 3 scouting edition across every current Sleeper league. Recommendations are analyst judgments checked against live ownership and scoring; confirm later practice reports and game locks in Sleeper before acting.",
+  "sources": {
+    "sleeper": {
+      "title": "Sleeper API documentation",
+      "url": "https://docs.sleeper.com/",
+      "date": "Checked Sep 22, 2026",
+      "kind": "Live league data",
+      "finding": "The refreshed snapshot supplies current rosters, starters, injuries, scoring, transactions and league ownership. Injury labels still require later official confirmation."
+    },
+    "commanders": {
+      "title": "Commanders · latest on Jayden Daniels",
+      "url": "https://www.commanders.com/news/jayden-daniels-dan-quinn-commanders",
+      "date": "Sep 21, 2026",
+      "kind": "Official team report",
+      "finding": "Washington says Daniels dislocated his elbow and Marcus Mariota is the current starter while specialist review continues."
+    },
+    "bears": {
+      "title": "Bears · Caleb Williams week-to-week",
+      "url": "https://www.chicagobears.com/news/caleb-williams-week-to-week-with-hamstring-injury",
+      "date": "Sep 21, 2026",
+      "kind": "Official team report",
+      "finding": "Chicago calls Williams week-to-week with a right hamstring injury and does not expect him to practice this week, although he has not been formally ruled out."
+    },
+    "nfl_waiver": {
+      "title": "NFL Fantasy · Week 3 waiver wire",
+      "url": "https://www.nfl.com/news/2026-nfl-fantasy-football-waiver-wire-week-3-broncos-rb-jonah-coleman-among-top-targets",
+      "date": "Sep 22, 2026",
+      "kind": "NFL fantasy analysis",
+      "finding": "Jonah Coleman and Bryce Young lead the NFL.com Week 3 waiver priorities; league ownership must still be checked before any claim."
+    },
+    "fp_waiver": {
+      "title": "FantasyPros · Week 3 PPR waiver rankings",
+      "url": "https://www.fantasypros.com/nfl/rankings/?scoring=PPR&type=waiver",
+      "date": "Sep 22, 2026",
+      "kind": "Consensus analyst rankings",
+      "finding": "The current board places Tyler Shough, Denzel Boston and Jonah Coleman among the leading claims. Rankings are opinions, not custom-scoring projections."
+    },
+    "pff": {
+      "title": "PFF · Week 3 waiver targets",
+      "url": "https://www.pff.com/news/fantasy-football-waiver-wire-targets-2026",
+      "date": "Sep 21, 2026",
+      "kind": "Usage analysis",
+      "finding": "PFF highlights Denzel Boston’s near-every-down role and Jonah Coleman’s increased opportunity. Confirm availability inside each league."
+    },
+    "weekly": {
+      "title": "WaiverWire · Week 3 weekly and rest-of-season rankings",
+      "url": "https://waiverwire.com/cheat-sheets",
+      "date": "Sep 22, 2026",
+      "kind": "Analyst rankings",
+      "finding": "Week 3 weekly and rest-of-season boards distinguish short-term lineup value from longer-term roster value. These are independent opinions, not custom projections."
+    }
+  },
+  "leagues": {
+    "1403096266736422912": {
+      "name": "Jacked Pine",
+      "roster_ids": [
+        "10222",
+        "11566",
+        "11581",
+        "11635",
+        "1945",
+        "4866",
+        "6904",
+        "7002",
+        "7543",
+        "7547",
+        "7611",
+        "8131",
+        "8146",
+        "8183",
+        "9224",
+        "9484",
+        "9488",
+        "DEN"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "pass_int": -2.0,
+        "pts_allow_0": 14.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 0.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 2.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 10.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 6.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 6.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "SUPER_FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "trades": [],
+      "headline": "Move Purdy into Superflex for Daniels.",
+      "strategy": "Protect the two-quarterback lineup first. Keep Barkley in for now, with a healthy bench contingency ready if his status worsens.",
+      "calls": [
+        {
+          "kind": "Lineup",
+          "title": "Start Brock Purdy over Jayden Daniels",
+          "reason": "Daniels is listed Out and Washington says Marcus Mariota is the current starter after Daniels dislocated his elbow.",
+          "confidence": "Strong",
+          "sources": [
+            "commanders",
+            "sleeper"
+          ],
+          "recheck": "Move Purdy into Superflex now; reconsider only after a later official Daniels update."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Recheck Saquon Barkley",
+          "reason": "Sleeper currently lists Barkley Questionable, but no final Week 3 game designation is available in today’s reviewed sources.",
+          "confidence": "Monitor",
+          "sources": [
+            "sleeper"
+          ],
+          "recheck": "Keep him starting for now and check the official Eagles practice reports later this week."
+        },
+        {
+          "kind": "Hold",
+          "title": "Keep the current receiver depth",
+          "reason": "Reed is Out, while McConkey is healthy on the refreshed roster. A speculative waiver receiver does not yet justify cutting established depth.",
+          "confidence": "Hold",
+          "sources": [
+            "sleeper",
+            "pff"
+          ],
+          "recheck": "Preserve McConkey; revisit only if a specific add becomes clearly available and upgrades the bench."
+        }
+      ],
+      "watch": [
+        "Jayden Daniels",
+        "Saquon Barkley",
+        "Jayden Reed",
+        "Denzel Boston",
+        "Jonah Coleman"
+      ],
+      "scoring_note": "Six-point passing touchdowns increase the value of maintaining two active quarterbacks in the QB and Superflex slots.",
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "RB",
+          "id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "note": "Monitor Questionable status"
+        },
+        {
+          "slot": "RB",
+          "id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "TE",
+          "id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "FLEX",
+          "id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "FLEX",
+          "id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "SUPER_FLEX",
+          "id": "8183",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
+          "note": "Start Purdy while Daniels is Out"
+        },
+        {
+          "slot": "K",
+          "id": "1945",
+          "name": "Chris Boswell",
+          "position": "K",
+          "team": "PIT",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "DEF",
+          "id": "DEN",
+          "name": "DEN",
+          "position": "DEF",
+          "team": "DEN",
+          "note": "Keep current starter"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Move Purdy into Superflex",
+          "body": "Daniels is Out and Washington identifies Mariota as the current starter. Purdy is already rostered, so this fixes the lineup without a claim.",
+          "sources": [
+            "commanders",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Recheck Barkley later this week",
+          "body": "Keep him in today, but confirm practice participation and final game status before lock.",
+          "sources": [
+            "sleeper"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Start",
+          "id": "8183",
+          "title": "Start Brock Purdy over Jayden Daniels",
+          "reason": "Daniels is Out; Washington says Mariota is the current starter.",
+          "cost": "No waiver cost because Purdy is already rostered. The cost is using your quarterback depth now.",
+          "sources": [
+            "commanders",
+            "sleeper"
+          ],
+          "drop_id": null,
+          "confidence": "Strong"
+        },
+        {
+          "action": "Monitor",
+          "id": "4866",
+          "title": "Recheck Saquon Barkley",
+          "reason": "Sleeper lists him Questionable in the fresh snapshot.",
+          "cost": "Keep him starting today; switch only if later official reporting indicates he will sit or be limited.",
+          "sources": [
+            "sleeper"
+          ],
+          "drop_id": null,
+          "confidence": "Monitor"
+        },
+        {
+          "action": "Hold",
+          "id": "11635",
+          "title": "Keep Ladd McConkey",
+          "reason": "Reed is Out and McConkey is a healthy on-roster receiver option.",
+          "cost": "Holding him preserves injury cover and costs no FAAB.",
+          "sources": [
+            "sleeper",
+            "weekly"
+          ],
+          "drop_id": null,
+          "confidence": "Hold"
+        }
+      ]
+    },
+    "1385050179488460800": {
+      "name": "Netanyahu Ball",
+      "roster_ids": [
+        "10222",
+        "11539",
+        "11563",
+        "11604",
+        "12501",
+        "12514",
+        "13414",
+        "2133",
+        "4046",
+        "5022",
+        "6790",
+        "7569",
+        "8155",
+        "9221",
+        "PHI"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.04,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "fum": 0.0,
+        "pts_allow_28_34": -1.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "trades": [],
+      "headline": "Fill the empty FLEX with Matthew Golden.",
+      "strategy": "Fix the empty lineup spot immediately. Hold Nico Collins and Brock Bowers through their Out designations; do not sell injured stars at a discount.",
+      "calls": [
+        {
+          "kind": "Lineup",
+          "title": "Start Matthew Golden in the empty FLEX",
+          "reason": "The refreshed lineup has one empty FLEX, while Golden is healthy on the bench.",
+          "confidence": "Strong",
+          "sources": [
+            "sleeper"
+          ],
+          "recheck": "Insert Golden now; an empty slot guarantees zero points."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Keep Dallas Goedert in, with a late-week check",
+          "reason": "Goedert is Questionable and Bowers is Out, so Goedert remains the only healthy starting-caliber tight end presently rostered.",
+          "confidence": "Monitor",
+          "sources": [
+            "sleeper"
+          ],
+          "recheck": "Check the official practice and game status; Michael Mayer is available only as contingency depth."
+        },
+        {
+          "kind": "Hold",
+          "title": "Keep Nico Collins and Brock Bowers",
+          "reason": "Both are listed Out. Their long-term value outweighs a reactionary drop, and the roster can field a legal Week 3 lineup without cutting either.",
+          "confidence": "Hold",
+          "sources": [
+            "sleeper",
+            "weekly"
+          ],
+          "recheck": "Use healthy bench players now and reassess recovery timelines later in the week."
+        }
+      ],
+      "watch": [
+        "Dallas Goedert",
+        "Nico Collins",
+        "Brock Bowers",
+        "Michael Mayer",
+        "Denzel Boston"
+      ],
+      "scoring_note": "PPR scoring and yardage bonuses support using a healthy receiver such as Golden in the vacant FLEX.",
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "4046",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "team": "KC",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "RB",
+          "id": "9221",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "RB",
+          "id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "TE",
+          "id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "note": "Monitor Questionable status"
+        },
+        {
+          "slot": "FLEX",
+          "id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "note": "Fill the previously empty FLEX"
+        },
+        {
+          "slot": "FLEX",
+          "id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "K",
+          "id": "11539",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "DEF",
+          "id": "PHI",
+          "name": "PHI",
+          "position": "DEF",
+          "team": "PHI",
+          "note": "Keep current starter"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Fill FLEX with Golden",
+          "body": "Golden is healthy and already rostered; leaving the slot empty has a certain scoring cost.",
+          "sources": [
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Goedert needs a late-week check",
+          "body": "He is Questionable and Bowers is Out. Keep Goedert slotted today, then verify practice status before lock.",
+          "sources": [
+            "sleeper"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Start",
+          "id": "12501",
+          "title": "Start Matthew Golden in the empty FLEX",
+          "reason": "Golden is healthy on the bench and the FLEX is empty.",
+          "cost": "No waiver or trade cost; this simply activates an owned player.",
+          "sources": [
+            "sleeper"
+          ],
+          "drop_id": null,
+          "confidence": "Strong"
+        },
+        {
+          "action": "Monitor",
+          "id": "5022",
+          "title": "Recheck Dallas Goedert",
+          "reason": "Goedert is Questionable and Bowers is Out.",
+          "cost": "Keep him in today, but a late absence would require a waiver tight end such as available Michael Mayer.",
+          "sources": [
+            "sleeper"
+          ],
+          "drop_id": null,
+          "confidence": "Monitor"
+        },
+        {
+          "action": "Hold",
+          "id": "7569",
+          "title": "Hold Nico Collins",
+          "reason": "Collins is Out, but remains a core roster asset.",
+          "cost": "The short-term cost is a bench spot; dropping or selling low would sacrifice rest-of-season upside.",
+          "sources": [
+            "sleeper",
+            "weekly"
+          ],
+          "drop_id": null,
+          "confidence": "Hold"
+        }
+      ]
+    },
+    "1360286127205912576": {
+      "name": "MSU Munches v2",
+      "roster_ids": [
+        "10232",
+        "11560",
+        "11610",
+        "12474",
+        "12517",
+        "12533",
+        "13287",
+        "13296",
+        "4892",
+        "4983",
+        "6786",
+        "6806",
+        "7042",
+        "MIN"
+      ],
+      "scoring_baseline": {
+        "sack": 1.0,
+        "fgm_40_49": 4.0,
+        "bonus_rec_yd_100": 1.0,
+        "bonus_rush_yd_100": 1.0,
+        "pass_int": -1.0,
+        "pts_allow_0": 10.0,
+        "bonus_pass_yd_400": 2.0,
+        "pass_2pt": 2.0,
+        "st_td": 6.0,
+        "rec_td": 6.0,
+        "fgm_30_39": 3.0,
+        "fgm_50_59": 5.0,
+        "xpmiss": -1.0,
+        "rush_td_50p": 0.0,
+        "rush_td": 6.0,
+        "rec_2pt": 2.0,
+        "pass_int_td": 0.0,
+        "st_fum_rec": 1.0,
+        "fgmiss": -1.0,
+        "ff": 1.0,
+        "rec": 1.0,
+        "pts_allow_14_20": 1.0,
+        "fgm_0_19": 3.0,
+        "int": 2.0,
+        "def_st_fum_rec": 1.0,
+        "fum_lost": -2.0,
+        "pts_allow_1_6": 7.0,
+        "fgm_60p": 6.0,
+        "fgm_20_29": 3.0,
+        "pts_allow_21_27": 0.0,
+        "bonus_pass_yd_300": 1.0,
+        "xpm": 1.0,
+        "rec_40p": 0.0,
+        "pass_cmp": 0.1,
+        "rush_2pt": 2.0,
+        "fum_rec": 2.0,
+        "bonus_rec_yd_200": 2.0,
+        "def_st_td": 6.0,
+        "def_td": 6.0,
+        "rec_td_40p": 0.0,
+        "bonus_rush_yd_200": 2.0,
+        "safe": 2.0,
+        "pass_yd": 0.044444444444444446,
+        "rec_td_50p": 0.0,
+        "blk_kick": 2.0,
+        "pass_td": 4.0,
+        "rush_yd": 0.1,
+        "rush_40p": 0.0,
+        "fum": 0.0,
+        "pts_allow_28_34": -2.0,
+        "pts_allow_35p": -4.0,
+        "fum_rec_td": 6.0,
+        "rec_yd": 0.1,
+        "rush_td_40p": 0.0,
+        "def_st_ff": 1.0,
+        "pts_allow_7_13": 4.0,
+        "st_ff": 1.0
+      },
+      "slots_baseline": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "trades": [],
+      "headline": "Start Baker Mayfield and Malik Washington.",
+      "strategy": "Remove both Out players from starting slots. Use healthy rostered replacements and preserve the bench until Caleb Douglas and J.K. Dobbins have clearer statuses.",
+      "calls": [
+        {
+          "kind": "Lineup",
+          "title": "Start Baker Mayfield over Caleb Williams",
+          "reason": "Williams is Out in Sleeper, and Chicago calls him week-to-week with a hamstring injury. Mayfield is healthy and already rostered.",
+          "confidence": "Strong",
+          "sources": [
+            "bears",
+            "sleeper"
+          ],
+          "recheck": "Make the quarterback swap now; do not wait on a player Chicago does not expect to practice this week."
+        },
+        {
+          "kind": "Lineup",
+          "title": "Start Malik Washington over DJ Moore",
+          "reason": "Moore is listed Out, while Washington is healthy on the bench.",
+          "confidence": "Strong",
+          "sources": [
+            "sleeper"
+          ],
+          "recheck": "Move Washington into WR; this avoids a zero without spending waiver priority."
+        },
+        {
+          "kind": "Monitor",
+          "title": "Keep Douglas and Dobbins on the bench",
+          "reason": "Douglas is Questionable and Dobbins is Questionable. The lineup can be filled with healthy players today.",
+          "confidence": "Monitor",
+          "sources": [
+            "sleeper",
+            "pff"
+          ],
+          "recheck": "Wait for official practice reports before considering either for FLEX or a transaction."
+        }
+      ],
+      "watch": [
+        "Caleb Williams",
+        "DJ Moore",
+        "Caleb Douglas",
+        "J.K. Dobbins",
+        "Denzel Boston"
+      ],
+      "scoring_note": "This league uses one quarterback and PPR. Availability drives today’s changes: Mayfield and Washington replace players currently listed Out.",
+      "lineup": [
+        {
+          "slot": "QB",
+          "id": "4892",
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB",
+          "note": "Start over injured Caleb Williams"
+        },
+        {
+          "slot": "RB",
+          "id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "RB",
+          "id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "6786",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "WR",
+          "id": "11610",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "note": "Start over injured DJ Moore"
+        },
+        {
+          "slot": "TE",
+          "id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "FLEX",
+          "id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "K",
+          "id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "note": "Keep current starter"
+        },
+        {
+          "slot": "DEF",
+          "id": "MIN",
+          "name": "MIN",
+          "position": "DEF",
+          "team": "MIN",
+          "note": "Keep current starter"
+        }
+      ],
+      "lineup_notes": [
+        {
+          "title": "Start Mayfield at quarterback",
+          "body": "Chicago calls Williams week-to-week and does not expect him to practice this week. Mayfield is the healthy rostered replacement.",
+          "sources": [
+            "bears",
+            "sleeper"
+          ]
+        },
+        {
+          "title": "Move Malik Washington into WR",
+          "body": "DJ Moore is Out in the refreshed roster, so Washington prevents a dead starting slot.",
+          "sources": [
+            "sleeper"
+          ]
+        }
+      ],
+      "player_moves": [
+        {
+          "action": "Start",
+          "id": "4892",
+          "title": "Start Baker Mayfield over Caleb Williams",
+          "reason": "Williams is Out and week-to-week with a hamstring injury.",
+          "cost": "No waiver cost; Mayfield is already rostered.",
+          "sources": [
+            "bears",
+            "sleeper"
+          ],
+          "drop_id": null,
+          "confidence": "Strong"
+        },
+        {
+          "action": "Start",
+          "id": "11610",
+          "title": "Start Malik Washington over DJ Moore",
+          "reason": "Moore is Out and Washington is healthy.",
+          "cost": "No waiver cost; the opportunity cost is leaving Michael Wilson in FLEX rather than moving another bench player up.",
+          "sources": [
+            "sleeper"
+          ],
+          "drop_id": null,
+          "confidence": "Strong"
+        },
+        {
+          "action": "Monitor",
+          "id": "13296",
+          "title": "Keep Caleb Douglas benched for now",
+          "reason": "Douglas is Questionable in the fresh snapshot.",
+          "cost": "Holding preserves upside, but starting him before official practice clarity adds avoidable risk.",
+          "sources": [
+            "sleeper",
+            "pff"
+          ],
+          "drop_id": null,
+          "confidence": "Monitor"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "name": "Jordan Love",
+      "role": "Ownership watch",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Devaughn Vele",
+      "role": "Ownership watch",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Caleb Douglas",
+      "role": "Ownership watch",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Braelon Allen",
+      "role": "Ownership watch",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Kaelon Black",
+      "role": "Ownership watch",
+      "sources": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Michael Mayer",
+      "role": "Ownership watch",
+      "sources": [
+        "sleeper"
+      ]
+    }
+  ],
+  "changes": [
+    "Week advanced to NFL Week 3.",
+    "Replaced two injured starting quarterbacks with healthy rostered backups.",
+    "Filled Netanyahu Ball’s empty FLEX with Matthew Golden.",
+    "Moved DJ Moore out of the MSU starting lineup while he is listed Out.",
+    "Retired all Week 2 trade ideas; no balanced player-for-player trade is recommended today."
+  ]
+}

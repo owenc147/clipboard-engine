@@ -1,0 +1,59 @@
+/* Prime Time theme: cinematic dark streaming look for Binocular. Original design, no third-party marks.
+   Loaded last; overrides colors, type and surfaces. Remove the <link> to restore the original look. */
+:root{--bg:#0b0b0c;--panel:#161618;--line:#2a2a2e;--text:#f5f5f1;--muted:#a3a3a8;--mint:#e5383b;--purple:#f2b134;
+ --pt-red:#e5383b;--pt-red-deep:#b0151b;--pt-gold:#f2b134;--pt-surface:#161618;--pt-raise:#1f1f23;--pt-line:#2a2a2e;
+ --pt-display:"Avenir Next Condensed","Helvetica Neue","Arial Narrow",sans-serif}
+body{background:radial-gradient(1200px 500px at 70% -10%,#2a0d0f 0%,transparent 60%),var(--bg);color:var(--text)}
+/* sidebar */
+aside{background:#0e0e10;border-right:1px solid #1d1d21}
+.logo{background:var(--pt-red);color:#fff;box-shadow:0 0 24px #e5383b55}
+.brand{font-family:var(--pt-display);font-weight:800;letter-spacing:.5px;text-transform:uppercase}
+.nav-label{color:#76767c}
+.nav{color:#b5b5ba}.nav:hover{background:#1c1c20;color:#fff}
+.nav.active{background:linear-gradient(90deg,#e5383b26,transparent);border-color:transparent;border-left:3px solid var(--pt-red);color:#fff;border-radius:4px}
+.active .league-icon{background:var(--pt-red);color:#fff}.league-icon{background:#26262b;color:#d6d6da}
+.avatar{border-color:#5a2a2c;color:#fff;background:var(--pt-red-deep)}
+/* headings */
+h1,.league-head h2,.desk-hero h2,.card h3,.desk-card h3{font-family:var(--pt-display);font-weight:800;letter-spacing:0;text-transform:none}
+h1{font-size:40px;letter-spacing:-.5px}
+.kicker{color:var(--pt-red);letter-spacing:2.4px;font-weight:700}
+/* buttons and view tabs */
+.action{background:#1f1f23;border-color:#34343a;color:#e6e6ea;border-radius:4px}.action:hover{background:#2b2b31}
+.primary,.action.primary{background:var(--pt-red);border-color:var(--pt-red);color:#fff}.primary:hover{background:#ff4d50}
+.view-switch button{border-radius:4px;transition:transform .15s,background .15s}
+.view-switch button.active{background:#fff;color:#111;border-color:#fff}
+.tab.active{color:#fff;border-bottom-color:var(--pt-red)}
+/* hero: billboard */
+.hero,.desk-hero,.lineup-hero{background:linear-gradient(90deg,#0b0b0cf2 0%,#0b0b0cb0 45%,#2a0d0f80 100%),url(stadium.svg) right center/cover;border:0;border-radius:6px;box-shadow:0 20px 60px #0009}
+.hero-label{color:#c9c9cf}.scores .mine{color:#fff}.score-track span{background:var(--pt-red)}.score-track span+span{background:#55555c}
+.margin{color:var(--pt-gold)}
+/* cards: tiles that lift on hover */
+.card,.desk-card{background:var(--pt-surface);border:1px solid var(--pt-line);border-radius:6px;transition:transform .18s ease,box-shadow .18s ease}
+.card:hover,.desk-card:hover{transform:translateY(-2px);box-shadow:0 14px 40px #000a}
+.player-row{border-bottom-color:#232327}.slot{border-radius:3px}
+.table tr.own{background:linear-gradient(90deg,#e5383b30,transparent);color:#fff}
+.priority-strip{border-left:4px solid var(--pt-red)}
+.pill{border-color:#3a3a40;color:#c9c9cf}
+.health{background:#1d2a20;color:#b8e6c4}.health.warn{background:#3a2a14;color:#f6cf8c}
+/* desk + model views */
+.desk{--desk-green:var(--pt-red);--desk-line:var(--pt-line);color:var(--text)}
+.desk button{background:#1f1f23;border-color:#3a3a40;color:#f2f2f2;border-radius:4px}
+.desk button:hover,.desk-tabs button.active,.desk button.desk-primary{background:#fff;color:#111}
+.desk input:not([type=checkbox]),.desk select,.desk textarea{background:#101012;border-color:#34343a;color:#f2f2f2}
+.desk-card p,.desk-hero p{color:#c9c9cf}
+/* title-odds row: big rank numerals */
+.pt-row{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 14px;scroll-snap-type:x mandatory}
+.pt-tile{position:relative;flex:0 0 200px;height:120px;scroll-snap-align:start;background:linear-gradient(160deg,#232328,#141416);border-radius:6px;padding:14px 14px 12px 64px;transition:transform .18s;border:1px solid #2c2c31}
+.pt-tile:hover{transform:scale(1.04);z-index:2}
+.pt-tile b{display:block;font-size:13px;color:#fff;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pt-tile .pt-odds{font-family:var(--pt-display);font-size:30px;font-weight:800;color:#fff}
+.pt-tile small{color:#a3a3a8;font-size:11px}
+.pt-tile .pt-num{position:absolute;left:6px;bottom:-14px;font-family:var(--pt-display);font-size:96px;font-weight:900;line-height:1;color:#0b0b0c;-webkit-text-stroke:2px #5b5b62}
+.pt-tile.me{border-color:var(--pt-red);box-shadow:0 0 0 1px var(--pt-red)}.pt-tile.me .pt-num{-webkit-text-stroke-color:var(--pt-red)}
+.pt-badge{display:inline-block;background:var(--pt-red);color:#fff;font-size:10px;font-weight:800;letter-spacing:1px;padding:3px 6px;border-radius:3px}
+@media(prefers-reduced-motion:reduce){.card,.desk-card,.pt-tile{transition:none}.card:hover,.desk-card:hover,.pt-tile:hover{transform:none}}
+.pt-weeks{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
+.pt-week{background:#1f1f23;border:1px solid #2c2c31;border-radius:5px;padding:8px 10px;display:grid;gap:2px}
+.pt-week small{color:#8d8d93;font-size:10px;letter-spacing:1px}.pt-week b{font-family:var(--pt-display);font-size:20px;color:#fff}
+.pt-week span{color:#a3a3a8;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pt-week.hi{border-color:#2f7d4f}.pt-week.hi b{color:#7be0a4}.pt-week.lo{border-color:#7a2224}.pt-week.lo b{color:#ff7a7c}
